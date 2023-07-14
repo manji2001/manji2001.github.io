@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>蒋运的博客</title>
-  <meta name="keywords" content="">
-  <meta name="description" content="蒋运的博客">
+  <title>常用的Linux命令和脚本及其简要介绍 | 蒋运的博客</title>
+  <meta name="keywords" content=" CheatSheet ">
+  <meta name="description" content="常用的Linux命令和脚本及其简要介绍 | 蒋运的博客">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="这是蒋运的个人博客. 目前主要记录我的日常生活, 收录我的一些笔记.">
 <meta property="og:type" content="website">
@@ -56,7 +56,7 @@
 
 
 <body>
-<aside class="nav mobile">
+<aside class="nav">
     <div class="nav-left">
         <a href="/"
    class="avatar_target">
@@ -368,12 +368,60 @@
         </div>
     </div>
 </aside>
-<div id="post" class="index">
+<div id="post">
     <div class="pjax">
-        <article class="index">
-            <div class="toc-ref">
+        <article id="post-常用的Linux命令和脚本及其简要介绍" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%B3%E4%BA%8E%E6%88%91"><span class="toc-text">关于我</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%9A%E5%AE%A2%E5%B9%B3%E5%8F%B0"><span class="toc-text">博客平台</span></a></li></ol></li></ol>
+        <h1 class="article-title">常用的Linux命令和脚本及其简要介绍</h1>
+    
+    <div class="article-meta">
+        
+        
+        
+        <span class="book">
+            <i class="iconfont icon-category"></i>
+            
+            
+            <a  data-rel="技巧">技巧</a>
+            
+        </span>
+        
+        
+        <span class="tag">
+            <i class="iconfont icon-tag"></i>
+            
+            <a class="color1">CheatSheet</a>
+            
+        </span>
+        
+    </div>
+    <div class="article-meta">
+        
+            发布时间 : <time class="date" title='最后更新: 2023-07-14 16:20:34'>2023-07-14 16:07</time>
+        
+    </div>
+    <div class="article-meta">
+        
+        <span>字数:322</span>
+        
+        
+        <span id="busuanzi_container_page_pv">
+            阅读 :<span id="busuanzi_value_page_pv">
+                <span class="count-comment">
+                    <span class="spinner">
+                      <div class="cube1"></div>
+                      <div class="cube2"></div>
+                    </span>
+                </span>
+            </span>
+        </span>
+        
+        
+    </div>
+    
+    <div class="toc-ref">
+    
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%89%8D%E8%A8%80"><span class="toc-text">1. 前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="toc-text">2. 常用命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%B8%B8%E7%94%A8%E8%84%9A%E6%9C%AC"><span class="toc-text">3. 常用脚本</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-%E5%A4%9A%E8%A1%8C%E6%B3%A8%E9%87%8Ashell%E8%84%9A%E6%9C%AC"><span class="toc-text">3.1. 多行注释shell脚本</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E5%85%B6%E4%BB%96"><span class="toc-text">4. 其他</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -386,13 +434,109 @@
     }
 </style>
 </div>
-            <h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1><p>到目前为止已经写了<code class="article_number"></code>篇文章， 共<code class="site_word_count"></code>字。</p>
-<p>本站访问人数：<code class="site_uv"></code>人次 ， 访问量：<code class="site_pv"></code>次</p>
-<h2 id="博客平台"><a href="#博客平台" class="headerlink" title="博客平台"></a>博客平台</h2><p>这个博客通过 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> 生成，部署在 <a target="_blank" rel="noopener" href="https://pages.github.com/">GitHub Pages</a>主题 <a target="_blank" rel="noopener" href="https://github.com/yelog/hexo-theme-3-hexo">3-hexo</a> 已经在github上开源</p>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这篇文章记录了我常用的一些Linux命令和脚本. 我将会长期更新这篇文章.</p>
+<h2 id="2-常用命令"><a href="#2-常用命令" class="headerlink" title="2. 常用命令"></a>2. 常用命令</h2><table>
+<thead>
+<tr>
+<th align="center">命令</th>
+<th align="left">简介</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><code>realpath filename</code></td>
+<td align="left">打印文件的绝对路径名</td>
+</tr>
+<tr>
+<td align="center"><code>free -h</code></td>
+<td align="left">查看总内存(RAM)及其使用情况</td>
+</tr>
+<tr>
+<td align="center"><code>df -hl</code></td>
+<td align="left">查看磁盘空间使用情况</td>
+</tr>
+<tr>
+<td align="center"><code>zcat filename.gz | head</code></td>
+<td align="left">在不解压缩文件的前提下, 查看文件部分内容, 输出到标准输出设备</td>
+</tr>
+<tr>
+<td align="center"><code>zless filename.gz</code></td>
+<td align="left">和上面命令的用途一致, 速度快, <strong>推荐</strong></td>
+</tr>
+<tr>
+<td align="center"><code>tar czf newfile.tar.gz oldfile</code></td>
+<td align="left">压缩文件</td>
+</tr>
+<tr>
+<td align="center"><code>tar xzf file.tar.gz</code></td>
+<td align="left">解压缩文件</td>
+</tr>
+<tr>
+<td align="center"><code>zip -r &lt;newfile&gt;.zip oldfile olddir</code></td>
+<td align="left">压缩文件</td>
+</tr>
+<tr>
+<td align="center"><code>unzip &lt;filename&gt;.zip</code></td>
+<td align="left">解压缩文件</td>
+</tr>
+<tr>
+<td align="center"><code>ps xu</code></td>
+<td align="left">查看当前用户的进程.<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=Mzg3ODgyNDgwNg==&mid=2247487127&idx=1&sn=5486fcdac3ea1c251b4e0bc63bf110be&chksm=cf0c929ef87b1b88e4f76559a1b2c271438e89d8e5dbe9aef4cecf8c6f27eb8d695224aa48a1&token=985838262&lang=zh_CN#rd">更多信息</a></td>
+</tr>
+<tr>
+<td align="center"><code>kill -2 &lt;pid&gt;</code></td>
+<td align="left">默认行为就是退出程序</td>
+</tr>
+<tr>
+<td align="center"><code>pgrep &lt;string&gt;</code></td>
+<td align="left">根据正则表达式列出相应的进程</td>
+</tr>
+<tr>
+<td align="center"><code>pkill -2 &lt;string&gt;</code></td>
+<td align="left">根据正则表达式退出相应的进程.<a target="_blank" rel="noopener" href="https://juejin.cn/post/7158451306913333278">更多信息</a></td>
+</tr>
+<tr>
+<td align="center"><code>basename ~/a/b/c.txt</code></td>
+<td align="left">输出<code>c.txt</code></td>
+</tr>
+<tr>
+<td align="center"><code>dirname ~/a/b/c.txt</code></td>
+<td align="left">输出<code>/home/user/a/b</code></td>
+</tr>
+<tr>
+<td align="center"><code>rename &quot;s/pattern_a/pattern_b/&quot; *.txt</code></td>
+<td align="left">批量重命名所有的txt文件</td>
+</tr>
+</tbody></table>
+<!-- TODO: 学习 ${variable}的详细用法, e.g. ${a/.sam/.bam} -->
 
-        </article>
-        
-        
+<h2 id="3-常用脚本"><a href="#3-常用脚本" class="headerlink" title="3. 常用脚本"></a>3. 常用脚本</h2><h3 id="3-1-多行注释shell脚本"><a href="#3-1-多行注释shell脚本" class="headerlink" title="3.1. 多行注释shell脚本"></a>3.1. 多行注释shell脚本</h3><pre><code class="bash">&lt;&lt; EOF
+Cmd line 1
+Cmd line 2
+Cmd line 3
+Cmd line 4
+EOF
+# 参考https://zhuanlan.zhihu.com/p/54494213
+</code></pre>
+<h2 id="4-其他"><a href="#4-其他" class="headerlink" title="4. 其他"></a>4. 其他</h2>
+      
+       <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 jiangyunacw@qq.com </span>
+    </div>
+</article>
+
+
+
+
+
+
+
+    
+
+
+
+
     </div>
     <div class="copyright">
         <p class="footer-entry">
@@ -401,11 +545,11 @@
 <p class="footer-entry">Built with <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank">3-hexo</a> theme</p>
 
     </div>
-</div>
-<div class="full-toc">
-    <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
+    <div class="full-toc">
+        <button class="full" data-title="切换全屏 快捷键 s"><span class="min "></span></button>
 <a class="" id="rocket" ></a>
 
+    </div>
 </div>
 
 </body>

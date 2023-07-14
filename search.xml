@@ -4,6 +4,58 @@
   
     
     <entry>
+      <title>常用的git命令及其简要介绍</title>
+      <link href="/2023/07/introduce_git_command.html"/>
+      <url>/2023/07/introduce_git_command.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这是一份个人使用 <code>git</code> 时的 CheatSheet, 如果您希望更浏览详细的教程, 请参考以下的教程:<br><a href="https://www.runoob.com/git/git-tutorial.html">Git 教程  菜鸟教程</a><br><a href="https://www.liaoxuefeng.com/wiki/896043488029600">Git教程 - 廖雪峰的官方网站</a>  </p><h2 id="2-设置全局配置"><a href="#2-设置全局配置" class="headerlink" title="2. 设置全局配置"></a>2. 设置全局配置</h2><pre><code class="bash">git config --global user.name &quot;user name&quot;git config --global user.email &quot;email@example.com&quot;git config --global core.quotepath false # 如果此项为&quot;true&quot;, 在使用&quot;git status&quot;命令时, 中文会被转义, 看起来像乱码.# 参考: https://segmentfault.com/a/1190000020807726</code></pre><p>上面这一步一般在刚安装git后进行</p><ul><li>查看全局配置</li></ul><pre><code class="bash">git config --global --list --show-origin# 解释参数:# --list  查看全局配置# --show-origin (可选) 展示&quot;.gitconfig&quot;的位置</code></pre><p>更多的有关全局配置的教程请参考: <a href="https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/The-global-Git-config-files-key-settings-and-usages">How to set important Git config global properties</a></p><h2 id="3-创建版本库"><a href="#3-创建版本库" class="headerlink" title="3. 创建版本库"></a>3. 创建版本库</h2><pre><code class="bash">git init</code></pre><h2 id="4-提交更新"><a href="#4-提交更新" class="headerlink" title="4. 提交更新"></a>4. 提交更新</h2><pre><code class="bash">git add --allgit add specific-filegit statusgit commit -m &quot;some note&quot;# 一次性更新git add --all; git status; git commit -m &quot;batch update&quot;</code></pre><h2 id="5-切换版本"><a href="#5-切换版本" class="headerlink" title="5. 切换版本"></a>5. 切换版本</h2><pre><code class="bash"># 回退到上一个版本git reset --hard HEAD^# HEAD表示当前版本, HEAD^表示上一个, HEAD^^表示上上个# 根据版本号, 切换版本git reset --hard &lt;版本号&gt;</code></pre><h2 id="6-其他命令"><a href="#6-其他命令" class="headerlink" title="6. 其他命令"></a>6. 其他命令</h2><pre><code class="bash"># 查看提交历史git loggit log --pretty=oneline # 每个记录只显示一行</code></pre><h2 id="7-和远程仓库-GitHub-交互"><a href="#7-和远程仓库-GitHub-交互" class="headerlink" title="7. 和远程仓库(GitHub)交互"></a>7. 和远程仓库(GitHub)交互</h2><p>本地电脑 (Windows) 第一次和GitHub交互前, 检查 <code>C:\Users\your-username\.ssh</code> 目录下有没有 <code>id_rsa</code> 和 <code>id_rsa.pub</code> 文件. 如果没有,  </p><ol><li>打开 <code>Git Bash</code>, 运行: <code>ssh-keygen -t rsa -C &quot;youremail@example.com&quot;</code>, 一路回车</li><li>登录GitHub后, 打开网页<a href="https://github.com/settings/keys">https://github.com/settings/keys</a>, 点击 <code>New SSH Key</code>, 填上任意Title，在Key文本框里粘贴<code>id_rsa.pub</code>文件的内容, 保存</li></ol><h3 id="7-1-克隆远程仓库"><a href="#7-1-克隆远程仓库" class="headerlink" title="7.1. 克隆远程仓库"></a>7.1. 克隆远程仓库</h3><pre><code class="bash">git clone someURL# 推荐ssh协议, 它速度更快</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CheatSheet </tag>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>常用的Linux命令和脚本及其简要介绍</title>
+      <link href="/2023/07/introduce_linux_command.html"/>
+      <url>/2023/07/introduce_linux_command.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这篇文章记录了我常用的一些Linux命令和脚本. 我将会长期更新这篇文章.</p><h2 id="2-常用命令"><a href="#2-常用命令" class="headerlink" title="2. 常用命令"></a>2. 常用命令</h2><table><thead><tr><th align="center">命令</th><th align="left">简介</th></tr></thead><tbody><tr><td align="center"><code>realpath filename</code></td><td align="left">打印文件的绝对路径名</td></tr><tr><td align="center"><code>free -h</code></td><td align="left">查看总内存(RAM)及其使用情况</td></tr><tr><td align="center"><code>df -hl</code></td><td align="left">查看磁盘空间使用情况</td></tr><tr><td align="center"><code>zcat filename.gz | head</code></td><td align="left">在不解压缩文件的前提下, 查看文件部分内容, 输出到标准输出设备</td></tr><tr><td align="center"><code>zless filename.gz</code></td><td align="left">和上面命令的用途一致, 速度快, <strong>推荐</strong></td></tr><tr><td align="center"><code>tar czf newfile.tar.gz oldfile</code></td><td align="left">压缩文件</td></tr><tr><td align="center"><code>tar xzf file.tar.gz</code></td><td align="left">解压缩文件</td></tr><tr><td align="center"><code>zip -r &lt;newfile&gt;.zip oldfile olddir</code></td><td align="left">压缩文件</td></tr><tr><td align="center"><code>unzip &lt;filename&gt;.zip</code></td><td align="left">解压缩文件</td></tr><tr><td align="center"><code>ps xu</code></td><td align="left">查看当前用户的进程.<a href="https://mp.weixin.qq.com/s?__biz=Mzg3ODgyNDgwNg==&mid=2247487127&idx=1&sn=5486fcdac3ea1c251b4e0bc63bf110be&chksm=cf0c929ef87b1b88e4f76559a1b2c271438e89d8e5dbe9aef4cecf8c6f27eb8d695224aa48a1&token=985838262&lang=zh_CN#rd">更多信息</a></td></tr><tr><td align="center"><code>kill -2 &lt;pid&gt;</code></td><td align="left">默认行为就是退出程序</td></tr><tr><td align="center"><code>pgrep &lt;string&gt;</code></td><td align="left">根据正则表达式列出相应的进程</td></tr><tr><td align="center"><code>pkill -2 &lt;string&gt;</code></td><td align="left">根据正则表达式退出相应的进程.<a href="https://juejin.cn/post/7158451306913333278">更多信息</a></td></tr><tr><td align="center"><code>basename ~/a/b/c.txt</code></td><td align="left">输出<code>c.txt</code></td></tr><tr><td align="center"><code>dirname ~/a/b/c.txt</code></td><td align="left">输出<code>/home/user/a/b</code></td></tr><tr><td align="center"><code>rename &quot;s/pattern_a/pattern_b/&quot; *.txt</code></td><td align="left">批量重命名所有的txt文件</td></tr></tbody></table><!-- TODO: 学习 ${variable}的详细用法, e.g. ${a/.sam/.bam} --><h2 id="3-常用脚本"><a href="#3-常用脚本" class="headerlink" title="3. 常用脚本"></a>3. 常用脚本</h2><h3 id="3-1-多行注释shell脚本"><a href="#3-1-多行注释shell脚本" class="headerlink" title="3.1. 多行注释shell脚本"></a>3.1. 多行注释shell脚本</h3><pre><code class="bash">&lt;&lt; EOFCmd line 1Cmd line 2Cmd line 3Cmd line 4EOF# 参考https://zhuanlan.zhihu.com/p/54494213</code></pre><h2 id="4-其他"><a href="#4-其他" class="headerlink" title="4. 其他"></a>4. 其他</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CheatSheet </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>实现鼠标悬停在文字上时,改变文字的颜色和背景的颜色</title>
       <link href="/2023/07/change_text_background_color.html"/>
       <url>/2023/07/change_text_background_color.html</url>
@@ -83,13 +135,25 @@
     
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2023/07/index.html"/>
-      <url>/2023/07/index.html</url>
+      <title>Hello World~ 博客迁移记录</title>
+      <link href="/2023/07/hello_world.html"/>
+      <url>/2023/07/hello_world.html</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>2023年07月13日将博客从<code>WordPress</code>迁移到了<code>hexo</code>, 主要是因为我希望将精力集中在内容创作上, 因此希望用一个简洁的写博客. <mask class="text_mask">阿里云服务器快到期了, 并且续费需要大约1000元&#x2F;年. </mask></p><p>纪念一下之前使用的博客主题(<a href="https://github.com/syfxlin/origami/">Origami</a>)吧, 还挺好看~</p><hr><p><img src="https://asset.jiangyun.fun/img/202307141634544.png"></p><hr><p><img src="https://asset.jiangyun.fun/img/202307141657268.png"></p><hr>]]></content>
       
       
+      <categories>
+          
+          <category> 日常 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> blog </tag>
+            
+        </tags>
       
     </entry>
     
