@@ -1,0 +1,18 @@
+.text_mask {
+  font-family: 'SF Pro SC', 'SF Pro Display', 'PingFang SC', 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif, 'Hiragino Sans GB';
+  word-wrap: break-word;
+  line-height: 1.6;
+  font-size: 14px;
+  white-space: normal;
+  border-radius: 2px;
+  background-clip: padding-box;
+  -webkit-transition: all 0.5s linear;
+  text-shadow: #555 0 0 20px;
+  background-color: #555;
+  color: #555;
+  border: 1px solid #555;
+}
+mask:hover {
+  color: #fff;
+  background-color: #555;
+}
