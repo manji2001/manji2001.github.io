@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>执行过的一些正则表达式</title>
+      <link href="/2023/07/various_regex.html"/>
+      <url>/2023/07/various_regex.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这个笔记记录了我日常执行过的一些正则表达式, 有一定收藏意义. 这个笔记会长期更新</p><h2 id="2-小数相加"><a href="#2-小数相加" class="headerlink" title="2. 小数相加"></a>2. 小数相加</h2><p>String: <code>27.4323.946.615.434.343.321.961.861.701.521.511.361.261.091.070.760.610.530.43</code><br>Search: <code>\.(\d)(\d)</code><br>Replace: <code>.\1\2+</code></p><p>这个正则表达式的意思是：</p><ul><li><code>\.(\d)(\d)</code> 匹配一个点和两个数字，并将它们分别捕获为第一和第二个分组。</li><li><code>.\1\2+</code> 用一个点、第一分组、第二分组和一个加号替换匹配的内容。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CheatSheet </tag>
+            
+            <tag> regex </tag>
+            
+            <tag> 长期更新 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>常用的git命令及其简要介绍</title>
       <link href="/2023/07/introduce_git_command.html"/>
       <url>/2023/07/introduce_git_command.html</url>
@@ -48,6 +77,8 @@
         <tags>
             
             <tag> CheatSheet </tag>
+            
+            <tag> Linux </tag>
             
         </tags>
       
