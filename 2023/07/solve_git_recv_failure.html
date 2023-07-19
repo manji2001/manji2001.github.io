@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>我的3-hexo主题配置 | 蒋运的博客</title>
-  <meta name="keywords" content=" 其他 ">
-  <meta name="description" content="我的3-hexo主题配置 | 蒋运的博客">
+  <title>解决git报错Recv failure: Connection was reset | 蒋运的博客</title>
+  <meta name="keywords" content=" git , bug ">
+  <meta name="description" content="解决git报错Recv failure: Connection was reset | 蒋运的博客">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="关于我我是蒋运，华中农业大学生物信息学本科在读。 联系方式 GitHub: @manji2001 Mail: 1. &amp;#106;&amp;#x69;&amp;#97;&amp;#110;&amp;#x67;&amp;#121;&amp;#x75;&amp;#110;&amp;#x61;&amp;#x63;&amp;#x77;&amp;#64;&amp;#103;&amp;#109;&amp;#97;&amp;#x69;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#x6d; 2. &amp;#106;&amp;#x69;&amp;#x61">
 <meta property="og:type" content="website">
@@ -482,9 +482,9 @@
 </aside>
 <div id="post">
     <div class="pjax">
-        <article id="post-2023-07-19-我的3-hexo主题配置" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-解决报错Recv-failure-Connection-was-reset" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">我的3-hexo主题配置</h1>
+        <h1 class="article-title">解决git报错Recv failure: Connection was reset</h1>
     
     <div class="article-meta">
         
@@ -494,7 +494,7 @@
             <i class="iconfont icon-category"></i>
             
             
-            <a  data-rel="技巧">技巧</a>
+            <a  data-rel="软件">软件</a>
             
         </span>
         
@@ -502,19 +502,21 @@
         <span class="tag">
             <i class="iconfont icon-tag"></i>
             
-            <a class="color3">其他</a>
+            <a class="color4">git</a>
+            
+            <a class="color4">bug</a>
             
         </span>
         
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2023-07-19 14:45:13'>2023-07-19 10:42</time>
+            发布时间 : <time class="date" title='最后更新: 2023-07-20 07:25:33'>2023-07-20 07:13</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:948</span>
+        <span>字数:271</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -544,7 +546,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%BF%AB%E6%8D%B7%E9%94%AE"><span class="toc-text">1. 快捷键</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-%E5%85%A8%E5%B1%80"><span class="toc-text">1.1. 全局</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-%E6%90%9C%E7%B4%A2%E6%A1%86"><span class="toc-text">1.2. 搜索框</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E6%90%AD%E9%85%8Dvimium-c%E4%BD%BF%E7%94%A8"><span class="toc-text">2. 搭配vimium-c使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E6%90%AD%E9%85%8Dsmart-toc%E4%BD%BF%E7%94%A8"><span class="toc-text">3. 搭配smart-toc使用</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E9%9A%90%E8%97%8F%E7%89%B9%E5%AE%9A%E5%88%86%E7%B1%BB%E7%9A%84%E6%96%87%E7%AB%A0"><span class="toc-text">4. 隐藏特定分类的文章</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#4-1-%E5%A4%A7%E8%87%B4%E7%9A%84%E4%BB%A3%E7%A0%81%E9%80%BB%E8%BE%91"><span class="toc-text">4.1. 大致的代码逻辑</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-2-%E4%B8%BB%E8%A6%81%E7%9A%84%E5%AE%9E%E7%8E%B0%E8%BF%87%E7%A8%8B"><span class="toc-text">4.2. 主要的实现过程</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%89%8D%E8%A8%80"><span class="toc-text">1. 前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E9%85%8D%E7%BD%AEDNS"><span class="toc-text">2. 配置DNS</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -560,132 +562,21 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="1-快捷键"><a href="#1-快捷键" class="headerlink" title="1. 快捷键"></a>1. 快捷键</h2><h3 id="1-1-全局"><a href="#1-1-全局" class="headerlink" title="1.1. 全局"></a>1.1. <strong>全局</strong></h3><table>
-<thead>
-<tr>
-<th align="left">Key</th>
-<th align="left">Descption</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">s&#x2F;S</td>
-<td align="left">全屏&#x2F;取消全屏</td>
-</tr>
-<tr>
-<td align="left">w&#x2F;W</td>
-<td align="left">打开&#x2F;关闭文章目录</td>
-</tr>
-<tr>
-<td align="left">i&#x2F;I</td>
-<td align="left">获取搜索框焦点</td>
-</tr>
-<tr>
-<td align="left">j&#x2F;J</td>
-<td align="left">向下滑动</td>
-</tr>
-<tr>
-<td align="left">k&#x2F;K</td>
-<td align="left">向上滑动</td>
-</tr>
-<tr>
-<td align="left">gg&#x2F;GG</td>
-<td align="left">到最顶端</td>
-</tr>
-<tr>
-<td align="left">shift+G&#x2F;g</td>
-<td align="left">到最下端</td>
-</tr>
-</tbody></table>
-<h3 id="1-2-搜索框"><a href="#1-2-搜索框" class="headerlink" title="1.2. 搜索框"></a>1.2. <strong>搜索框</strong></h3><table>
-<thead>
-<tr>
-<th align="left">Key</th>
-<th align="left">Descption</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">ESC</td>
-<td align="left">1.如果输入框有内容，清除内容 2.如果输入框无内容，失去焦点</td>
-</tr>
-<tr>
-<td align="left">下</td>
-<td align="left">向下选择文章</td>
-</tr>
-<tr>
-<td align="left">上</td>
-<td align="left">向上选择文章</td>
-</tr>
-<tr>
-<td align="left">回车</td>
-<td align="left">打开当前选中的文章，若没有，则默认打开第一个</td>
-</tr>
-</tbody></table>
-<h2 id="2-搭配vimium-c使用"><a href="#2-搭配vimium-c使用" class="headerlink" title="2. 搭配vimium-c使用"></a>2. 搭配vimium-c使用</h2><blockquote>
-<p><a target="_blank" rel="noopener" href="https://github.com/gdh1995/vimium-c">Vimium C</a> 是一款开源、免费的键盘增强类浏览器扩展，支持为多种多样的命令任意设置快捷键。<strong>只要有一个键盘</strong>，您就能自由点击网页中的链接和按钮、选择和复制文字和网址，也能轻松操作浏览器标签页，还能在一个便捷的搜索框中随意搜索历史记录、收藏夹或打开的标签等等。</p>
-</blockquote>
-<p>我是用的是vimium-c的默认推荐配置, <code>w</code>表示向上几行, <code>s</code>表示向下, 因此需要在vimium-c的配置中屏蔽部分按键: <code>G S W g i j k</code>.<br>如上设置后, 我可以使用<code>w/s</code>控制文章翻页, <code>W S</code>分别控制目录和全屏, <code>gg/G</code>跳转到行首&#x2F;行尾, <code>i</code>打开搜索框, <code>j/k</code>倒是不常用. 我认为这个配置非常方便~</p>
-<h2 id="3-搭配smart-toc使用"><a href="#3-搭配smart-toc使用" class="headerlink" title="3. 搭配smart-toc使用"></a>3. 搭配smart-toc使用</h2><p>使用<code>S</code>开启全屏后, 目录会也会消失, 如果想在全屏页面看到目录, 可以安装<code>smart toc</code>插件, 在右上角生成一个目录.</p>
-<h2 id="4-隐藏特定分类的文章"><a href="#4-隐藏特定分类的文章" class="headerlink" title="4. 隐藏特定分类的文章"></a>4. 隐藏特定分类的文章</h2><blockquote>
-<p><a target="_blank" rel="noopener" href="https://github.com/prinsss/hexo-hide-posts/blob/master/README_ZH.md">hexo-hide-posts</a>是一个 Hexo 插件, 可以在博客中隐藏指定的文章，并使它们仅可通过链接访问。</p>
-</blockquote>
-<p>比如说, 我每个月<mask/>理论上<mask>都会写一篇<code>月末总结</code>, 这样我一年就有12篇相关的文章, 而可能我一年中写的其他类型的文章也不过十几篇, 如果我将<code>月末总结</code>放到归档首页的话, 就显得不太合适.</p>
-<p><code>hexo-hide-posts</code>在<a target="_blank" rel="noopener" href="https://hexo.io/api/locals">Local Variables</a> 中添加了 <code>all_posts</code> 和 <code>hidden_posts</code> 变量，供自定义主题使用. 我们就可以自定义一个界面来存放这些文章, 比如: 点击跳转到<a target="_blank" rel="noopener" href="https://blog.jiangyun.fun/conclusion">月末总结</a>.</p>
-<h3 id="4-1-大致的代码逻辑"><a href="#4-1-大致的代码逻辑" class="headerlink" title="4.1. 大致的代码逻辑"></a>4.1. 大致的代码逻辑</h3><pre><code class="html">    &lt;div class=&quot;pjax&quot;&gt;
-        &lt;h2&gt;月末总结&lt;/h2&gt;
-          &lt;ul&gt;
-          &lt;%
-             site.hidden_posts.forEach(function(post)&#123; %&gt;
-            &lt;li&gt;&lt;a href=&quot;&lt;%- url_for(post.path) %&gt;&quot;&gt;&lt;%= post.title %&gt;&lt;/a&gt;&lt;/li&gt;
-          &lt;% &#125;) %&gt;
-          &lt;/ul&gt;
-    &lt;/div&gt;
-</code></pre>
-<h3 id="4-2-主要的实现过程"><a href="#4-2-主要的实现过程" class="headerlink" title="4.2. 主要的实现过程"></a>4.2. 主要的实现过程</h3><blockquote>
-<p>我并没有列出全部的过程, 读者需要具有能在hexo中创建页面的基础知识</p>
-</blockquote>
+        <h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>最近github上传代码总是报错: <code>fatal: unable to access &#39;https://github.com/manji2001/manji2001.github.io/&#39;: Recv failure: Connection was reset</code></p>
+<p>我知道这是网络问题, 之前按照网络上的教程配置过, 但只能正常上传一段时间, 过几天又不行了, 就放弃了, 一般换个时间点多试几次也能成功, 但现在这个现象出现的频率似乎越来越高了, 我决定好好修复一下这个问题.</p>
+<h2 id="2-配置DNS"><a href="#2-配置DNS" class="headerlink" title="2. 配置DNS"></a>2. 配置DNS</h2><p>解决过程:  </p>
 <ol>
-<li>复制<code>blog_root_dir\themes\3-hexo\layout\post.ejs</code>得到一个备份</li>
-<li>将这个备份的部分代码替换, 如下:</li>
+<li><p>首先出现了报错: <code>fatal: unable to access &#39;https://github.com/manji2001/manji2001.github.io/&#39;: Recv failure: Connection was reset</code></p>
+</li>
+<li><p>然后我按照网上的博文打开cmd, 输入<code>ipconfig/flushdns</code>, 清理DNS缓存</p>
+</li>
+<li><p>现在报错信息变了: <code>fatal: unable to access &#39;https://github.com/manji2001/manji2001.github.io/&#39;: Failed to connect to github.com port 443 after 21109 ms: Couldn&#39;t connect to server</code></p>
+</li>
+<li><p>根据我以前的经验, 我重新将DNS改为了<code>4.2.2.2</code>和<code>4.2.2.1</code>, 现在可以正常上传代码了</p>
+</li>
+<li><p>希望能一劳永逸吧, 和网络问题斗智斗勇太痛苦了 (´。＿。｀)</p>
+</li>
 </ol>
-<pre><code class="html">&lt;div id=&quot;post&quot;&gt;
-    &lt;div class=&quot;pjax&quot;&gt;
-        &lt;%- partial(&#39;_partial/article&#39;, &#123;post: page, index: false&#125;) %&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;copyright&quot;&gt;
-        &lt;%- fragment_cache(&#39;copyright&#39;, function()&#123;
-            return partial(&#39;_partial/copyright&#39;);
-        &#125;) %&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;full-toc&quot;&gt;
-        &lt;%- fragment_cache(&#39;toc&#39;, function()&#123;
-            return partial(&#39;_partial/full-toc&#39;);
-        &#125;) %&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
-<p>替换为:  </p>
-<pre><code class="html">&lt;div id=&quot;post&quot;&gt;
-    &lt;div class=&quot;pjax&quot;&gt;
-        &lt;h2&gt;月末总结&lt;/h2&gt;
-          &lt;ul&gt;
-          &lt;%
-             site.hidden_posts.forEach(function(post)&#123; %&gt;
-            &lt;li&gt;&lt;a href=&quot;&lt;%- url_for(post.path) %&gt;&quot;&gt;&lt;%= post.title %&gt;&lt;/a&gt;&lt;/li&gt;
-          &lt;% &#125;) %&gt;
-          &lt;/ul&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;copyright&quot;&gt;
-        &lt;%- fragment_cache(&#39;copyright&#39;, function()&#123;
-            return partial(&#39;_partial/copyright&#39;);
-        &#125;) %&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;full-toc&quot;&gt;
-        &lt;%- fragment_cache(&#39;toc&#39;, function()&#123;
-            return partial(&#39;_partial/full-toc&#39;);
-        &#125;) %&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
 
       
        <hr><span style="font-style: italic;color: gray;"> 转载请注明来源，欢迎对文章中的引用来源进行考证，欢迎指出任何有错误或不够清晰的表达。可以在下面评论区评论，也可以邮件至 jiangyunacw@qq.com </span>

@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-07-19T22:47:29.864Z</updated>
+  <updated>2023-07-19T23:25:33.034Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决git报错Recv failure: Connection was reset</title>
+    <link href="http://example.com/2023/07/solve_git_recv_failure.html"/>
+    <id>http://example.com/2023/07/solve_git_recv_failure.html</id>
+    <published>2023-07-19T23:13:42.000Z</published>
+    <updated>2023-07-19T23:25:33.034Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>最近github上传代码总是报错: <code>fatal: unable to access &#39;https://github.com/manji2001/manji2001.github.io/&#39;: Recv failure: Connection was reset</code></p><p>我知道这是网络问题, 之前按照网络上的教程配置过, 但只能正常上传一段时间, 过几天又不行了, 就放弃了, 一般换个时间点多试几次也能成功, 但现在这个现象出现的频率似乎越来越高了, 我决定好好修复一下这个问题.</p><h2 id="2-配置DNS"><a href="#2-配置DNS" class="headerlink" title="2. 配置DNS"></a>2. 配置DNS</h2><p>解决过程:  </p><ol><li><p>首先出现了报错: <code>fatal: unable to access &#39;https://github.com/manji2001/manji2001.github.io/&#39;: Recv failure: Connection was reset</code></p></li><li><p>然后我按照网上的博文打开cmd, 输入<code>ipconfig/flushdns</code>, 清理DNS缓存</p></li><li><p>现在报错信息变了: <code>fatal: unable to access &#39;https://github.com/manji2001/manji2001.github.io/&#39;: Failed to connect to github.com port 443 after 21109 ms: Couldn&#39;t connect to server</code></p></li><li><p>根据我以前的经验, 我重新将DNS改为了<code>4.2.2.2</code>和<code>4.2.2.1</code>, 现在可以正常上传代码了</p></li><li><p>希望能一劳永逸吧, 和网络问题斗智斗勇太痛苦了 (´。＿。｀)</p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;最近github上传代码总是报错: &lt;code&gt;fatal: unable to access &amp;#39;https:/</summary>
+      
+    
+    
+    
+    <category term="软件" scheme="http://example.com/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="git" scheme="http://example.com/tags/git/"/>
+    
+    <category term="bug" scheme="http://example.com/tags/bug/"/>
+    
+  </entry>
   
   <entry>
     <title>使用Q-Dir后不能打开控制面板和文件所在位置</title>
