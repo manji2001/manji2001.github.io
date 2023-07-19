@@ -30,10 +30,10 @@
     
     <entry>
       <title>一些听上去很实用的软件</title>
-      <link href="/2023/07/tmp.html"/>
-      <url>/2023/07/tmp.html</url>
+      <link href="/2023/07/some_possible_practical_application.html"/>
+      <url>/2023/07/some_possible_practical_application.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="1-百度网盘批量转存-BaiduPanFilesTransfers"><a href="#1-百度网盘批量转存-BaiduPanFilesTransfers" class="headerlink" title="1. 百度网盘批量转存_BaiduPanFilesTransfers"></a>1. 百度网盘批量转存_BaiduPanFilesTransfers</h2><p>官网: <a href="https://github.com/hxz393/BaiduPanFilesTransfers">hxz393BaiduPanFilesTransfers 百度网盘批量转存工具</a></p><p>百度网盘批量转存软件，基于 <code>Python 3.10</code> + <code>Tkinter</code> 构建。可用于批量转存网络上分享的百度网盘链接到自己的百度网盘上。</p><p>介绍页面请访问：<a href="https://meta.appinn.net/t/topic/16995/39">小众软件</a></p>]]></content>
       
       
       <categories>
@@ -55,15 +55,15 @@
     
     <entry>
       <title>我的3-hexo主题配置</title>
-      <link href="/2023/07/tmp.html"/>
-      <url>/2023/07/tmp.html</url>
+      <link href="/2023/07/my_3_hexo_config.html"/>
+      <url>/2023/07/my_3_hexo_config.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="1-快捷键"><a href="#1-快捷键" class="headerlink" title="1. 快捷键"></a>1. 快捷键</h2><h3 id="1-1-全局"><a href="#1-1-全局" class="headerlink" title="1.1. 全局"></a>1.1. <strong>全局</strong></h3><table><thead><tr><th align="left">Key</th><th align="left">Descption</th></tr></thead><tbody><tr><td align="left">s&#x2F;S</td><td align="left">全屏&#x2F;取消全屏</td></tr><tr><td align="left">w&#x2F;W</td><td align="left">打开&#x2F;关闭文章目录</td></tr><tr><td align="left">i&#x2F;I</td><td align="left">获取搜索框焦点</td></tr><tr><td align="left">j&#x2F;J</td><td align="left">向下滑动</td></tr><tr><td align="left">k&#x2F;K</td><td align="left">向上滑动</td></tr><tr><td align="left">gg&#x2F;GG</td><td align="left">到最顶端</td></tr><tr><td align="left">shift+G&#x2F;g</td><td align="left">到最下端</td></tr></tbody></table><h3 id="1-2-搜索框"><a href="#1-2-搜索框" class="headerlink" title="1.2. 搜索框"></a>1.2. <strong>搜索框</strong></h3><table><thead><tr><th align="left">Key</th><th align="left">Descption</th></tr></thead><tbody><tr><td align="left">ESC</td><td align="left">1.如果输入框有内容，清除内容 2.如果输入框无内容，失去焦点</td></tr><tr><td align="left">下</td><td align="left">向下选择文章</td></tr><tr><td align="left">上</td><td align="left">向上选择文章</td></tr><tr><td align="left">回车</td><td align="left">打开当前选中的文章，若没有，则默认打开第一个</td></tr></tbody></table><h2 id="2-搭配vimium-c使用"><a href="#2-搭配vimium-c使用" class="headerlink" title="2. 搭配vimium-c使用"></a>2. 搭配vimium-c使用</h2><blockquote><p><a href="https://github.com/gdh1995/vimium-c">Vimium C</a> 是一款开源、免费的键盘增强类浏览器扩展，支持为多种多样的命令任意设置快捷键。<strong>只要有一个键盘</strong>，您就能自由点击网页中的链接和按钮、选择和复制文字和网址，也能轻松操作浏览器标签页，还能在一个便捷的搜索框中随意搜索历史记录、收藏夹或打开的标签等等。</p></blockquote><p>我是用的是vimium-c的默认推荐配置, <code>w</code>表示向上几行, <code>s</code>表示向下, 因此需要在vimium-c的配置中屏蔽部分按键: <code>G S W g i j k</code>.<br>如上设置后, 我可以使用<code>w/s</code>控制文章翻页, <code>W S</code>分别控制目录和全屏, <code>gg/G</code>跳转到行首&#x2F;行尾, <code>i</code>打开搜索框, <code>j/k</code>倒是不常用. 我认为这个配置非常方便~</p><h2 id="3-搭配smart-toc使用"><a href="#3-搭配smart-toc使用" class="headerlink" title="3. 搭配smart-toc使用"></a>3. 搭配smart-toc使用</h2><p>使用<code>S</code>开启全屏后, 目录会也会消失, 如果想在全屏页面看到目录, 可以安装<code>smart toc</code>插件, 在右上角生成一个目录.</p><h2 id="4-隐藏特定分类的文章"><a href="#4-隐藏特定分类的文章" class="headerlink" title="4. 隐藏特定分类的文章"></a>4. 隐藏特定分类的文章</h2><blockquote><p><a href="https://github.com/prinsss/hexo-hide-posts/blob/master/README_ZH.md">hexo-hide-posts</a>是一个 Hexo 插件, 可以在博客中隐藏指定的文章，并使它们仅可通过链接访问。</p></blockquote><p>比如说, 我每个月<mask/>理论上<mask>都会写一篇<code>月末总结</code>, 这样我一年就有12篇相关的文章, 而可能我一年中写的其他类型的文章也不过十几篇, 如果我将<code>月末总结</code>放到归档首页的话, 就显得不太合适.</p><p><code>hexo-hide-posts</code>在<a href="https://hexo.io/api/locals">Local Variables</a> 中添加了 <code>all_posts</code> 和 <code>hidden_posts</code> 变量，供自定义主题使用. 我们就可以自定义一个界面来存放这些文章, 比如: 点击跳转到<a href="https://blog.jiangyun.fun/conclusion">月末总结</a>.</p><h3 id="4-1-大致的代码逻辑"><a href="#4-1-大致的代码逻辑" class="headerlink" title="4.1. 大致的代码逻辑"></a>4.1. 大致的代码逻辑</h3><pre><code class="html">    &lt;div class=&quot;pjax&quot;&gt;        &lt;h2&gt;月末总结&lt;/h2&gt;          &lt;ul&gt;          &lt;%             site.hidden_posts.forEach(function(post)&#123; %&gt;            &lt;li&gt;&lt;a href=&quot;&lt;%- url_for(post.path) %&gt;&quot;&gt;&lt;%= post.title %&gt;&lt;/a&gt;&lt;/li&gt;          &lt;% &#125;) %&gt;          &lt;/ul&gt;    &lt;/div&gt;</code></pre><h3 id="4-2-主要的实现过程"><a href="#4-2-主要的实现过程" class="headerlink" title="4.2. 主要的实现过程"></a>4.2. 主要的实现过程</h3><blockquote><p>我并没有列出全部的过程, 读者需要具有能在hexo中创建页面的基础知识</p></blockquote><ol><li>复制<code>blog_root_dir\themes\3-hexo\layout\post.ejs</code>得到一个备份</li><li>将这个备份的部分代码替换, 如下:</li></ol><pre><code class="html">&lt;div id=&quot;post&quot;&gt;    &lt;div class=&quot;pjax&quot;&gt;        &lt;%- partial(&#39;_partial/article&#39;, &#123;post: page, index: false&#125;) %&gt;    &lt;/div&gt;    &lt;div class=&quot;copyright&quot;&gt;        &lt;%- fragment_cache(&#39;copyright&#39;, function()&#123;            return partial(&#39;_partial/copyright&#39;);        &#125;) %&gt;    &lt;/div&gt;    &lt;div class=&quot;full-toc&quot;&gt;        &lt;%- fragment_cache(&#39;toc&#39;, function()&#123;            return partial(&#39;_partial/full-toc&#39;);        &#125;) %&gt;    &lt;/div&gt;&lt;/div&gt;</code></pre><p>替换为:  </p><pre><code class="html">&lt;div id=&quot;post&quot;&gt;    &lt;div class=&quot;pjax&quot;&gt;        &lt;h2&gt;月末总结&lt;/h2&gt;          &lt;ul&gt;          &lt;%             site.hidden_posts.forEach(function(post)&#123; %&gt;            &lt;li&gt;&lt;a href=&quot;&lt;%- url_for(post.path) %&gt;&quot;&gt;&lt;%= post.title %&gt;&lt;/a&gt;&lt;/li&gt;          &lt;% &#125;) %&gt;          &lt;/ul&gt;    &lt;/div&gt;    &lt;div class=&quot;copyright&quot;&gt;        &lt;%- fragment_cache(&#39;copyright&#39;, function()&#123;            return partial(&#39;_partial/copyright&#39;);        &#125;) %&gt;    &lt;/div&gt;    &lt;div class=&quot;full-toc&quot;&gt;        &lt;%- fragment_cache(&#39;toc&#39;, function()&#123;            return partial(&#39;_partial/full-toc&#39;);        &#125;) %&gt;    &lt;/div&gt;&lt;/div&gt;</code></pre>]]></content>
       
       
       <categories>
           
-          <category> 其他 </category>
+          <category> 技巧 </category>
           
       </categories>
       
