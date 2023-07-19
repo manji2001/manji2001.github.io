@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>蒋运的博客</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-07-19T06:30:33.006Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>蒋运</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>转载_Q-Dir中的快捷键</title>
+    <link href="http://example.com/2023/07/q_dir_shortcut.html"/>
+    <id>http://example.com/2023/07/q_dir_shortcut.html</id>
+    <published>2023-07-19T06:25:39.000Z</published>
+    <updated>2023-07-19T06:30:33.006Z</updated>
+    
+    <content type="html"><![CDATA[<p style='background:yellow;'>这篇文章转载自<a href='https://www-softwareok-com.translate.goog/?page=Windows/Info/Q-Dir/27&_x_tr_sl=auto&_x_tr_tl=de&_x_tr_hl=de'>Q-Dir官网</a>, 本站只做备份收藏, 请前往原网站获取更加的阅读体验. 如有侵权, 请联系删除.</p><p>Q-Dir makes your files and folders easy to manage. Quick and easy access, with an amazing technique based on a quadruple view.</p><p>You don’t have to give up the usual Drag and Drop, all Views, and other features of your system.<br>Year! Q-Dir gives you other nice features, which will make you happy.<br>Many hand movements and time can be saved!</p><p>Q-Dir does not have to be installed and can be easily launched from the desktop.<br>Rename Q-Dir_Installer.exe to Q-Dir.exe and DONE!!!.<br>It’s a famous little utility for Windows OS and it’s also a friend of USB sticks ^_^.<br>WARNING: Once Q-Dir, always Q-Dir ;)!</p><table><thead><tr><th>Shortcut</th><th>Function</th></tr></thead><tbody><tr><td>[CTRL+X]</td><td>Cut</td></tr><tr><td>[CTRL+C]</td><td>Copy</td></tr><tr><td>[CTRL+V]</td><td>To take</td></tr><tr><td>[CTRL+A]</td><td>Select all.</td></tr><tr><td>[CTRL+T]</td><td>New tab</td></tr><tr><td>[CTRL+W]</td><td>Close the last tab.</td></tr><tr><td>[CTRL+SHIFT+T]</td><td>New tab from the selected folder.</td></tr><tr><td>[CTRL+SHIFT+A]</td><td>reverse selection</td></tr><tr><td>[CTRL+TAB]</td><td>Next tab</td></tr><tr><td>[CTRL+SHIFT+TAB]</td><td>Previous tab</td></tr><tr><td>[CTRL+E]</td><td>toggle tree</td></tr><tr><td>[CTRL+Z]</td><td>Undo</td></tr><tr><td>[CTRL+Q]</td><td>Links-Quick Menu</td></tr><tr><td>[CTRL+M]</td><td>Selection filter: Yes&#x2F;No</td></tr><tr><td>[CTRL+N]</td><td>New folder</td></tr><tr><td>[CTRL+S]</td><td>Start of the program.</td></tr><tr><td>[CTRL+?]</td><td>[?&#x3D;Left&#x2F;Right&#x2F;Up&#x2F;Down] Selects more than one item.</td></tr><tr><td>[CTRL+Num+]</td><td>Autosize columns.</td></tr><tr><td>.</td><td>.</td></tr><tr><td>[CTRL+ALT+(Control-Key)]</td><td>Quick control change</td></tr><tr><td>.</td><td>.</td></tr><tr><td>[UP]</td><td>Eliminate</td></tr><tr><td>[RECOIL]</td><td>Go the folder one level up</td></tr><tr><td>.</td><td>.</td></tr><tr><td>[F2]</td><td>Rename&#x2F;Rename only</td></tr><tr><td>[F3]</td><td>Search for a file or folder</td></tr><tr><td>[F4]</td><td>Show address bar list in active view</td></tr><tr><td>[F5]</td><td>Refreshes the active window</td></tr><tr><td>[F7]</td><td>Show the Desktop menu</td></tr><tr><td>[F8]</td><td>Show the My Team menu</td></tr><tr><td>[F11]</td><td>Full screen: Yes&#x2F;No</td></tr><tr><td>[ESC]</td><td>Full screen: No</td></tr><tr><td>.</td><td>.</td></tr><tr><td>[ATL+S]</td><td>Focus direction.</td></tr><tr><td>[ALT+L]</td><td>land</td></tr><tr><td>[ALT+V] or [ALT+M]</td><td>Move items to…</td></tr><tr><td>[ALT+K]</td><td>Copy items to…</td></tr><tr><td>[ALT+INTRO]</td><td>Shows the properties of the selected object.</td></tr><tr><td>[ALT+LEFT]</td><td>Came back</td></tr><tr><td>[ALT+RIGHT]</td><td>Keep it up</td></tr><tr><td>[ALT+BACKSPACE]</td><td>Came back</td></tr><tr><td>[ALT+SHIFT+BACKSET]</td><td>Keep it up</td></tr><tr><td>.</td><td>.</td></tr><tr><td>[SHIFT+F5]</td><td>Shows the display menu.</td></tr><tr><td>[SHIFT+F6]</td><td>Next view mode (Detail…)</td></tr><tr><td>[SHIFT+F10]</td><td>Shows the shortcut menu for the selected item.</td></tr><tr><td>[SHIFT+SUPR]</td><td>Deletes the selected item permanently without sending it to the Recycle Bin.</td></tr></tbody></table><table><thead><tr><th>Widget</th><th>Function</th></tr></thead><tbody><tr><td>Favorites</td><td>Quick access to the most used folders.</td></tr><tr><td>Drag and Drop</td><td>Move files by dragging them in views-Q and other programs like MS Explorer.</td></tr><tr><td>Clipboard</td><td>Copy and paste between Q-Dir views and other programs like MS Explorer.</td></tr><tr><td>Folders Type</td><td>System, network, cab, ZIP, FTP, shortcuts…</td></tr><tr><td>Views</td><td>Large Icons, Tiles, List, Detail, Thumbnail (View: Extra Large Symbols).</td></tr><tr><td>Export</td><td>Como XLS, CSV, TXT o HTML.</td></tr><tr><td>Popup Menus</td><td>Desktop or My Computer.</td></tr><tr><td>land</td><td>Anything on the screen can be magnified.</td></tr><tr><td>Color Filter</td><td>Different colors for different elements (eg <em>.log;</em>.txt).</td></tr><tr><td>Highlights Filter</td><td>An effective way to quickly highlight items.</td></tr><tr><td>File Filter</td><td>It allows a fast and easy filtering of the elements.</td></tr><tr><td>columns</td><td>All columns support and retain this feature.</td></tr><tr><td>Enlaces-Quick</td><td>For quick access to folders.</td></tr><tr><td>Folder Selection</td><td>Fast and flexible folder selection, address bar, Desktop menu, My Computer menu…</td></tr><tr><td>Multi-IT</td><td>Various INI files for Q-Dir.</td></tr><tr><td>Tree View</td><td>Simple and quadruple.</td></tr><tr><td>Preview</td><td>Allows a quick preview.</td></tr><tr><td>Portable</td><td>Since version 2.77 Q-Dir is portable.</td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p style=&#39;background:yellow;&#39;&gt;这篇文章转载自&lt;a href=&#39;https://www-softwareok-com.translate.goog/?page=Windows/Info/Q-Dir/27&amp;_x_tr_sl=auto&amp;_x_tr_tl=d</summary>
+      
+    
+    
+    
+    <category term="技巧" scheme="http://example.com/categories/%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一些听上去很实用的软件</title>
+    <link href="http://example.com/2023/07/some_possible_practical_application.html"/>
+    <id>http://example.com/2023/07/some_possible_practical_application.html</id>
+    <published>2023-07-19T05:43:07.000Z</published>
+    <updated>2023-07-19T06:56:46.151Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这个笔记主要记录了我日常遇到的一些有趣的软件. 会保持长期随缘更新.</p><h2 id="2-百度网盘批量转存-BaiduPanFilesTransfers"><a href="#2-百度网盘批量转存-BaiduPanFilesTransfers" class="headerlink" title="2. 百度网盘批量转存_BaiduPanFilesTransfers"></a>2. 百度网盘批量转存_BaiduPanFilesTransfers</h2><p>官网: <a href="https://github.com/hxz393/BaiduPanFilesTransfers">hxz393BaiduPanFilesTransfers 百度网盘批量转存工具</a></p><p>百度网盘批量转存软件，基于 <code>Python 3.10</code> + <code>Tkinter</code> 构建。可用于批量转存网络上分享的百度网盘链接到自己的百度网盘上。</p><p>介绍页面请访问：<a href="https://meta.appinn.net/t/topic/16995/39">小众软件</a></p><h2 id="3-哔哩哔哩视频下载-哔哩下载姬"><a href="#3-哔哩哔哩视频下载-哔哩下载姬" class="headerlink" title="3. 哔哩哔哩视频下载_哔哩下载姬"></a>3. 哔哩哔哩视频下载_哔哩下载姬</h2><p>官网: <a href="https://github.com/leiurayer/downkyi">leiurayerdownkyi 哔哩下载姬downkyi，哔哩哔哩网站视频下载工具，支持批量下载，支持8K、HDR、杜比视界，提供工具箱（音视频提取、去水印等）。httpst.me+7zeNbdkP0TEzODll</a></p><p>哔哩下载姬（DownKyi）是一个简单易用的哔哩哔哩视频下载工具，具有简洁的界面，流畅的操作逻辑。哔哩下载姬可以下载几乎所有的B站视频，并输出mp4格式的文件；采用Aria下载器多线程下载，采用FFmpeg对视频进行混流、提取音视频等操作。</p><p><a href="https://github.com/leiurayer/downkyi/blob/main/src/README.md">更多详情</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这个笔记主要记录了我日常遇到的一些有趣的软件. 会保持长期随缘更新.&lt;/p&gt;
+&lt;h2 id=&quot;2-百度网盘批量转存-Ba</summary>
+      
+    
+    
+    
+    <category term="其他" scheme="http://example.com/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="其他" scheme="http://example.com/tags/%E5%85%B6%E4%BB%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的3-hexo主题配置</title>
+    <link href="http://example.com/2023/07/my_3_hexo_config.html"/>
+    <id>http://example.com/2023/07/my_3_hexo_config.html</id>
+    <published>2023-07-19T02:42:14.000Z</published>
+    <updated>2023-07-19T06:45:13.829Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-快捷键"><a href="#1-快捷键" class="headerlink" title="1. 快捷键"></a>1. 快捷键</h2><h3 id="1-1-全局"><a href="#1-1-全局" class="headerlink" title="1.1. 全局"></a>1.1. <strong>全局</strong></h3><table><thead><tr><th align="left">Key</th><th align="left">Descption</th></tr></thead><tbody><tr><td align="left">s&#x2F;S</td><td align="left">全屏&#x2F;取消全屏</td></tr><tr><td align="left">w&#x2F;W</td><td align="left">打开&#x2F;关闭文章目录</td></tr><tr><td align="left">i&#x2F;I</td><td align="left">获取搜索框焦点</td></tr><tr><td align="left">j&#x2F;J</td><td align="left">向下滑动</td></tr><tr><td align="left">k&#x2F;K</td><td align="left">向上滑动</td></tr><tr><td align="left">gg&#x2F;GG</td><td align="left">到最顶端</td></tr><tr><td align="left">shift+G&#x2F;g</td><td align="left">到最下端</td></tr></tbody></table><h3 id="1-2-搜索框"><a href="#1-2-搜索框" class="headerlink" title="1.2. 搜索框"></a>1.2. <strong>搜索框</strong></h3><table><thead><tr><th align="left">Key</th><th align="left">Descption</th></tr></thead><tbody><tr><td align="left">ESC</td><td align="left">1.如果输入框有内容，清除内容 2.如果输入框无内容，失去焦点</td></tr><tr><td align="left">下</td><td align="left">向下选择文章</td></tr><tr><td align="left">上</td><td align="left">向上选择文章</td></tr><tr><td align="left">回车</td><td align="left">打开当前选中的文章，若没有，则默认打开第一个</td></tr></tbody></table><h2 id="2-搭配vimium-c使用"><a href="#2-搭配vimium-c使用" class="headerlink" title="2. 搭配vimium-c使用"></a>2. 搭配vimium-c使用</h2><blockquote><p><a href="https://github.com/gdh1995/vimium-c">Vimium C</a> 是一款开源、免费的键盘增强类浏览器扩展，支持为多种多样的命令任意设置快捷键。<strong>只要有一个键盘</strong>，您就能自由点击网页中的链接和按钮、选择和复制文字和网址，也能轻松操作浏览器标签页，还能在一个便捷的搜索框中随意搜索历史记录、收藏夹或打开的标签等等。</p></blockquote><p>我是用的是vimium-c的默认推荐配置, <code>w</code>表示向上几行, <code>s</code>表示向下, 因此需要在vimium-c的配置中屏蔽部分按键: <code>G S W g i j k</code>.<br>如上设置后, 我可以使用<code>w/s</code>控制文章翻页, <code>W S</code>分别控制目录和全屏, <code>gg/G</code>跳转到行首&#x2F;行尾, <code>i</code>打开搜索框, <code>j/k</code>倒是不常用. 我认为这个配置非常方便~</p><h2 id="3-搭配smart-toc使用"><a href="#3-搭配smart-toc使用" class="headerlink" title="3. 搭配smart-toc使用"></a>3. 搭配smart-toc使用</h2><p>使用<code>S</code>开启全屏后, 目录会也会消失, 如果想在全屏页面看到目录, 可以安装<code>smart toc</code>插件, 在右上角生成一个目录.</p><h2 id="4-隐藏特定分类的文章"><a href="#4-隐藏特定分类的文章" class="headerlink" title="4. 隐藏特定分类的文章"></a>4. 隐藏特定分类的文章</h2><blockquote><p><a href="https://github.com/prinsss/hexo-hide-posts/blob/master/README_ZH.md">hexo-hide-posts</a>是一个 Hexo 插件, 可以在博客中隐藏指定的文章，并使它们仅可通过链接访问。</p></blockquote><p>比如说, 我每个月<mask/>理论上<mask>都会写一篇<code>月末总结</code>, 这样我一年就有12篇相关的文章, 而可能我一年中写的其他类型的文章也不过十几篇, 如果我将<code>月末总结</code>放到归档首页的话, 就显得不太合适.</p><p><code>hexo-hide-posts</code>在<a href="https://hexo.io/api/locals">Local Variables</a> 中添加了 <code>all_posts</code> 和 <code>hidden_posts</code> 变量，供自定义主题使用. 我们就可以自定义一个界面来存放这些文章, 比如: 点击跳转到<a href="https://blog.jiangyun.fun/conclusion">月末总结</a>.</p><h3 id="4-1-大致的代码逻辑"><a href="#4-1-大致的代码逻辑" class="headerlink" title="4.1. 大致的代码逻辑"></a>4.1. 大致的代码逻辑</h3><pre><code class="html">    &lt;div class=&quot;pjax&quot;&gt;        &lt;h2&gt;月末总结&lt;/h2&gt;          &lt;ul&gt;          &lt;%             site.hidden_posts.forEach(function(post)&#123; %&gt;            &lt;li&gt;&lt;a href=&quot;&lt;%- url_for(post.path) %&gt;&quot;&gt;&lt;%= post.title %&gt;&lt;/a&gt;&lt;/li&gt;          &lt;% &#125;) %&gt;          &lt;/ul&gt;    &lt;/div&gt;</code></pre><h3 id="4-2-主要的实现过程"><a href="#4-2-主要的实现过程" class="headerlink" title="4.2. 主要的实现过程"></a>4.2. 主要的实现过程</h3><blockquote><p>我并没有列出全部的过程, 读者需要具有能在hexo中创建页面的基础知识</p></blockquote><ol><li>复制<code>blog_root_dir\themes\3-hexo\layout\post.ejs</code>得到一个备份</li><li>将这个备份的部分代码替换, 如下:</li></ol><pre><code class="html">&lt;div id=&quot;post&quot;&gt;    &lt;div class=&quot;pjax&quot;&gt;        &lt;%- partial(&#39;_partial/article&#39;, &#123;post: page, index: false&#125;) %&gt;    &lt;/div&gt;    &lt;div class=&quot;copyright&quot;&gt;        &lt;%- fragment_cache(&#39;copyright&#39;, function()&#123;            return partial(&#39;_partial/copyright&#39;);        &#125;) %&gt;    &lt;/div&gt;    &lt;div class=&quot;full-toc&quot;&gt;        &lt;%- fragment_cache(&#39;toc&#39;, function()&#123;            return partial(&#39;_partial/full-toc&#39;);        &#125;) %&gt;    &lt;/div&gt;&lt;/div&gt;</code></pre><p>替换为:  </p><pre><code class="html">&lt;div id=&quot;post&quot;&gt;    &lt;div class=&quot;pjax&quot;&gt;        &lt;h2&gt;月末总结&lt;/h2&gt;          &lt;ul&gt;          &lt;%             site.hidden_posts.forEach(function(post)&#123; %&gt;            &lt;li&gt;&lt;a href=&quot;&lt;%- url_for(post.path) %&gt;&quot;&gt;&lt;%= post.title %&gt;&lt;/a&gt;&lt;/li&gt;          &lt;% &#125;) %&gt;          &lt;/ul&gt;    &lt;/div&gt;    &lt;div class=&quot;copyright&quot;&gt;        &lt;%- fragment_cache(&#39;copyright&#39;, function()&#123;            return partial(&#39;_partial/copyright&#39;);        &#125;) %&gt;    &lt;/div&gt;    &lt;div class=&quot;full-toc&quot;&gt;        &lt;%- fragment_cache(&#39;toc&#39;, function()&#123;            return partial(&#39;_partial/full-toc&#39;);        &#125;) %&gt;    &lt;/div&gt;&lt;/div&gt;</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-快捷键&quot;&gt;&lt;a href=&quot;#1-快捷键&quot; class=&quot;headerlink&quot; title=&quot;1. 快捷键&quot;&gt;&lt;/a&gt;1. 快捷键&lt;/h2&gt;&lt;h3 id=&quot;1-1-全局&quot;&gt;&lt;a href=&quot;#1-1-全局&quot; class=&quot;headerlink&quot; title=</summary>
+      
+    
+    
+    
+    <category term="技巧" scheme="http://example.com/categories/%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="其他" scheme="http://example.com/tags/%E5%85%B6%E4%BB%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>执行过的一些正则表达式</title>
+    <link href="http://example.com/2023/07/various_regex.html"/>
+    <id>http://example.com/2023/07/various_regex.html</id>
+    <published>2023-07-18T08:12:10.000Z</published>
+    <updated>2023-07-18T08:19:55.738Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这个笔记记录了我日常执行过的一些正则表达式, 有一定收藏意义. 这个笔记会长期更新</p><h2 id="2-小数相加"><a href="#2-小数相加" class="headerlink" title="2. 小数相加"></a>2. 小数相加</h2><p>String: <code>27.4323.946.615.434.343.321.961.861.701.521.511.361.261.091.070.760.610.530.43</code><br>Search: <code>\.(\d)(\d)</code><br>Replace: <code>.\1\2+</code></p><p>这个正则表达式的意思是：</p><ul><li><code>\.(\d)(\d)</code> 匹配一个点和两个数字，并将它们分别捕获为第一和第二个分组。</li><li><code>.\1\2+</code> 用一个点、第一分组、第二分组和一个加号替换匹配的内容。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这个笔记记录了我日常执行过的一些正则表达式, 有一定收藏意义. 这个笔记会长期更新&lt;/p&gt;
+&lt;h2 id=&quot;2-小数相加</summary>
+      
+    
+    
+    
+    <category term="技巧" scheme="http://example.com/categories/%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
+    
+    <category term="长期更新" scheme="http://example.com/tags/%E9%95%BF%E6%9C%9F%E6%9B%B4%E6%96%B0/"/>
+    
+    <category term="regex" scheme="http://example.com/tags/regex/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>各种奇怪的知识</title>
+    <link href="http://example.com/2023/07/various_knowledge.html"/>
+    <id>http://example.com/2023/07/various_knowledge.html</id>
+    <published>2023-07-18T07:47:51.000Z</published>
+    <updated>2023-07-19T07:03:22.528Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这个笔记记录了我日常遇见的各种奇怪的知识. 这是一个奇怪的笔记, 会长期更新</p><h2 id="2-NFS服务"><a href="#2-NFS服务" class="headerlink" title="2. NFS服务"></a>2. NFS服务</h2><p>Network File System 网络文件系统，基于内核的文件系统。Sun公司开发，通过使用NFS，用户和程序可以像访问本地文件一样访问远端系统上的文件，基于RPC（RemoteProcedure Call Protocol远程过程调用）实现</p><blockquote><p>来源: <a href="https://blog.51cto.com/u_13157090/1972971">NFS服务的简单介绍与运用_51CTO博客_简述NFS服务的好处</a></p></blockquote><h2 id="3-宏基因组"><a href="#3-宏基因组" class="headerlink" title="3. 宏基因组"></a>3. 宏基因组</h2><p><strong>宏基因组学</strong>（英语：Metagenomics），又译<strong>元基因组学</strong>、<strong>总体基因体学</strong>，是一门直接<strong>取得<a href="https://zh.wikipedia.org/wiki/%E7%92%B0%E5%A2%83" title="环境">环境</a>中所有遗传物质</strong>的研究。研究领域广泛，也可称为环境基因体学、生态基因体学或<a href="https://zh.wikipedia.org/wiki/%E7%BE%A4%E8%90%BD" title="群落">群落</a>基因体学。</p><blockquote><p>来源: <a href="https://zh.wikipedia.org/zh-hans/%E5%AE%8F%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%AD%A6">宏基因组学 - 维基百科，自由的百科全书</a></p></blockquote><h2 id="测序深度（Sequencing-Depth）"><a href="#测序深度（Sequencing-Depth）" class="headerlink" title="测序深度（Sequencing Depth）"></a>测序深度（Sequencing Depth）</h2><p>测序深度（Sequencing Depth）：测序得到的碱基总量（bp）与基因组大小（Genome）的比值，它是评价测序量的指标之一。</p><p>测序深度与基因组覆盖度之间是一个正相关的关系，测序带来的错误率或假阳性结果会随着测序深度的提升而下降。重测序的个体，如果采用的是双末端或Mate-Pair方案，当测序深度在10~15X以上时，基因组覆盖度和测序错误率控制均得以保证。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这个笔记记录了我日常遇见的各种奇怪的知识. 这是一个奇怪的笔记, 会长期更新&lt;/p&gt;
+&lt;h2 id=&quot;2-NFS服务&quot;&gt;</summary>
+      
+    
+    
+    
+    <category term="其他" scheme="http://example.com/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
+    
+    <category term="长期更新" scheme="http://example.com/tags/%E9%95%BF%E6%9C%9F%E6%9B%B4%E6%96%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常用的git命令及其简要介绍</title>
+    <link href="http://example.com/2023/07/introduce_git_command.html"/>
+    <id>http://example.com/2023/07/introduce_git_command.html</id>
+    <published>2023-07-14T08:08:02.000Z</published>
+    <updated>2023-07-19T07:36:57.728Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这是一份个人使用 <code>git</code> 时的 CheatSheet, 如果您希望更浏览详细的教程, 请参考以下的教程:<br><a href="https://www.runoob.com/git/git-tutorial.html">Git 教程  菜鸟教程</a><br><a href="https://www.liaoxuefeng.com/wiki/896043488029600">Git教程 - 廖雪峰的官方网站</a>  </p><h2 id="2-设置全局配置"><a href="#2-设置全局配置" class="headerlink" title="2. 设置全局配置"></a>2. 设置全局配置</h2><pre><code class="bash">git config --global user.name &quot;JiangYun&quot;git config --global user.email &quot;jiangyunacw@gmail.com&quot;git config --global core.quotepath false # 如果此项为&quot;true&quot;, 在使用&quot;git status&quot;命令时, 中文会被转义, 看起来像乱码.# 参考: https://segmentfault.com/a/1190000020807726git config --global init.defaultbranch main       # 设置默认初始分支为&quot;main&quot;, 与Github相匹配git config --global core.autocrlf false               # 禁用Git在检出和提交文件时对换行符的自动转换. 可消除烦人的 warnings.</code></pre><p>上面这一步一般在刚安装git后进行</p><ul><li>查看全局配置</li></ul><pre><code class="bash">git config --global --list --show-origin# 解释参数:# --list  查看全局配置# --show-origin (可选) 展示&quot;.gitconfig&quot;的位置</code></pre><p>更多的有关全局配置的教程请参考: <a href="https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/The-global-Git-config-files-key-settings-and-usages">How to set important Git config global properties</a></p><ul><li>取消全局配置</li></ul><pre><code class="bash">git config --global --unset &lt;variable&gt;</code></pre><h2 id="3-创建版本库"><a href="#3-创建版本库" class="headerlink" title="3. 创建版本库"></a>3. 创建版本库</h2><pre><code class="bash">git init</code></pre><h2 id="4-提交更新"><a href="#4-提交更新" class="headerlink" title="4. 提交更新"></a>4. 提交更新</h2><pre><code class="bash">git add --allgit add specific-filegit statusgit commit -m &quot;some note&quot;# 一次性更新git add --all; git status; git commit -m &quot;batch update&quot;</code></pre><h2 id="5-切换版本"><a href="#5-切换版本" class="headerlink" title="5. 切换版本"></a>5. 切换版本</h2><pre><code class="bash"># 回退到上一个版本git reset --hard HEAD^# HEAD表示当前版本, HEAD^表示上一个, HEAD^^表示上上个# 根据版本号, 切换版本git reset --hard &lt;版本号&gt;</code></pre><h2 id="6-其他命令"><a href="#6-其他命令" class="headerlink" title="6. 其他命令"></a>6. 其他命令</h2><ul><li>查看提交历史</li></ul><pre><code class="bash">git loggit log --pretty=oneline # 每个记录只显示一行</code></pre><h2 id="7-和远程仓库-GitHub-交互"><a href="#7-和远程仓库-GitHub-交互" class="headerlink" title="7. 和远程仓库(GitHub)交互"></a>7. 和远程仓库(GitHub)交互</h2><p>本地电脑 (Windows) 第一次和GitHub交互前, 检查 <code>C:\Users\your-username\.ssh</code> 目录下有没有 <code>id_rsa</code> 和 <code>id_rsa.pub</code> 文件. 如果没有,  </p><ol><li>打开 <code>Git Bash</code>, 运行: <code>ssh-keygen -t rsa -C &quot;jiangyunacw@gmail.com&quot;</code>, 一路回车</li><li>登录GitHub后, 打开网页<a href="https://github.com/settings/keys">https://github.com/settings/keys</a>, 点击 <code>New SSH Key</code>, 填上任意Title，在Key文本框里粘贴<code>id_rsa.pub</code>文件的内容, 保存</li></ol><h3 id="7-1-克隆远程仓库"><a href="#7-1-克隆远程仓库" class="headerlink" title="7.1. 克隆远程仓库"></a>7.1. 克隆远程仓库</h3><pre><code class="bash">git clone someURL# 推荐ssh协议, 它速度更快</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这是一份个人使用 &lt;code&gt;git&lt;/code&gt; 时的 CheatSheet, 如果您希望更浏览详细的教程, 请参考以</summary>
+      
+    
+    
+    
+    <category term="技巧" scheme="http://example.com/categories/%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
+    
+    <category term="git" scheme="http://example.com/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常用的Linux命令和脚本及其简要介绍</title>
+    <link href="http://example.com/2023/07/introduce_linux_command.html"/>
+    <id>http://example.com/2023/07/introduce_linux_command.html</id>
+    <published>2023-07-14T08:07:47.000Z</published>
+    <updated>2023-07-18T08:15:03.422Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这篇文章记录了我常用的一些Linux命令和脚本. 我将会长期更新这篇文章.</p><h2 id="2-常用命令"><a href="#2-常用命令" class="headerlink" title="2. 常用命令"></a>2. 常用命令</h2><table><thead><tr><th align="center">命令</th><th align="left">简介</th></tr></thead><tbody><tr><td align="center"><code>realpath filename</code></td><td align="left">打印文件的绝对路径名</td></tr><tr><td align="center"><code>free -h</code></td><td align="left">查看总内存(RAM)及其使用情况</td></tr><tr><td align="center"><code>df -hl</code></td><td align="left">查看磁盘空间使用情况</td></tr><tr><td align="center"><code>zcat filename.gz | head</code></td><td align="left">在不解压缩文件的前提下, 查看文件部分内容, 输出到标准输出设备</td></tr><tr><td align="center"><code>zless filename.gz</code></td><td align="left">和上面命令的用途一致, 速度快, <strong>推荐</strong></td></tr><tr><td align="center"><code>tar czf newfile.tar.gz oldfile</code></td><td align="left">压缩文件</td></tr><tr><td align="center"><code>tar xzf file.tar.gz</code></td><td align="left">解压缩文件</td></tr><tr><td align="center"><code>zip -r &lt;newfile&gt;.zip oldfile olddir</code></td><td align="left">压缩文件</td></tr><tr><td align="center"><code>unzip &lt;filename&gt;.zip</code></td><td align="left">解压缩文件</td></tr><tr><td align="center"><code>ps xu</code></td><td align="left">查看当前用户的进程.<a href="https://mp.weixin.qq.com/s?__biz=Mzg3ODgyNDgwNg==&mid=2247487127&idx=1&sn=5486fcdac3ea1c251b4e0bc63bf110be&chksm=cf0c929ef87b1b88e4f76559a1b2c271438e89d8e5dbe9aef4cecf8c6f27eb8d695224aa48a1&token=985838262&lang=zh_CN#rd">更多信息</a></td></tr><tr><td align="center"><code>kill -2 &lt;pid&gt;</code></td><td align="left">默认行为就是退出程序</td></tr><tr><td align="center"><code>pgrep &lt;string&gt;</code></td><td align="left">根据正则表达式列出相应的进程</td></tr><tr><td align="center"><code>pkill -2 &lt;string&gt;</code></td><td align="left">根据正则表达式退出相应的进程.<a href="https://juejin.cn/post/7158451306913333278">更多信息</a></td></tr><tr><td align="center"><code>basename ~/a/b/c.txt</code></td><td align="left">输出<code>c.txt</code></td></tr><tr><td align="center"><code>dirname ~/a/b/c.txt</code></td><td align="left">输出<code>/home/user/a/b</code></td></tr><tr><td align="center"><code>rename &quot;s/pattern_a/pattern_b/&quot; *.txt</code></td><td align="left">批量重命名所有的txt文件</td></tr></tbody></table><!-- TODO: 学习 ${variable}的详细用法, e.g. ${a/.sam/.bam} --><h2 id="3-常用脚本"><a href="#3-常用脚本" class="headerlink" title="3. 常用脚本"></a>3. 常用脚本</h2><h3 id="3-1-多行注释shell脚本"><a href="#3-1-多行注释shell脚本" class="headerlink" title="3.1. 多行注释shell脚本"></a>3.1. 多行注释shell脚本</h3><pre><code class="bash">&lt;&lt; EOFCmd line 1Cmd line 2Cmd line 3Cmd line 4EOF# 参考https://zhuanlan.zhihu.com/p/54494213</code></pre><h2 id="4-其他"><a href="#4-其他" class="headerlink" title="4. 其他"></a>4. 其他</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这篇文章记录了我常用的一些Linux命令和脚本. 我将会长期更新这篇文章.&lt;/p&gt;
+&lt;h2 id=&quot;2-常用命令&quot;&gt;&lt;a</summary>
+      
+    
+    
+    
+    <category term="技巧" scheme="http://example.com/categories/%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
+    
+    <category term="Linux" scheme="http://example.com/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>实现鼠标悬停在文字上时,改变文字的颜色和背景的颜色</title>
+    <link href="http://example.com/2023/07/change_text_background_color.html"/>
+    <id>http://example.com/2023/07/change_text_background_color.html</id>
+    <published>2023-07-13T08:17:44.000Z</published>
+    <updated>2023-07-17T23:39:34.659Z</updated>
+    
+    <content type="html"><![CDATA[<!-- <style>mask {    font-family: 'SF Pro SC','SF Pro Display','PingFang SC','Lucida Grande','Helvetica Neue',Helvetica,Arial,Verdana,sans-serif,'Hiragino Sans GB';    word-wrap: break-word;    line-height: 1.6;    font-size: 14px;    white-space: normal;    border-radius: 2px;    background-clip: padding-box;    -webkit-transition: all .5s linear;    text-shadow: #555 0 0 20px;    background-color: #555;    color: #555;    border: 1px solid #555;}mask:hover{color:white;background-color:#555;}</style> --><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>在逛 <a href="https://bangumi.tv/">bangumi</a>时, 发现了一个有趣的事情. 句子默认以黑色块的形式展现(比如这样: <mask>巴拉巴拉…</mask>), 当鼠标悬停在句子上后, 浮现出白色的文字, 挺有意思, 我下面将在 <code>markdown</code> 中实现这一效果.<mask>虽然说markdown的优点之一是: “排版语法简洁，让人们更多地关注内容本身而非排版”, 这么做显得有些花里胡哨了(～￣▽￣)～</mask></p><h2 id="2-实现步骤"><a href="#2-实现步骤" class="headerlink" title="2. 实现步骤"></a>2. 实现步骤</h2><p>这其实就是一个简单的css改变文字显示效果的应用.  </p><ol><li>首先在文章的任意位置加上下面的代码(我比较喜欢加在文章的顶部位置)</li></ol><pre><code class="html">&lt;style&gt;mask &#123;    font-family: &#39;SF Pro SC&#39;,&#39;SF Pro Display&#39;,&#39;PingFang SC&#39;,&#39;Lucida Grande&#39;,&#39;Helvetica Neue&#39;,Helvetica,Arial,Verdana,sans-serif,&#39;Hiragino Sans GB&#39;;    word-wrap: break-word;    line-height: 1.6;    font-size: 14px;    white-space: normal;    border-radius: 2px;    background-clip: padding-box;    -webkit-transition: all .5s linear;    text-shadow: #555 0 0 20px;    background-color: #555;    color: #555;    border: 1px solid #555;&#125;mask:hover&#123;color:white;background-color:#555;&#125;&lt;/style&gt;</code></pre><ol start="2"><li>然后将想要想要隐藏的句子填写在下面代码的 <code>$1</code> 处就完成了</li></ol><pre><code class="html">&lt;mask&gt;$1&lt;/mask&gt;</code></pre><!--  ## 3. 在vscode中便捷地实现这一效果在 `visual studio code(vscode)` 软件中, 我们可以自定义代码片段. 通过代码快速补全, 我们可以快速地完成上面的代码. 具体步骤如下:  1. 点击vscode走下方的 `齿轮` 按钮,  2. 点击 `User Snippets`, (大概在倒数第三项)3. 在弹出的框中选择 `markdown.json`4. 复制下列代码, 粘贴到 `markdown.json` 文件中```json    "text-mask-css":{        "prefix": "text-mask-css",        "body": [            "<style>\n.text_mask\n{\n    font-family: 'SF Pro SC','SF Pro Display','PingFang SC','Lucida Grande','Helvetica Neue',Helvetica,Arial,Verdana,sans-serif,'Hiragino Sans GB';\n    word-wrap: break-word;\n    line-height: 1.6;\n    font-size: 14px;\n    white-space: normal;\n    border-radius: 2px;\n    background-clip: padding-box;\n    -webkit-transition: all .5s linear;\n    text-shadow: #555 0 0 20px;\n    background-color: #555;\n    color: #555;\n    border: 1px solid #555;\n}\nmask:hover{\ncolor:white;\nbackground-color:#555;\n}\n</style>",        ]    },    "text-mask":{        "prefix": "text-mask",        "body": [            "<mask class=\"text_mask\">$1</mask>",        ]    },```现在我们在 `markdown` 文件中输入 `text`, 就会出现如下的选项:  ![](https://jiangy-asset.oss-cn-beijing.aliyuncs.com/tmp/202304132200330.png)我们可以通过选择 `text-mask-css` 或 `text-mask` 进行快速补全啦~ --><h2 id="4-测试文本"><a href="#4-测试文本" class="headerlink" title="4. 测试文本"></a>4. 测试文本</h2><p>读者可以将下面的文本粘贴到 <code>markdown</code> 文件中, 测试效果</p><pre><code class="html">&lt;style&gt;mask &#123;    font-family: &#39;SF Pro SC&#39;,&#39;SF Pro Display&#39;,&#39;PingFang SC&#39;,&#39;Lucida Grande&#39;,&#39;Helvetica Neue&#39;,Helvetica,Arial,Verdana,sans-serif,&#39;Hiragino Sans GB&#39;;    word-wrap: break-word;    line-height: 1.6;    white-space: normal;    border-radius: 2px;    background-clip: padding-box;    -webkit-transition: all .5s linear;    text-shadow: #555 0 0 20px;    background-color: #555;    color: #555;    border: 1px solid #555;&#125;mask:hover&#123;color:white;background-color:#555;&#125;&lt;/style&gt;## &lt;mask&gt;测试标题&lt;/mask&gt;&lt;mask&gt;测试文本&lt;/mask&gt;</code></pre><h2 id="5-补充"><a href="#5-补充" class="headerlink" title="5. 补充"></a>5. 补充</h2><p>上面的代码中, 最核心的是下面这一部分, 其他的代码是为了设置字体的大小, 字体的阴影效果等</p><pre><code class="html">&lt;style&gt;mask &#123;    background-color: #555;    color: #555;&#125;mask:hover&#123;color:white;background-color:#555;&#125;&lt;/style&gt;</code></pre><h2 id="在hexo中快速使用"><a href="#在hexo中快速使用" class="headerlink" title="在hexo中快速使用"></a>在hexo中快速使用</h2><p>在<code>themes\your_theme\source\css</code>目录下新建<code>mask_text.styl</code>文件，之后在同目录下的<code>style.styl</code>底部使用引入即可  </p><pre><code class="text">@import &quot;mask_text&quot;</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;!-- 
+&lt;style&gt;
+
+mask {
+    font-family: &#39;SF Pro SC&#39;,&#39;SF Pro Display&#39;,&#39;PingFang SC&#39;,&#39;Lucida Grande&#39;,&#39;Helvetica Neue&#39;,Helvetica,Arial,Verdana,s</summary>
+      
+    
+    
+    
+    <category term="技巧" scheme="http://example.com/categories/%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="css" scheme="http://example.com/tags/css/"/>
+    
+    <category term="实用技巧" scheme="http://example.com/tags/%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>介绍RNA-seq流程及其常用代码</title>
+    <link href="http://example.com/2023/07/introduce_rna_seq.html"/>
+    <id>http://example.com/2023/07/introduce_rna_seq.html</id>
+    <published>2023-07-13T08:04:56.000Z</published>
+    <updated>2023-07-13T08:27:43.143Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><h2 id="2-Linux环境搭建"><a href="#2-Linux环境搭建" class="headerlink" title="2. Linux环境搭建"></a>2. Linux环境搭建</h2><h3 id="2-1-安装软件"><a href="#2-1-安装软件" class="headerlink" title="2.1. 安装软件"></a>2.1. 安装软件</h3><p>在 <em>miniconda</em> 中安装如下的软件.</p><pre><code class="text">samtools, fastqc, multiqc, cutadapt, trim-galore, hisat2, subread, featurecounts</code></pre><h3 id="2-2-创建工作目录"><a href="#2-2-创建工作目录" class="headerlink" title="2.2. 创建工作目录"></a>2.2. 创建工作目录</h3><pre><code class="bash">cd ~mkdir 23-rna-seq-7-2cd 23-rna-seq-7-2mkdir 10-raw 11-fastqc 13-multiqc \21-trim-galore 23-fastqc 25-multiqc \31-hisat2-index 33-hisat2-result \41-sam-to-bam 43-sorted-bam \51-human-gtf 53-fc-resul-bad 55-fc-result </code></pre><h3 id="2-3-下载脚本"><a href="#2-3-下载脚本" class="headerlink" title="2.3. 下载脚本"></a>2.3. 下载脚本</h3><!-- TODO: 提供脚本的网站 --><h2 id="3-数据下载"><a href="#3-数据下载" class="headerlink" title="3. 数据下载"></a>3. 数据下载</h2><ul><li>下载初始 <code>fastq</code> 数据</li></ul><pre><code class="bash"># 进入vimvi batch-script.sh# 输入以下的内容download_fastq() &#123; nohup wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/004/SRR1039514/SRR1039508_1.fastq.gz &amp; nohup wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/004/SRR1039514/SRR1039508_2.fastq.gz &amp; nohup wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/004/SRR1039514/SRR1039509_1.fastq.gz &amp; nohup wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/004/SRR1039514/SRR1039509_2.fastq.gz &amp; nohup wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/004/SRR1039514/SRR1039512_1.fastq.gz &amp; nohup wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/004/SRR1039514/SRR1039512_2.fastq.gz &amp; nohup wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/004/SRR1039514/SRR1039513_1.fastq.gz &amp; nohup wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR103/004/SRR1039514/SRR1039513_2.fastq.gz &amp;&#125;download_fastq# 退出vim# 运行脚本bash batch-script.sh# 之后可以注释 download_fastq 行, 并在 batch-script.sh 文件中加入下面的代码, 依次运行和注释相关的代码</code></pre><ul><li>下载 <code>hisat2</code> 需要的参考基因组</li></ul><!-- TODO:  --><h2 id="4-质量检测"><a href="#4-质量检测" class="headerlink" title="4. 质量检测"></a>4. 质量检测</h2><pre><code class="bash">run_fastqc()&#123; filedir=$1 fqdir=$2 ls $&#123;filedir&#125;*gz | while read id  do  nohup fastqc $id -t 10 -o $fqdir &amp; done&#125;run_fastqc ~/23-rna-seq-7-2/10-raw/ ~/23-rna-seq-7-2/11-fastqc/# multiqc暂时需要手动运行</code></pre><h2 id="5-数据过滤"><a href="#5-数据过滤" class="headerlink" title="5. 数据过滤"></a>5. 数据过滤</h2><pre><code class="bash">run_trim_galore() &#123; basedir=~/23-rna-seq-7-2/10-raw/ outdir=~/23-rna-seq-7-2/21-trim-galore/ for i in 08 09 12 13 do  fq1=SRR10395$&#123;i&#125;_1.fastq.gz  fq2=SRR10395$&#123;i&#125;_2.fastq.gz  path1=$&#123;basedir&#125;$&#123;fq1&#125;  path2=$&#123;basedir&#125;$&#123;fq2&#125;  #echo $path1 $path2 $outdir  nohup trim_galore -q 28 --phred33 --length 30 --paired -e 0.1 --stringency 1 -o $outdir $path1 $path2 &amp; done&#125;run_trim_galore# 运行结束后, 需要再次运行 run_fastqc, 查看过滤的结果# run_fastqc ~/23-rna-seq-7-2/21-trim-galore/ ~/23-rna-seq-7-2/23-fastqc</code></pre><h2 id="6-序列比对"><a href="#6-序列比对" class="headerlink" title="6. 序列比对"></a>6. 序列比对</h2><ul><li>运行 <code>hisat2</code></li></ul><pre><code class="bash">run_hisat2() &#123; index=~/23-rna-seq-7-2/31-hisat2-index/hg19/genome indir=~/23-rna-seq-7-2/21-trim-galore/ outdir=~/23-rna-seq-7-2/33-hisat2-result/ #cat ~/apa/align/input |while read id prefix=SRR10395 for id in 08 09 12 13 do      #arr=( $id )  val1=$&#123;indir&#125;$&#123;prefix&#125;$&#123;id&#125;_1_val_1.fq.gz  val2=$&#123;indir&#125;$&#123;prefix&#125;$&#123;id&#125;_2_val_2.fq.gz  outfile=$&#123;outdir&#125;$&#123;prefix&#125;$&#123;id&#125;  #echo -e &quot;$val1\n$val2\n$outfile\n\n&quot;  nohup hisat2 -p 20 -x $index -1 $val1 -2 $val2 -S $&#123;outfile&#125;.sam  2&gt; $&#123;outfile&#125;.hisat2.log &amp; done&#125;run_hisat2</code></pre><ul><li>查看比对结果</li></ul><pre><code class="bash">view_flagstat() &#123; dir=~/23-rna-seq-7-2/33-hisat2-result/ realpath $&#123;dir&#125;*.sam | while read id do  #echo -e &quot;$id\n$&#123;id&#125;.flagstat.txt\n\n&quot;  nohup samtools view -@ 10 -S -b $&#123;id&#125;  | samtools flagstat - &gt; $&#123;id&#125;.flagstat.txt &amp; done&#125;view_flagstat</code></pre><h2 id="7-表达量计数"><a href="#7-表达量计数" class="headerlink" title="7. 表达量计数"></a>7. 表达量计数</h2><ul><li>将 <code>sam</code> 文件转化为 <code>bam</code> 文件</li></ul><pre><code class="bash">sam_to_bam() &#123; dir=~/23-rna-seq-7-2/33-hisat2-result/ ls $&#123;dir&#125;*.sam | while read id do  id=$(basename $id)  #echo -e &quot;$id\n$&#123;dir&#125;$&#123;id&#125;\n\n&quot;  nohup samtools view -bS $&#123;dir&#125;$&#123;id&#125; &gt; $&#123;dir&#125;../41-sam_to_bam/$&#123;id/.sam/.bam&#125; &amp; done&#125;sam_to_bam</code></pre><ul><li>对 <code>bam</code> 文件进行排序</li></ul><pre><code class="bash">sort_bam() &#123; dir=$1 realpath $&#123;dir&#125;*.bam | while read id do  filename=$(basename $id)  output=$&#123;dir&#125;../43-sorted-bam/$&#123;filename/.bam/.sort.bam&#125;  #echo $output  nohup samtools sort -@ 10  $id -o $output &amp; done&#125;sort_bam ~/23-rna-seq-7-2/41-sam_to_bam/</code></pre><ul><li>创建索引</li></ul><pre><code class="bash">create_index() &#123; dir=$1 realpath $&#123;dir&#125;*.bam | while read id do  #echo $id\n  nohup samtools index -@ 10 $id &amp; done&#125;create_index ~/23-rna-seq-7-2/43-sorted-bam/</code></pre><ul><li>运行 <code>featureCounts</code></li></ul><pre><code class="bash">run_featureCounts() &#123; gtf=~/23-rna-seq-7-2/51-human-gtf/gencode.v43.annotation.gtf basedir=$1 outdir=$2 input=$&#123;basedir&#125;*.bam #realpath $outdir; ls $input nohup featureCounts -p -O -T 10 -a $gtf -o $&#123;outdir&#125;counts.txt $input &amp;&#125;run_featureCounts ~/23-rna-seq-7-2/43-sorted-bam/ ~/23-rna-seq-7-2/55-fc-result/</code></pre><h2 id="8-差异表达分析"><a href="#8-差异表达分析" class="headerlink" title="8. 差异表达分析"></a>8. 差异表达分析</h2><h2 id="9-富集分析"><a href="#9-富集分析" class="headerlink" title="9. 富集分析"></a>9. 富集分析</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;h2 id=&quot;2-Linux环境搭建&quot;&gt;&lt;a href=&quot;#2-Linux环境搭建&quot; class=&quot;headerlink&quot; </summary>
+      
+    
+    
+    
+    <category term="生信" scheme="http://example.com/categories/%E7%94%9F%E4%BF%A1/"/>
+    
+    
+    <category term="RNA-Seq" scheme="http://example.com/tags/RNA-Seq/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安装和使用miniconda的通用流程</title>
+    <link href="http://example.com/2023/07/introduce_miniconda.html"/>
+    <id>http://example.com/2023/07/introduce_miniconda.html</id>
+    <published>2023-07-13T08:04:45.000Z</published>
+    <updated>2023-07-13T08:16:10.062Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这篇文章主要用于笔者自己快速创建miniconda的初始环境.</p><h2 id="2-安装和配置miniconda"><a href="#2-安装和配置miniconda" class="headerlink" title="2. 安装和配置miniconda"></a>2. 安装和配置miniconda</h2><pre><code class="bash"># 进入miniconda官网, 寻找最新的安装包https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/?C=M&amp;O=D# 下载安装包wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py39_4.9.2-Linux-x86_64.sh# 安装bash Miniconda3-py39_4.9.2-Linux-x86_64.sh## 注意设置安装的位置# 添加到环境变量export PATH=&quot;$PATH:~/1_opt/miniconda3/bin/&quot;# 添加清华镜像conda config --add channels http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/conda config --add channels http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/conda config --add channels http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/conda config --add channels http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/# 恢复默认源conda config --remove-key channels## 如果defaults已被删除，不会被恢复# 设置可见安装包的URLconda config --set show_channel_urls yes## 使用conda install, 会显示每个软件包的URL。这对于调试和排除问题非常有用# conda 设置不自动进入base(最基础)环境conda config --set auto_activate_base false</code></pre><h2 id="3-管理虚拟环境"><a href="#3-管理虚拟环境" class="headerlink" title="3. 管理虚拟环境"></a>3. 管理虚拟环境</h2><pre><code class="bash"># 下列代码来自: &lt;https://juejin.cn/post/7078965942968909854&gt;# 查看虚拟环境列表conda env listconda info -e# 创建虚拟环境conda create -n &lt;env_name&gt; [python_version] [package_name]conda create -n pyenv python=3.6 requestsconda create -n pyenv# 复制虚拟环境conda create --name &lt;new_env_name&gt; --clone &lt;old_env_name&gt;# 删除虚拟环境conda remove -n &lt;env_name&gt; --all# 激活虚拟环境conda activate &lt;env_name&gt; # 退出虚拟环境(进入环境状态下才可使用)conda deactivate </code></pre><h2 id="4-管理包"><a href="#4-管理包" class="headerlink" title="4. 管理包"></a>4. 管理包</h2><pre><code class="bash"># 下列代码来自: &lt;https://juejin.cn/post/7078965942968909854&gt;# 查看所有包conda list -n &lt;env_name&gt;  # 若不指定-n，默认在当前的环境# 搜索某个包信息conda search &lt;package_name&gt;  # 查询包的版本# 安装conda install -n &lt;env_name&gt; -c 镜像地址 &lt;package_name&gt;  # 若不指定-n，默认在当前的虚拟环境conda install &lt;package_name&gt;conda install &lt;package_name&gt;=1.5.0  # 指定版本conda install &lt;package_name&gt; -y # 自动确认安装package# 更新# 更新当前环境所有包conda update --all# 更新指定包conda update -n &lt;env_name&gt; &lt;package_name&gt;  # 若不指定-n，默认在当前的虚拟环境conda update &lt;package_name&gt;# 删除conda remove -n &lt;env_name&gt; &lt;package_name&gt;  # 若不指定-n，默认在当前的虚拟环境conda remove &lt;package_name&gt;</code></pre><h2 id="5-其他信息"><a href="#5-其他信息" class="headerlink" title="5. 其他信息"></a>5. 其他信息</h2><p>可以在<a href="https://bioconda.github.io/conda-package_index.html">https://bioconda.github.io/conda-package_index.html</a>检查包是否存在, 用于解决有时<code>conda search &lt;package_name&gt;</code>运行缓慢的问题.</p><h2 id="6-质量不错的文章"><a href="#6-质量不错的文章" class="headerlink" title="6. 质量不错的文章"></a>6. 质量不错的文章</h2><ol><li><a href="https://www.jianshu.com/p/854b11a18bef">Linux Miniconda安装及其使用 - 简书</a></li><li><a href="https://juejin.cn/post/7078965942968909854">Miniconda 安装及使用 - 掘金</a></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1. 前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;&lt;p&gt;这篇文章主要用于笔者自己快速创建miniconda的初始环境.&lt;/p&gt;
+&lt;h2 id=&quot;2-安装和配置miniconda</summary>
+      
+    
+    
+    
+    <category term="软件" scheme="http://example.com/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
+    
+    <category term="软件介绍" scheme="http://example.com/tags/%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World~ 博客迁移记录</title>
+    <link href="http://example.com/2023/07/hello_world.html"/>
+    <id>http://example.com/2023/07/hello_world.html</id>
+    <published>2023-07-13T08:04:13.000Z</published>
+    <updated>2023-07-14T12:55:17.306Z</updated>
+    
+    <content type="html"><![CDATA[<p>2023年07月13日将博客从<code>WordPress</code>迁移到了<code>hexo</code>, 主要是因为我希望将精力集中在内容创作上, 因此希望用一个简洁的写博客. <mask class="text_mask">阿里云服务器快到期了, 并且续费需要大约1000元&#x2F;年. </mask></p><p>纪念一下之前使用的博客主题(<a href="https://github.com/syfxlin/origami/">Origami</a>)吧, 还挺好看~</p><hr><h2 align="center">主页(。・ω・。)</h2><p><img src="https://asset.jiangyun.fun/img/202307142024490.png"></p><hr><p><img src="https://asset.jiangyun.fun/img/202307142025840.png"></p><hr><h2 align="center">离离艾公主(～￣▽￣)～</h2><p><img src="https://asset.jiangyun.fun/blog/img/liliai_01.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;2023年07月13日将博客从&lt;code&gt;WordPress&lt;/code&gt;迁移到了&lt;code&gt;hexo&lt;/code&gt;, 主要是因为我希望将精力集中在内容创作上, 因此希望用一个简洁的写博客. &lt;mask class=&quot;text_mask&quot;&gt;阿里云服务器快到期了, 并且续费需</summary>
+      
+    
+    
+    
+    <category term="日常" scheme="http://example.com/categories/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="blog" scheme="http://example.com/tags/blog/"/>
+    
+  </entry>
+  
+</feed>
