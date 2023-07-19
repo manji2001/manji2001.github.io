@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>使用Q-Dir后不能打开控制面板和文件所在位置</title>
+      <link href="/2023/07/solve_problem_of_q_dir.html"/>
+      <url>/2023/07/solve_problem_of_q_dir.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>我今天想打开”控制面板”, 结果出现了下面的报错. 我的解决方式如下, 非常简单.  </p><p><img src="https://asset.jiangyun.fun/img/202307200635438.png"></p><h2 id="2-原因"><a href="#2-原因" class="headerlink" title="2. 原因"></a>2. 原因</h2><p>我使用的是<code>Q-Dir 便携版</code>. 为了方便我之前设置了 <strong>Q-Dir 作为所有的默认浏览器</strong>, 而最近我将Q-Dir从D盘迁移到了C盘, 然后重新设置了  <strong>Q-Dir 作为所有的默认浏览器</strong>, 注册表因此可能冲突了, 或者没有更新, 就导致了前言中的问题.</p><h2 id="3-解决方案"><a href="#3-解决方案" class="headerlink" title="3. 解决方案"></a>3. 解决方案</h2><p>运行一下官网提供的<a href="https://www.softwareok.com/?page=Windows/Info/Q-Dir/8">Remove_Q-Dir_from_Regystry.zip</a>即可解决问题.</p><h2 id="4-另一个问题"><a href="#4-另一个问题" class="headerlink" title="4. 另一个问题"></a>4. 另一个问题</h2><p>后来我识图通过<code>Win + s</code>打开 <code>文件所在位置</code>, 又报了一个关于<code>runtimebroker.exe</code>的错误, 提示: 该文件没有与之关联的应用来执行该操作。请安装应用，若已经安装应用，请在”默认应用设置”页面中创建关联。</p><p><img src="https://asset.jiangyun.fun/img/202307200643354.png"></p><h2 id="5-解决方案"><a href="#5-解决方案" class="headerlink" title="5. 解决方案"></a>5. 解决方案</h2><p>参考这篇文章: <a href="https://www.cnblogs.com/zhiyin1209/p/11863573.html">Win10该文件没有与之关联的应用来执行该操作…请在默认应用设置页面中创建关联 - 知音12138 - 博客园</a></p><p>发现依然是注册表的问题, 一个简单的解决方式是再次设置 <strong>Q-Dir 作为所有的默认浏览器</strong>.<br>也可通过修改值来解决, 修复Windows默认设置, 我没有尝试这个方法.  </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> bug </tag>
+            
+            <tag> Q-Dir </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>转载_Q-Dir中的快捷键</title>
       <link href="/2023/07/q_dir_shortcut.html"/>
       <url>/2023/07/q_dir_shortcut.html</url>
