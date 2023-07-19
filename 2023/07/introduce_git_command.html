@@ -6,15 +6,15 @@
   <meta name="keywords" content=" CheatSheet , git ">
   <meta name="description" content="常用的git命令及其简要介绍 | 蒋运的博客">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="这是蒋运的个人博客. 目前主要记录我的日常生活, 收录我的一些笔记.">
+<meta name="description" content="关于我我是蒋运，华中农业大学生物信息学本科在读。 联系方式 GitHub: @manji2001 Mail: 1. &amp;#106;&amp;#105;&amp;#97;&amp;#110;&amp;#103;&amp;#121;&amp;#x75;&amp;#110;&amp;#x61;&amp;#x63;&amp;#119;&amp;#64;&amp;#x67;&amp;#109;&amp;#x61;&amp;#105;&amp;#108;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d; 2. &amp;#x6a;&amp;#x69;&amp;#9">
 <meta property="og:type" content="website">
-<meta property="og:title" content="月末总结">
-<meta property="og:url" content="http://example.com/conclusion/index.html">
+<meta property="og:title" content="about">
+<meta property="og:url" content="http://example.com/about/index.html">
 <meta property="og:site_name" content="蒋运的博客">
-<meta property="og:description" content="这是蒋运的个人博客. 目前主要记录我的日常生活, 收录我的一些笔记.">
+<meta property="og:description" content="关于我我是蒋运，华中农业大学生物信息学本科在读。 联系方式 GitHub: @manji2001 Mail: 1. &amp;#106;&amp;#105;&amp;#97;&amp;#110;&amp;#103;&amp;#121;&amp;#x75;&amp;#110;&amp;#x61;&amp;#x63;&amp;#119;&amp;#64;&amp;#x67;&amp;#109;&amp;#x61;&amp;#105;&amp;#108;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d; 2. &amp;#x6a;&amp;#x69;&amp;#9">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-07-13T13:24:26.491Z">
-<meta property="article:modified_time" content="2023-07-13T13:24:26.491Z">
+<meta property="article:published_time" content="2023-07-13T06:28:10.000Z">
+<meta property="article:modified_time" content="2023-07-13T06:29:51.860Z">
 <meta property="article:author" content="蒋运">
 <meta name="twitter:card" content="summary">
 
@@ -484,12 +484,12 @@
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2023-07-14 16:21:32'>2023-07-14 16:08</time>
+            发布时间 : <time class="date" title='最后更新: 2023-07-19 15:36:57'>2023-07-14 16:08</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:446</span>
+        <span>字数:515</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -536,12 +536,15 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这是一份个人使用 <code>git</code> 时的 CheatSheet, 如果您希望更浏览详细的教程, 请参考以下的教程:<br><a target="_blank" rel="noopener" href="https://www.runoob.com/git/git-tutorial.html">Git 教程  菜鸟教程</a><br><a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600">Git教程 - 廖雪峰的官方网站</a>  </p>
-<h2 id="2-设置全局配置"><a href="#2-设置全局配置" class="headerlink" title="2. 设置全局配置"></a>2. 设置全局配置</h2><pre><code class="bash">git config --global user.name &quot;user name&quot;
-git config --global user.email &quot;email@example.com&quot;
+<h2 id="2-设置全局配置"><a href="#2-设置全局配置" class="headerlink" title="2. 设置全局配置"></a>2. 设置全局配置</h2><pre><code class="bash">git config --global user.name &quot;JiangYun&quot;
+git config --global user.email &quot;jiangyunacw@gmail.com&quot;
 
 git config --global core.quotepath false 
 # 如果此项为&quot;true&quot;, 在使用&quot;git status&quot;命令时, 中文会被转义, 看起来像乱码.
 # 参考: https://segmentfault.com/a/1190000020807726
+
+git config --global init.defaultbranch main       # 设置默认初始分支为&quot;main&quot;, 与Github相匹配
+git config --global core.autocrlf false               # 禁用Git在检出和提交文件时对换行符的自动转换. 可消除烦人的 warnings.
 </code></pre>
 <p>上面这一步一般在刚安装git后进行</p>
 <ul>
@@ -554,6 +557,11 @@ git config --global core.quotepath false
 # --show-origin (可选) 展示&quot;.gitconfig&quot;的位置
 </code></pre>
 <p>更多的有关全局配置的教程请参考: <a target="_blank" rel="noopener" href="https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/The-global-Git-config-files-key-settings-and-usages">How to set important Git config global properties</a></p>
+<ul>
+<li>取消全局配置</li>
+</ul>
+<pre><code class="bash">git config --global --unset &lt;variable&gt;
+</code></pre>
 <h2 id="3-创建版本库"><a href="#3-创建版本库" class="headerlink" title="3. 创建版本库"></a>3. 创建版本库</h2><pre><code class="bash">git init
 </code></pre>
 <h2 id="4-提交更新"><a href="#4-提交更新" class="headerlink" title="4. 提交更新"></a>4. 提交更新</h2><pre><code class="bash">git add --all
@@ -571,13 +579,15 @@ git reset --hard HEAD^
 # 根据版本号, 切换版本
 git reset --hard &lt;版本号&gt;
 </code></pre>
-<h2 id="6-其他命令"><a href="#6-其他命令" class="headerlink" title="6. 其他命令"></a>6. 其他命令</h2><pre><code class="bash"># 查看提交历史
-git log
+<h2 id="6-其他命令"><a href="#6-其他命令" class="headerlink" title="6. 其他命令"></a>6. 其他命令</h2><ul>
+<li>查看提交历史</li>
+</ul>
+<pre><code class="bash">git log
 git log --pretty=oneline # 每个记录只显示一行
 </code></pre>
 <h2 id="7-和远程仓库-GitHub-交互"><a href="#7-和远程仓库-GitHub-交互" class="headerlink" title="7. 和远程仓库(GitHub)交互"></a>7. 和远程仓库(GitHub)交互</h2><p>本地电脑 (Windows) 第一次和GitHub交互前, 检查 <code>C:\Users\your-username\.ssh</code> 目录下有没有 <code>id_rsa</code> 和 <code>id_rsa.pub</code> 文件. 如果没有,  </p>
 <ol>
-<li>打开 <code>Git Bash</code>, 运行: <code>ssh-keygen -t rsa -C &quot;youremail@example.com&quot;</code>, 一路回车</li>
+<li>打开 <code>Git Bash</code>, 运行: <code>ssh-keygen -t rsa -C &quot;jiangyunacw@gmail.com&quot;</code>, 一路回车</li>
 <li>登录GitHub后, 打开网页<a target="_blank" rel="noopener" href="https://github.com/settings/keys">https://github.com/settings/keys</a>, 点击 <code>New SSH Key</code>, 填上任意Title，在Key文本框里粘贴<code>id_rsa.pub</code>文件的内容, 保存</li>
 </ol>
 <h3 id="7-1-克隆远程仓库"><a href="#7-1-克隆远程仓库" class="headerlink" title="7.1. 克隆远程仓库"></a>7.1. 克隆远程仓库</h3><pre><code class="bash">git clone someURL
