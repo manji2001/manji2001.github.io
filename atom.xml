@@ -91,9 +91,9 @@
     
     <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
     
-    <category term="转载" scheme="http://example.com/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
     <category term="Q-Dir" scheme="http://example.com/tags/Q-Dir/"/>
+    
+    <category term="转载" scheme="http://example.com/tags/%E8%BD%AC%E8%BD%BD/"/>
     
   </entry>
   
@@ -102,9 +102,9 @@
     <link href="http://example.com/2023/07/some_possible_practical_application.html"/>
     <id>http://example.com/2023/07/some_possible_practical_application.html</id>
     <published>2023-07-19T05:43:07.000Z</published>
-    <updated>2023-07-20T22:09:16.316Z</updated>
+    <updated>2023-07-20T23:19:16.109Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这个笔记主要记录了我日常遇到的一些有趣的软件. 会保持长期随缘更新.</p><h2 id="2-百度网盘批量转存-BaiduPanFilesTransfers"><a href="#2-百度网盘批量转存-BaiduPanFilesTransfers" class="headerlink" title="2. 百度网盘批量转存_BaiduPanFilesTransfers"></a>2. 百度网盘批量转存_BaiduPanFilesTransfers</h2><p>官网: <a href="https://github.com/hxz393/BaiduPanFilesTransfers">hxz393BaiduPanFilesTransfers 百度网盘批量转存工具</a></p><p>百度网盘批量转存软件，基于 <code>Python 3.10</code> + <code>Tkinter</code> 构建。可用于批量转存网络上分享的百度网盘链接到自己的百度网盘上。</p><p>介绍页面请访问：<a href="https://meta.appinn.net/t/topic/16995/39">小众软件</a></p><h2 id="3-哔哩哔哩视频下载-哔哩下载姬"><a href="#3-哔哩哔哩视频下载-哔哩下载姬" class="headerlink" title="3. 哔哩哔哩视频下载_哔哩下载姬"></a>3. 哔哩哔哩视频下载_哔哩下载姬</h2><p>官网: <a href="https://github.com/leiurayer/downkyi">leiurayerdownkyi 哔哩下载姬downkyi，哔哩哔哩网站视频下载工具，支持批量下载，支持8K、HDR、杜比视界，提供工具箱（音视频提取、去水印等）。httpst.me+7zeNbdkP0TEzODll</a></p><p>哔哩下载姬（DownKyi）是一个简单易用的哔哩哔哩视频下载工具，具有简洁的界面，流畅的操作逻辑。哔哩下载姬可以下载几乎所有的B站视频，并输出mp4格式的文件；采用Aria下载器多线程下载，采用FFmpeg对视频进行混流、提取音视频等操作。</p><p><a href="https://github.com/leiurayer/downkyi/blob/main/src/README.md">更多详情</a></p>]]></content>
+    <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这个笔记主要记录了我日常遇到的一些有趣的软件. 会保持长期随缘更新.</p><h2 id="2-百度网盘批量转存-BaiduPanFilesTransfers"><a href="#2-百度网盘批量转存-BaiduPanFilesTransfers" class="headerlink" title="2. 百度网盘批量转存_BaiduPanFilesTransfers"></a>2. 百度网盘批量转存_BaiduPanFilesTransfers</h2><p>官网: <a href="https://github.com/hxz393/BaiduPanFilesTransfers">hxz393BaiduPanFilesTransfers 百度网盘批量转存工具</a></p><p>百度网盘批量转存软件，基于 <code>Python 3.10</code> + <code>Tkinter</code> 构建。可用于批量转存网络上分享的百度网盘链接到自己的百度网盘上。</p><p>介绍页面请访问：<a href="https://meta.appinn.net/t/topic/16995/39">小众软件</a></p><h2 id="3-哔哩哔哩视频下载-哔哩下载姬"><a href="#3-哔哩哔哩视频下载-哔哩下载姬" class="headerlink" title="3. 哔哩哔哩视频下载_哔哩下载姬"></a>3. 哔哩哔哩视频下载_哔哩下载姬</h2><p>官网: <a href="https://github.com/leiurayer/downkyi">leiurayerdownkyi 哔哩下载姬downkyi，哔哩哔哩网站视频下载工具，支持批量下载，支持8K、HDR、杜比视界，提供工具箱（音视频提取、去水印等）。httpst.me+7zeNbdkP0TEzODll</a></p><p>哔哩下载姬（DownKyi）是一个简单易用的哔哩哔哩视频下载工具，具有简洁的界面，流畅的操作逻辑。哔哩下载姬可以下载几乎所有的B站视频，并输出mp4格式的文件；采用Aria下载器多线程下载，采用FFmpeg对视频进行混流、提取音视频等操作。</p><p><a href="https://github.com/leiurayer/downkyi/blob/main/src/README.md">更多详情</a></p><h2 id="4-快速打开Android软件-App-Dialer-Pro"><a href="#4-快速打开Android软件-App-Dialer-Pro" class="headerlink" title="4. 快速打开Android软件_App Dialer Pro"></a>4. 快速打开Android软件_App Dialer Pro</h2><p><a href="https://play.google.com/store/apps/details?id=name.pilgr.appdialer.pro&hl=zh_TW&gl=US">Google Play</a><br><a href="https://appdialer.cn.uptodown.com/android/download">华为手机等无Google Play的下载方式</a>  </p><p><strong>关于这个应用程序</strong>  </p><p>您是否曾疲于应对众多的联系人和应用程序？ 这款极棒的应用程序启动器专为您这样的超级用户而设计！ 省去翻找数百款应用程序或联系人的麻烦和痛苦，只需点击数下，就可以找到您要寻找的东西！</p><p><strong>产品特点</strong>  </p><ul><li>智能：通过使用具有自动校正功能的预测键盘（Predictive Keyboard）或使用智能单手键盘进行搜索。</li><li>功能强大：按名称搜索应用程序。 按名称搜索联系人或通过电话号码使用拨号器进行搜索。</li></ul><h2 id="设置快捷键-OneQuick"><a href="#设置快捷键-OneQuick" class="headerlink" title="设置快捷键_OneQuick"></a>设置快捷键_OneQuick</h2><p>官网: <a href="https://onequick.org/">OneQuick 热键工具  Hotkey Tool</a></p><p><strong>功能</strong></p><ol><li>热键的触发及模拟</li><li>运行命令</li><li>自定义热键</li></ol>]]></content>
     
     
       
@@ -167,9 +167,9 @@
     <category term="技巧" scheme="http://example.com/categories/%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="更新中" scheme="http://example.com/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
-    
     <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
+    
+    <category term="更新中" scheme="http://example.com/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
     
     <category term="regex" scheme="http://example.com/tags/regex/"/>
     
@@ -196,9 +196,9 @@
     <category term="其他" scheme="http://example.com/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="更新中" scheme="http://example.com/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
-    
     <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
+    
+    <category term="更新中" scheme="http://example.com/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
     
   </entry>
   
