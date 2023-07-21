@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-07-19T23:25:33.034Z</updated>
+  <updated>2023-07-21T00:10:41.182Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/2023/07/solve_git_recv_failure.html"/>
     <id>http://example.com/2023/07/solve_git_recv_failure.html</id>
     <published>2023-07-19T23:13:42.000Z</published>
-    <updated>2023-07-19T23:25:33.034Z</updated>
+    <updated>2023-07-21T00:10:41.182Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>最近github上传代码总是报错: <code>fatal: unable to access &#39;https://github.com/manji2001/manji2001.github.io/&#39;: Recv failure: Connection was reset</code></p><p>我知道这是网络问题, 之前按照网络上的教程配置过, 但只能正常上传一段时间, 过几天又不行了, 就放弃了, 一般换个时间点多试几次也能成功, 但现在这个现象出现的频率似乎越来越高了, 我决定好好修复一下这个问题.</p><h2 id="2-配置DNS"><a href="#2-配置DNS" class="headerlink" title="2. 配置DNS"></a>2. 配置DNS</h2><p>解决过程:  </p><ol><li><p>首先出现了报错: <code>fatal: unable to access &#39;https://github.com/manji2001/manji2001.github.io/&#39;: Recv failure: Connection was reset</code></p></li><li><p>然后我按照网上的博文打开cmd, 输入<code>ipconfig/flushdns</code>, 清理DNS缓存</p></li><li><p>现在报错信息变了: <code>fatal: unable to access &#39;https://github.com/manji2001/manji2001.github.io/&#39;: Failed to connect to github.com port 443 after 21109 ms: Couldn&#39;t connect to server</code></p></li><li><p>根据我以前的经验, 我重新将DNS改为了<code>4.2.2.2</code>和<code>4.2.2.1</code>, 现在可以正常上传代码了</p></li><li><p>希望能一劳永逸吧, 和网络问题斗智斗勇太痛苦了 (´。＿。｀)</p></li></ol>]]></content>
+    <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>最近github上传代码总是报错: <code>fatal: unable to access &#39;https://github.com/manji2001/manji2001.github.io/&#39;: Recv failure: Connection was reset</code></p><p>我知道这是网络问题, 之前按照网络上的教程配置过, 但只能正常上传一段时间, 过几天又不行了, 就放弃了, 一般换个时间点多试几次也能成功, 但现在这个现象出现的频率似乎越来越高了, 我决定好好修复一下这个问题.</p><h2 id="2-2023-0720-配置DNS"><a href="#2-2023-0720-配置DNS" class="headerlink" title="2. 2023-0720_配置DNS"></a>2. 2023-0720_配置DNS</h2><p>解决过程:  </p><ol><li><p>首先出现了报错: <code>fatal: unable to access &#39;https://github.com/manji2001/manji2001.github.io/&#39;: Recv failure: Connection was reset</code></p></li><li><p>然后我按照网上的博文打开cmd, 输入<code>ipconfig/flushdns</code>, 清理DNS缓存</p></li><li><p>现在报错信息变了: <code>fatal: unable to access &#39;https://github.com/manji2001/manji2001.github.io/&#39;: Failed to connect to github.com port 443 after 21109 ms: Couldn&#39;t connect to server</code></p></li><li><p>根据我以前的经验, 我重新将DNS改为了<code>4.2.2.2</code>和<code>4.2.2.1</code>, 现在可以正常上传代码了</p></li><li><p>希望能一劳永逸吧, 和网络问题斗智斗勇太痛苦了 (´。＿。｀)</p></li></ol><h2 id="2023-0721-配置config文件"><a href="#2023-0721-配置config文件" class="headerlink" title="2023-0721_配置config文件"></a>2023-0721_配置config文件</h2><pre><code class="vim">Host github.comUser 你注册github的邮箱Hostname ssh.github.comPreferredAuthentications publickeyIdentityFile ~/.ssh/id_rsaPort 443</code></pre><p>参考: <a href="https://juejin.cn/post/7090181182540742670">记一次git push失败 - 掘金</a></p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="检查SSH是否能够连接成功"><a href="#检查SSH是否能够连接成功" class="headerlink" title="检查SSH是否能够连接成功"></a>检查SSH是否能够连接成功</h3><pre><code class="bash">ssh -T git@github.com# Hi manji2001! You&#39;ve successfully authenticated, but GitHub does not provide shell access.</code></pre>]]></content>
     
     
       
@@ -63,35 +63,7 @@
     <category term="软件" scheme="http://example.com/categories/%E8%BD%AF%E4%BB%B6/"/>
     
     
-    <category term="Q-Dir" scheme="http://example.com/tags/Q-Dir/"/>
-    
     <category term="bug" scheme="http://example.com/tags/bug/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>转载_Q-Dir中的快捷键</title>
-    <link href="http://example.com/2023/07/q_dir_shortcut.html"/>
-    <id>http://example.com/2023/07/q_dir_shortcut.html</id>
-    <published>2023-07-19T06:25:39.000Z</published>
-    <updated>2023-07-20T22:11:01.971Z</updated>
-    
-    <content type="html"><![CDATA[<p style='background:yellow;'>这篇文章转载自<a href='https://www-softwareok-com.translate.goog/?page=Windows/Info/Q-Dir/27&_x_tr_sl=auto&_x_tr_tl=de&_x_tr_hl=de'>Q-Dir官网</a>, 本站只做备份收藏, 请前往原网站获取更加的阅读体验. 如有侵权, 请联系删除.</p><p>Q-Dir makes your files and folders easy to manage. Quick and easy access, with an amazing technique based on a quadruple view.</p><p>You don’t have to give up the usual Drag and Drop, all Views, and other features of your system.<br>Year! Q-Dir gives you other nice features, which will make you happy.<br>Many hand movements and time can be saved!</p><p>Q-Dir does not have to be installed and can be easily launched from the desktop.<br>Rename Q-Dir_Installer.exe to Q-Dir.exe and DONE!!!.<br>It’s a famous little utility for Windows OS and it’s also a friend of USB sticks ^_^.<br>WARNING: Once Q-Dir, always Q-Dir ;)!</p><table><thead><tr><th>Shortcut</th><th>Function</th></tr></thead><tbody><tr><td>[CTRL+X]</td><td>Cut</td></tr><tr><td>[CTRL+C]</td><td>Copy</td></tr><tr><td>[CTRL+V]</td><td>To take</td></tr><tr><td>[CTRL+A]</td><td>Select all.</td></tr><tr><td>[CTRL+T]</td><td>New tab</td></tr><tr><td>[CTRL+W]</td><td>Close the last tab.</td></tr><tr><td>[CTRL+SHIFT+T]</td><td>New tab from the selected folder.</td></tr><tr><td>[CTRL+SHIFT+A]</td><td>reverse selection</td></tr><tr><td>[CTRL+TAB]</td><td>Next tab</td></tr><tr><td>[CTRL+SHIFT+TAB]</td><td>Previous tab</td></tr><tr><td>[CTRL+E]</td><td>toggle tree</td></tr><tr><td>[CTRL+Z]</td><td>Undo</td></tr><tr><td>[CTRL+Q]</td><td>Links-Quick Menu</td></tr><tr><td>[CTRL+M]</td><td>Selection filter: Yes&#x2F;No</td></tr><tr><td>[CTRL+N]</td><td>New folder</td></tr><tr><td>[CTRL+S]</td><td>Start of the program.</td></tr><tr><td>[CTRL+?]</td><td>[?&#x3D;Left&#x2F;Right&#x2F;Up&#x2F;Down] Selects more than one item.</td></tr><tr><td>[CTRL+Num+]</td><td>Autosize columns.</td></tr><tr><td>.</td><td>.</td></tr><tr><td>[CTRL+ALT+(Control-Key)]</td><td>Quick control change</td></tr><tr><td>.</td><td>.</td></tr><tr><td>[UP]</td><td>Eliminate</td></tr><tr><td>[RECOIL]</td><td>Go the folder one level up</td></tr><tr><td>.</td><td>.</td></tr><tr><td>[F2]</td><td>Rename&#x2F;Rename only</td></tr><tr><td>[F3]</td><td>Search for a file or folder</td></tr><tr><td>[F4]</td><td>Show address bar list in active view</td></tr><tr><td>[F5]</td><td>Refreshes the active window</td></tr><tr><td>[F7]</td><td>Show the Desktop menu</td></tr><tr><td>[F8]</td><td>Show the My Team menu</td></tr><tr><td>[F11]</td><td>Full screen: Yes&#x2F;No</td></tr><tr><td>[ESC]</td><td>Full screen: No</td></tr><tr><td>.</td><td>.</td></tr><tr><td>[ATL+S]</td><td>Focus direction.</td></tr><tr><td>[ALT+L]</td><td>land</td></tr><tr><td>[ALT+V] or [ALT+M]</td><td>Move items to…</td></tr><tr><td>[ALT+K]</td><td>Copy items to…</td></tr><tr><td>[ALT+INTRO]</td><td>Shows the properties of the selected object.</td></tr><tr><td>[ALT+LEFT]</td><td>Came back</td></tr><tr><td>[ALT+RIGHT]</td><td>Keep it up</td></tr><tr><td>[ALT+BACKSPACE]</td><td>Came back</td></tr><tr><td>[ALT+SHIFT+BACKSET]</td><td>Keep it up</td></tr><tr><td>.</td><td>.</td></tr><tr><td>[SHIFT+F5]</td><td>Shows the display menu.</td></tr><tr><td>[SHIFT+F6]</td><td>Next view mode (Detail…)</td></tr><tr><td>[SHIFT+F10]</td><td>Shows the shortcut menu for the selected item.</td></tr><tr><td>[SHIFT+SUPR]</td><td>Deletes the selected item permanently without sending it to the Recycle Bin.</td></tr></tbody></table><table><thead><tr><th>Widget</th><th>Function</th></tr></thead><tbody><tr><td>Favorites</td><td>Quick access to the most used folders.</td></tr><tr><td>Drag and Drop</td><td>Move files by dragging them in views-Q and other programs like MS Explorer.</td></tr><tr><td>Clipboard</td><td>Copy and paste between Q-Dir views and other programs like MS Explorer.</td></tr><tr><td>Folders Type</td><td>System, network, cab, ZIP, FTP, shortcuts…</td></tr><tr><td>Views</td><td>Large Icons, Tiles, List, Detail, Thumbnail (View: Extra Large Symbols).</td></tr><tr><td>Export</td><td>Como XLS, CSV, TXT o HTML.</td></tr><tr><td>Popup Menus</td><td>Desktop or My Computer.</td></tr><tr><td>land</td><td>Anything on the screen can be magnified.</td></tr><tr><td>Color Filter</td><td>Different colors for different elements (eg <em>.log;</em>.txt).</td></tr><tr><td>Highlights Filter</td><td>An effective way to quickly highlight items.</td></tr><tr><td>File Filter</td><td>It allows a fast and easy filtering of the elements.</td></tr><tr><td>columns</td><td>All columns support and retain this feature.</td></tr><tr><td>Enlaces-Quick</td><td>For quick access to folders.</td></tr><tr><td>Folder Selection</td><td>Fast and flexible folder selection, address bar, Desktop menu, My Computer menu…</td></tr><tr><td>Multi-IT</td><td>Various INI files for Q-Dir.</td></tr><tr><td>Tree View</td><td>Simple and quadruple.</td></tr><tr><td>Preview</td><td>Allows a quick preview.</td></tr><tr><td>Portable</td><td>Since version 2.77 Q-Dir is portable.</td></tr></tbody></table>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p style=&#39;background:yellow;&#39;&gt;这篇文章转载自&lt;a href=&#39;https://www-softwareok-com.translate.goog/?page=Windows/Info/Q-Dir/27&amp;_x_tr_sl=auto&amp;_x_tr_tl=d</summary>
-      
-    
-    
-    
-    <category term="技巧" scheme="http://example.com/categories/%E6%8A%80%E5%B7%A7/"/>
-    
-    
-    <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
-    
-    <category term="转载" scheme="http://example.com/tags/%E8%BD%AC%E8%BD%BD/"/>
     
     <category term="Q-Dir" scheme="http://example.com/tags/Q-Dir/"/>
     
@@ -121,6 +93,34 @@
     <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
     
     <category term="租房" scheme="http://example.com/tags/%E7%A7%9F%E6%88%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>转载_Q-Dir中的快捷键</title>
+    <link href="http://example.com/2023/07/q_dir_shortcut.html"/>
+    <id>http://example.com/2023/07/q_dir_shortcut.html</id>
+    <published>2023-07-19T06:25:39.000Z</published>
+    <updated>2023-07-20T22:11:01.971Z</updated>
+    
+    <content type="html"><![CDATA[<p style='background:yellow;'>这篇文章转载自<a href='https://www-softwareok-com.translate.goog/?page=Windows/Info/Q-Dir/27&_x_tr_sl=auto&_x_tr_tl=de&_x_tr_hl=de'>Q-Dir官网</a>, 本站只做备份收藏, 请前往原网站获取更加的阅读体验. 如有侵权, 请联系删除.</p><p>Q-Dir makes your files and folders easy to manage. Quick and easy access, with an amazing technique based on a quadruple view.</p><p>You don’t have to give up the usual Drag and Drop, all Views, and other features of your system.<br>Year! Q-Dir gives you other nice features, which will make you happy.<br>Many hand movements and time can be saved!</p><p>Q-Dir does not have to be installed and can be easily launched from the desktop.<br>Rename Q-Dir_Installer.exe to Q-Dir.exe and DONE!!!.<br>It’s a famous little utility for Windows OS and it’s also a friend of USB sticks ^_^.<br>WARNING: Once Q-Dir, always Q-Dir ;)!</p><table><thead><tr><th>Shortcut</th><th>Function</th></tr></thead><tbody><tr><td>[CTRL+X]</td><td>Cut</td></tr><tr><td>[CTRL+C]</td><td>Copy</td></tr><tr><td>[CTRL+V]</td><td>To take</td></tr><tr><td>[CTRL+A]</td><td>Select all.</td></tr><tr><td>[CTRL+T]</td><td>New tab</td></tr><tr><td>[CTRL+W]</td><td>Close the last tab.</td></tr><tr><td>[CTRL+SHIFT+T]</td><td>New tab from the selected folder.</td></tr><tr><td>[CTRL+SHIFT+A]</td><td>reverse selection</td></tr><tr><td>[CTRL+TAB]</td><td>Next tab</td></tr><tr><td>[CTRL+SHIFT+TAB]</td><td>Previous tab</td></tr><tr><td>[CTRL+E]</td><td>toggle tree</td></tr><tr><td>[CTRL+Z]</td><td>Undo</td></tr><tr><td>[CTRL+Q]</td><td>Links-Quick Menu</td></tr><tr><td>[CTRL+M]</td><td>Selection filter: Yes&#x2F;No</td></tr><tr><td>[CTRL+N]</td><td>New folder</td></tr><tr><td>[CTRL+S]</td><td>Start of the program.</td></tr><tr><td>[CTRL+?]</td><td>[?&#x3D;Left&#x2F;Right&#x2F;Up&#x2F;Down] Selects more than one item.</td></tr><tr><td>[CTRL+Num+]</td><td>Autosize columns.</td></tr><tr><td>.</td><td>.</td></tr><tr><td>[CTRL+ALT+(Control-Key)]</td><td>Quick control change</td></tr><tr><td>.</td><td>.</td></tr><tr><td>[UP]</td><td>Eliminate</td></tr><tr><td>[RECOIL]</td><td>Go the folder one level up</td></tr><tr><td>.</td><td>.</td></tr><tr><td>[F2]</td><td>Rename&#x2F;Rename only</td></tr><tr><td>[F3]</td><td>Search for a file or folder</td></tr><tr><td>[F4]</td><td>Show address bar list in active view</td></tr><tr><td>[F5]</td><td>Refreshes the active window</td></tr><tr><td>[F7]</td><td>Show the Desktop menu</td></tr><tr><td>[F8]</td><td>Show the My Team menu</td></tr><tr><td>[F11]</td><td>Full screen: Yes&#x2F;No</td></tr><tr><td>[ESC]</td><td>Full screen: No</td></tr><tr><td>.</td><td>.</td></tr><tr><td>[ATL+S]</td><td>Focus direction.</td></tr><tr><td>[ALT+L]</td><td>land</td></tr><tr><td>[ALT+V] or [ALT+M]</td><td>Move items to…</td></tr><tr><td>[ALT+K]</td><td>Copy items to…</td></tr><tr><td>[ALT+INTRO]</td><td>Shows the properties of the selected object.</td></tr><tr><td>[ALT+LEFT]</td><td>Came back</td></tr><tr><td>[ALT+RIGHT]</td><td>Keep it up</td></tr><tr><td>[ALT+BACKSPACE]</td><td>Came back</td></tr><tr><td>[ALT+SHIFT+BACKSET]</td><td>Keep it up</td></tr><tr><td>.</td><td>.</td></tr><tr><td>[SHIFT+F5]</td><td>Shows the display menu.</td></tr><tr><td>[SHIFT+F6]</td><td>Next view mode (Detail…)</td></tr><tr><td>[SHIFT+F10]</td><td>Shows the shortcut menu for the selected item.</td></tr><tr><td>[SHIFT+SUPR]</td><td>Deletes the selected item permanently without sending it to the Recycle Bin.</td></tr></tbody></table><table><thead><tr><th>Widget</th><th>Function</th></tr></thead><tbody><tr><td>Favorites</td><td>Quick access to the most used folders.</td></tr><tr><td>Drag and Drop</td><td>Move files by dragging them in views-Q and other programs like MS Explorer.</td></tr><tr><td>Clipboard</td><td>Copy and paste between Q-Dir views and other programs like MS Explorer.</td></tr><tr><td>Folders Type</td><td>System, network, cab, ZIP, FTP, shortcuts…</td></tr><tr><td>Views</td><td>Large Icons, Tiles, List, Detail, Thumbnail (View: Extra Large Symbols).</td></tr><tr><td>Export</td><td>Como XLS, CSV, TXT o HTML.</td></tr><tr><td>Popup Menus</td><td>Desktop or My Computer.</td></tr><tr><td>land</td><td>Anything on the screen can be magnified.</td></tr><tr><td>Color Filter</td><td>Different colors for different elements (eg <em>.log;</em>.txt).</td></tr><tr><td>Highlights Filter</td><td>An effective way to quickly highlight items.</td></tr><tr><td>File Filter</td><td>It allows a fast and easy filtering of the elements.</td></tr><tr><td>columns</td><td>All columns support and retain this feature.</td></tr><tr><td>Enlaces-Quick</td><td>For quick access to folders.</td></tr><tr><td>Folder Selection</td><td>Fast and flexible folder selection, address bar, Desktop menu, My Computer menu…</td></tr><tr><td>Multi-IT</td><td>Various INI files for Q-Dir.</td></tr><tr><td>Tree View</td><td>Simple and quadruple.</td></tr><tr><td>Preview</td><td>Allows a quick preview.</td></tr><tr><td>Portable</td><td>Since version 2.77 Q-Dir is portable.</td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p style=&#39;background:yellow;&#39;&gt;这篇文章转载自&lt;a href=&#39;https://www-softwareok-com.translate.goog/?page=Windows/Info/Q-Dir/27&amp;_x_tr_sl=auto&amp;_x_tr_tl=d</summary>
+      
+    
+    
+    
+    <category term="技巧" scheme="http://example.com/categories/%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
+    
+    <category term="转载" scheme="http://example.com/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="Q-Dir" scheme="http://example.com/tags/Q-Dir/"/>
     
   </entry>
   
@@ -194,9 +194,9 @@
     <category term="技巧" scheme="http://example.com/categories/%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
-    
     <category term="更新中" scheme="http://example.com/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
+    
+    <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
     
     <category term="regex" scheme="http://example.com/tags/regex/"/>
     
@@ -223,9 +223,9 @@
     <category term="其他" scheme="http://example.com/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
-    
     <category term="更新中" scheme="http://example.com/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
+    
+    <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
     
   </entry>
   
