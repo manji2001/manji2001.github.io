@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>实现右键新建markdown文档</title>
+      <link href="/2023/07/create_markdown_by_right_click.html"/>
+      <url>/2023/07/create_markdown_by_right_click.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>以前创建markdown文档都是通过先创建 <code>文本文档</code>, 然后修改后缀为 <code>.md</code>. 这样比较麻烦, 在知乎找到一个比较简单的方法, 记录一下, 以防忘记.</p><h2 id="2-修改注册表"><a href="#2-修改注册表" class="headerlink" title="2. 修改注册表"></a>2. 修改注册表</h2><p>来源: <a href="https://www.zhihu.com/question/267616299/answer/335669784">Win10下如何在右键新建菜单中添加.md文件？ - 知乎用户的回答 - 知乎</a></p><pre><code class="bash">Windows Registry Editor Version 5.00[HKEY_CLASSES_ROOT\.md]@=&quot;MarkdownFile&quot;&quot;PerceivedType&quot;=&quot;text&quot;&quot;Content Type&quot;=&quot;text/plain&quot;[HKEY_CLASSES_ROOT\.md\ShellNew]&quot;NullFile&quot;=&quot;&quot;[HKEY_CLASSES_ROOT\MarkdownFile]@=&quot;Markdown File&quot;[HKEY_CLASSES_ROOT\MarkdownFile\DefaultIcon]@=&quot;%SystemRoot%\system32\imageres.dll,-102&quot;[HKEY_CLASSES_ROOT\MarkdownFile\shell][HKEY_CLASSES_ROOT\MarkdownFile\shell\open][HKEY_CLASSES_ROOT\MarkdownFile\shell\open\command]@=&quot;%SystemRoot%\system32\NOTEPAD.EXE %1&quot;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>解决git报错Recv failure: Connection was reset</title>
       <link href="/2023/07/solve_git_recv_failure.html"/>
       <url>/2023/07/solve_git_recv_failure.html</url>
@@ -180,11 +205,11 @@
       
         <tags>
             
-            <tag> 更新中 </tag>
-            
             <tag> CheatSheet </tag>
             
             <tag> regex </tag>
+            
+            <tag> 更新中 </tag>
             
         </tags>
       
@@ -197,7 +222,7 @@
       <link href="/2023/07/various_knowledge.html"/>
       <url>/2023/07/various_knowledge.html</url>
       
-        <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这个笔记记录了我日常遇见的各种奇怪<mask>(可能并不奇怪)<mask/>的知识. 这是一个奇怪的笔记, 随缘更新</p><h2 id="2-NFS服务"><a href="#2-NFS服务" class="headerlink" title="2. NFS服务"></a>2. NFS服务</h2><p>Network File System 网络文件系统，基于内核的文件系统。Sun公司开发，通过使用NFS，用户和程序可以像访问本地文件一样访问远端系统上的文件，基于RPC（RemoteProcedure Call Protocol远程过程调用）实现</p><blockquote><p>来源: <a href="https://blog.51cto.com/u_13157090/1972971">NFS服务的简单介绍与运用_51CTO博客_简述NFS服务的好处</a></p></blockquote><h2 id="3-宏基因组"><a href="#3-宏基因组" class="headerlink" title="3. 宏基因组"></a>3. 宏基因组</h2><p><strong>宏基因组学</strong>（英语：Metagenomics），又译<strong>元基因组学</strong>、<strong>总体基因体学</strong>，是一门直接<strong>取得<a href="https://zh.wikipedia.org/wiki/%E7%92%B0%E5%A2%83" title="环境">环境</a>中所有遗传物质</strong>的研究。研究领域广泛，也可称为环境基因体学、生态基因体学或<a href="https://zh.wikipedia.org/wiki/%E7%BE%A4%E8%90%BD" title="群落">群落</a>基因体学。</p><blockquote><p>来源: <a href="https://zh.wikipedia.org/zh-hans/%E5%AE%8F%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%AD%A6">宏基因组学 - 维基百科，自由的百科全书</a></p></blockquote><h2 id="测序深度（Sequencing-Depth）"><a href="#测序深度（Sequencing-Depth）" class="headerlink" title="测序深度（Sequencing Depth）"></a>测序深度（Sequencing Depth）</h2><p>测序深度（Sequencing Depth）：测序得到的碱基总量（bp）与基因组大小（Genome）的比值，它是评价测序量的指标之一。</p><p>测序深度与基因组覆盖度之间是一个正相关的关系，测序带来的错误率或假阳性结果会随着测序深度的提升而下降。重测序的个体，如果采用的是双末端或Mate-Pair方案，当测序深度在10~15X以上时，基因组覆盖度和测序错误率控制均得以保证。</p><h2 id="共识聚类"><a href="#共识聚类" class="headerlink" title="共识聚类"></a>共识聚类</h2><p>共识聚类是一种聚合（可能相互冲突的）来自多个聚类算法的结果的方法。也称为聚类集成或聚类（或分区）集成，它描述了对于给定数据集已获得许多不同（输入）聚类并且希望找到单个（共识）聚类的情况。观点。在某些方面，它比现有的聚类更适合。因此，共识聚类是协调来自不同来源或同一算法不同运行的同一数据集的聚类信息的问题。作为一个优化问题，共识聚类被称为中值分裂，并且已被证明是 NP 完全的，即使输入聚类的数量为三个。无监督学习中的共识聚类类似于监督学习中的集成学习。</p><blockquote><p>来源: <a href="https://academic-accelerator.com/encyclopedia/zh-cn/consensus-clustering">共识聚类 Consensus Clustering 最新的百科全书、新闻、评论和研究</a><br><a href="https://en.wikipedia.org/wiki/Consensus_clustering">共识聚类 - 维基百科</a></p></blockquote>]]></content>
+        <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这个笔记记录了我日常遇见的各种奇怪<mask>(可能并不奇怪)<mask/>的知识. 这是一个奇怪的笔记, 随缘更新</p><h2 id="2-NFS服务"><a href="#2-NFS服务" class="headerlink" title="2. NFS服务"></a>2. NFS服务</h2><p>Network File System 网络文件系统，基于内核的文件系统。Sun公司开发，通过使用NFS，用户和程序可以像访问本地文件一样访问远端系统上的文件，基于RPC（RemoteProcedure Call Protocol远程过程调用）实现</p><blockquote><p>来源: <a href="https://blog.51cto.com/u_13157090/1972971">NFS服务的简单介绍与运用_51CTO博客_简述NFS服务的好处</a></p></blockquote><h2 id="3-宏基因组"><a href="#3-宏基因组" class="headerlink" title="3. 宏基因组"></a>3. 宏基因组</h2><p><strong>宏基因组学</strong>（英语：Metagenomics），又译<strong>元基因组学</strong>、<strong>总体基因体学</strong>，是一门直接<strong>取得<a href="https://zh.wikipedia.org/wiki/%E7%92%B0%E5%A2%83" title="环境">环境</a>中所有遗传物质</strong>的研究。研究领域广泛，也可称为环境基因体学、生态基因体学或<a href="https://zh.wikipedia.org/wiki/%E7%BE%A4%E8%90%BD" title="群落">群落</a>基因体学。</p><blockquote><p>来源: <a href="https://zh.wikipedia.org/zh-hans/%E5%AE%8F%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%AD%A6">宏基因组学 - 维基百科，自由的百科全书</a></p></blockquote><h2 id="测序深度（Sequencing-Depth）"><a href="#测序深度（Sequencing-Depth）" class="headerlink" title="测序深度（Sequencing Depth）"></a>测序深度（Sequencing Depth）</h2><p>测序深度（Sequencing Depth）：测序得到的碱基总量（bp）与基因组大小（Genome）的比值，它是评价测序量的指标之一。</p><p>测序深度与基因组覆盖度之间是一个正相关的关系，测序带来的错误率或假阳性结果会随着测序深度的提升而下降。重测序的个体，如果采用的是双末端或Mate-Pair方案，当测序深度在10~15X以上时，基因组覆盖度和测序错误率控制均得以保证。</p><h2 id="共识聚类"><a href="#共识聚类" class="headerlink" title="共识聚类"></a>共识聚类</h2><p>共识聚类是一种聚合（可能相互冲突的）来自多个聚类算法的结果的方法。也称为聚类集成或聚类（或分区）集成，它描述了对于给定数据集已获得许多不同（输入）聚类并且希望找到单个（共识）聚类的情况。观点。在某些方面，它比现有的聚类更适合。因此，共识聚类是协调来自不同来源或同一算法不同运行的同一数据集的聚类信息的问题。作为一个优化问题，共识聚类被称为中值分裂，并且已被证明是 NP 完全的，即使输入聚类的数量为三个。无监督学习中的共识聚类类似于监督学习中的集成学习。</p><blockquote><p>来源: <a href="https://academic-accelerator.com/encyclopedia/zh-cn/consensus-clustering">共识聚类 Consensus Clustering 最新的百科全书、新闻、评论和研究</a><br><a href="https://en.wikipedia.org/wiki/Consensus_clustering">共识聚类 - 维基百科</a></p></blockquote><h2 id="R中的extdata"><a href="#R中的extdata" class="headerlink" title="R中的extdata"></a>R中的extdata</h2><p>Extdata is a convention used by some R packages to store external data files, such as data files used for examples in the package documentation or vignettes. It is not a formally defined term, but a subdirectory of the inst directory that gets copied to the installation directory of the package. To access the files in the extdata directory, you can use the system.file function with the package name and the file name as arguments¹³⁴. For example:</p><p>fpath &lt;- system.file(“extdata”, “my_raw_data.csv”, package&#x3D;”my_package”)</p><p>This will give you the absolute path to the file on your hard drive. You can then use read.csv or other functions to read the file.</p><blockquote><p>来源: Bing AI</p></blockquote>]]></content>
       
       
       <categories>
@@ -209,9 +234,9 @@
       
         <tags>
             
-            <tag> 更新中 </tag>
-            
             <tag> CheatSheet </tag>
+            
+            <tag> 更新中 </tag>
             
         </tags>
       
