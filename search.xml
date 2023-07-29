@@ -4,6 +4,58 @@
   
     
     <entry>
+      <title>UpSetR包的使用介绍</title>
+      <link href="/2023/07/introduce_upsetr.html"/>
+      <url>/2023/07/introduce_upsetr.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>最近看了一下 <code>UpSetR</code> 的使用, 记录一下.  </p><p>集合的交集通常使用欧拉图或维恩图来说明。[^1]</p><p>[^1]: <a href="https://www.nature.com/articles/nmeth.3033">Sets and intersections  Nature Methods</a></p><h2 id="2-介绍"><a href="#2-介绍" class="headerlink" title="2. 介绍"></a>2. 介绍</h2><p><img src="https://asset.jiangyun.fun/img/202307290749120.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> R </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> R </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的nvim配置以及常用vim命令</title>
+      <link href="/2023/07/my_nivm_config.html"/>
+      <url>/2023/07/my_nivm_config.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>记录我的nvim配置和常用vim命令</p><h2 id="2-常用vim命令"><a href="#2-常用vim命令" class="headerlink" title="2. 常用vim命令"></a>2. 常用vim命令</h2><p><code>:e &lt;filename&gt;</code><br>在vim中(而不是终端中)打开文件, 会覆盖原来的tab<br>只能打开一个文件, filename 不存在会新建一个文件</p><p><code>:Ex &lt;directory&gt;</code><br>在vim中(而不是终端中)打开文件夹, 会覆盖原来的tab<br>如果 <directory> 为空会打开当前文件夹</p><p><code>:Sex &lt;directory&gt;</code><br>在vim中(而不是终端中)打开文件夹, 会在新tab中打开<br>如果 <directory> 为空会打开当前文件夹</p><p><code>:enew</code><br>创建一个新的buffer, 会覆盖原来的tab  </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> vim </tag>
+            
+            <tag> nvim </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>实现右键新建markdown文档</title>
       <link href="/2023/07/create_markdown_by_right_click.html"/>
       <url>/2023/07/create_markdown_by_right_click.html</url>
@@ -143,7 +195,7 @@
       <link href="/2023/07/some_possible_practical_application.html"/>
       <url>/2023/07/some_possible_practical_application.html</url>
       
-        <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这个笔记主要记录了我日常遇到的一些有趣的软件. 会保持长期随缘更新.</p><h2 id="2-百度网盘批量转存-BaiduPanFilesTransfers"><a href="#2-百度网盘批量转存-BaiduPanFilesTransfers" class="headerlink" title="2. 百度网盘批量转存_BaiduPanFilesTransfers"></a>2. 百度网盘批量转存_BaiduPanFilesTransfers</h2><p>官网: <a href="https://github.com/hxz393/BaiduPanFilesTransfers">hxz393BaiduPanFilesTransfers 百度网盘批量转存工具</a></p><p>百度网盘批量转存软件，基于 <code>Python 3.10</code> + <code>Tkinter</code> 构建。可用于批量转存网络上分享的百度网盘链接到自己的百度网盘上。</p><p>介绍页面请访问：<a href="https://meta.appinn.net/t/topic/16995/39">小众软件</a></p><h2 id="3-哔哩哔哩视频下载-哔哩下载姬"><a href="#3-哔哩哔哩视频下载-哔哩下载姬" class="headerlink" title="3. 哔哩哔哩视频下载_哔哩下载姬"></a>3. 哔哩哔哩视频下载_哔哩下载姬</h2><p>官网: <a href="https://github.com/leiurayer/downkyi">leiurayerdownkyi 哔哩下载姬downkyi，哔哩哔哩网站视频下载工具，支持批量下载，支持8K、HDR、杜比视界，提供工具箱（音视频提取、去水印等）。httpst.me+7zeNbdkP0TEzODll</a></p><p>哔哩下载姬（DownKyi）是一个简单易用的哔哩哔哩视频下载工具，具有简洁的界面，流畅的操作逻辑。哔哩下载姬可以下载几乎所有的B站视频，并输出mp4格式的文件；采用Aria下载器多线程下载，采用FFmpeg对视频进行混流、提取音视频等操作。</p><p><a href="https://github.com/leiurayer/downkyi/blob/main/src/README.md">更多详情</a></p><h2 id="4-快速打开Android软件-App-Dialer-Pro"><a href="#4-快速打开Android软件-App-Dialer-Pro" class="headerlink" title="4. 快速打开Android软件_App Dialer Pro"></a>4. 快速打开Android软件_App Dialer Pro</h2><p><a href="https://play.google.com/store/apps/details?id=name.pilgr.appdialer.pro&hl=zh_TW&gl=US">Google Play</a><br><a href="https://appdialer.cn.uptodown.com/android/download">华为手机等无Google Play的下载方式</a>  </p><p><strong>关于这个应用程序</strong>  </p><p>您是否曾疲于应对众多的联系人和应用程序？ 这款极棒的应用程序启动器专为您这样的超级用户而设计！ 省去翻找数百款应用程序或联系人的麻烦和痛苦，只需点击数下，就可以找到您要寻找的东西！</p><p><strong>产品特点</strong>  </p><ul><li>智能：通过使用具有自动校正功能的预测键盘（Predictive Keyboard）或使用智能单手键盘进行搜索。</li><li>功能强大：按名称搜索应用程序。 按名称搜索联系人或通过电话号码使用拨号器进行搜索。</li></ul><h2 id="设置快捷键-OneQuick"><a href="#设置快捷键-OneQuick" class="headerlink" title="设置快捷键_OneQuick"></a>设置快捷键_OneQuick</h2><p>官网: <a href="https://onequick.org/">OneQuick 热键工具  Hotkey Tool</a></p><p><strong>功能</strong></p><ol><li>热键的触发及模拟</li><li>运行命令</li><li>自定义热键</li></ol>]]></content>
+        <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这个笔记主要记录了我日常遇到的一些有趣的软件. 会保持长期随缘更新.</p><h2 id="2-百度网盘批量转存-BaiduPanFilesTransfers"><a href="#2-百度网盘批量转存-BaiduPanFilesTransfers" class="headerlink" title="2. 百度网盘批量转存_BaiduPanFilesTransfers"></a>2. 百度网盘批量转存_BaiduPanFilesTransfers</h2><p>官网: <a href="https://github.com/hxz393/BaiduPanFilesTransfers">hxz393BaiduPanFilesTransfers 百度网盘批量转存工具</a></p><p>百度网盘批量转存软件，基于 <code>Python 3.10</code> + <code>Tkinter</code> 构建。可用于批量转存网络上分享的百度网盘链接到自己的百度网盘上。</p><p>介绍页面请访问：<a href="https://meta.appinn.net/t/topic/16995/39">小众软件</a></p><h2 id="3-哔哩哔哩视频下载-哔哩下载姬"><a href="#3-哔哩哔哩视频下载-哔哩下载姬" class="headerlink" title="3. 哔哩哔哩视频下载_哔哩下载姬"></a>3. 哔哩哔哩视频下载_哔哩下载姬</h2><p>官网: <a href="https://github.com/leiurayer/downkyi">leiurayerdownkyi 哔哩下载姬downkyi，哔哩哔哩网站视频下载工具，支持批量下载，支持8K、HDR、杜比视界，提供工具箱（音视频提取、去水印等）。httpst.me+7zeNbdkP0TEzODll</a></p><p>哔哩下载姬（DownKyi）是一个简单易用的哔哩哔哩视频下载工具，具有简洁的界面，流畅的操作逻辑。哔哩下载姬可以下载几乎所有的B站视频，并输出mp4格式的文件；采用Aria下载器多线程下载，采用FFmpeg对视频进行混流、提取音视频等操作。</p><p><a href="https://github.com/leiurayer/downkyi/blob/main/src/README.md">更多详情</a></p><h2 id="4-快速打开Android软件-App-Dialer-Pro"><a href="#4-快速打开Android软件-App-Dialer-Pro" class="headerlink" title="4. 快速打开Android软件_App Dialer Pro"></a>4. 快速打开Android软件_App Dialer Pro</h2><p><a href="https://play.google.com/store/apps/details?id=name.pilgr.appdialer.pro&hl=zh_TW&gl=US">Google Play</a><br><a href="https://appdialer.cn.uptodown.com/android/download">华为手机等无Google Play的下载方式</a>  </p><p><strong>关于这个应用程序</strong>  </p><p>您是否曾疲于应对众多的联系人和应用程序？ 这款极棒的应用程序启动器专为您这样的超级用户而设计！ 省去翻找数百款应用程序或联系人的麻烦和痛苦，只需点击数下，就可以找到您要寻找的东西！</p><p><strong>产品特点</strong>  </p><ul><li>智能：通过使用具有自动校正功能的预测键盘（Predictive Keyboard）或使用智能单手键盘进行搜索。</li><li>功能强大：按名称搜索应用程序。 按名称搜索联系人或通过电话号码使用拨号器进行搜索。</li></ul><p><strong>评价</strong><br>很好用, 估计是终生用户了</p><h2 id="设置快捷键-OneQuick"><a href="#设置快捷键-OneQuick" class="headerlink" title="设置快捷键_OneQuick"></a>设置快捷键_OneQuick</h2><p>官网: <a href="https://onequick.org/">OneQuick 热键工具  Hotkey Tool</a></p><p><strong>功能</strong></p><ol><li>热键的触发及模拟</li><li>运行命令</li><li>自定义热键</li></ol><h2 id="Windows右键管理-ContextMenuManager"><a href="#Windows右键管理-ContextMenuManager" class="headerlink" title="Windows右键管理_ContextMenuManager"></a>Windows右键管理_ContextMenuManager</h2><p>官网: <a href="https://github.com/BluePointLilac/ContextMenuManager/tree/3.3.3.1">BluePointLilacContextMenuManager at 3.3.3.1</a></p><p><strong>主要功能</strong></p><ul><li>启用或禁用文件、文件夹、新建、发送到、打开方式、自定义文件格式、IE浏览器、WinX等右键菜单项目</li><li>对上述场景右键菜单项目进行修改名称、修改图标、导航注册表位置、导航文件位置、永久删除等操作</li><li>对上述场景右键菜单自定义添加项目，自定义菜单命令</li></ul><p><strong>评价</strong></p><p>稍微体验了一下, 感觉很强大很方便的样子<br>可以自定义右键新建列表, 比如新建markdown, 又或者把 “文本文档” 改成 “txt”, 对于不熟悉注册表的同学非常友好  </p>]]></content>
       
       
       <categories>
@@ -207,9 +259,9 @@
             
             <tag> CheatSheet </tag>
             
-            <tag> regex </tag>
-            
             <tag> 更新中 </tag>
+            
+            <tag> regex </tag>
             
         </tags>
       
@@ -222,7 +274,7 @@
       <link href="/2023/07/various_knowledge.html"/>
       <url>/2023/07/various_knowledge.html</url>
       
-        <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这个笔记记录了我日常遇见的各种奇怪<mask>(可能并不奇怪)<mask/>的知识. 这是一个奇怪的笔记, 随缘更新</p><h2 id="2-NFS服务"><a href="#2-NFS服务" class="headerlink" title="2. NFS服务"></a>2. NFS服务</h2><p>Network File System 网络文件系统，基于内核的文件系统。Sun公司开发，通过使用NFS，用户和程序可以像访问本地文件一样访问远端系统上的文件，基于RPC（RemoteProcedure Call Protocol远程过程调用）实现</p><blockquote><p>来源: <a href="https://blog.51cto.com/u_13157090/1972971">NFS服务的简单介绍与运用_51CTO博客_简述NFS服务的好处</a></p></blockquote><h2 id="3-宏基因组"><a href="#3-宏基因组" class="headerlink" title="3. 宏基因组"></a>3. 宏基因组</h2><p><strong>宏基因组学</strong>（英语：Metagenomics），又译<strong>元基因组学</strong>、<strong>总体基因体学</strong>，是一门直接<strong>取得<a href="https://zh.wikipedia.org/wiki/%E7%92%B0%E5%A2%83" title="环境">环境</a>中所有遗传物质</strong>的研究。研究领域广泛，也可称为环境基因体学、生态基因体学或<a href="https://zh.wikipedia.org/wiki/%E7%BE%A4%E8%90%BD" title="群落">群落</a>基因体学。</p><blockquote><p>来源: <a href="https://zh.wikipedia.org/zh-hans/%E5%AE%8F%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%AD%A6">宏基因组学 - 维基百科，自由的百科全书</a></p></blockquote><h2 id="测序深度（Sequencing-Depth）"><a href="#测序深度（Sequencing-Depth）" class="headerlink" title="测序深度（Sequencing Depth）"></a>测序深度（Sequencing Depth）</h2><p>测序深度（Sequencing Depth）：测序得到的碱基总量（bp）与基因组大小（Genome）的比值，它是评价测序量的指标之一。</p><p>测序深度与基因组覆盖度之间是一个正相关的关系，测序带来的错误率或假阳性结果会随着测序深度的提升而下降。重测序的个体，如果采用的是双末端或Mate-Pair方案，当测序深度在10~15X以上时，基因组覆盖度和测序错误率控制均得以保证。</p><h2 id="共识聚类"><a href="#共识聚类" class="headerlink" title="共识聚类"></a>共识聚类</h2><p>共识聚类是一种聚合（可能相互冲突的）来自多个聚类算法的结果的方法。也称为聚类集成或聚类（或分区）集成，它描述了对于给定数据集已获得许多不同（输入）聚类并且希望找到单个（共识）聚类的情况。观点。在某些方面，它比现有的聚类更适合。因此，共识聚类是协调来自不同来源或同一算法不同运行的同一数据集的聚类信息的问题。作为一个优化问题，共识聚类被称为中值分裂，并且已被证明是 NP 完全的，即使输入聚类的数量为三个。无监督学习中的共识聚类类似于监督学习中的集成学习。</p><blockquote><p>来源: <a href="https://academic-accelerator.com/encyclopedia/zh-cn/consensus-clustering">共识聚类 Consensus Clustering 最新的百科全书、新闻、评论和研究</a><br><a href="https://en.wikipedia.org/wiki/Consensus_clustering">共识聚类 - 维基百科</a></p></blockquote><h2 id="R中的extdata"><a href="#R中的extdata" class="headerlink" title="R中的extdata"></a>R中的extdata</h2><p>Extdata is a convention used by some R packages to store external data files, such as data files used for examples in the package documentation or vignettes. It is not a formally defined term, but a subdirectory of the inst directory that gets copied to the installation directory of the package. To access the files in the extdata directory, you can use the system.file function with the package name and the file name as arguments¹³⁴. For example:</p><p>fpath &lt;- system.file(“extdata”, “my_raw_data.csv”, package&#x3D;”my_package”)</p><p>This will give you the absolute path to the file on your hard drive. You can then use read.csv or other functions to read the file.</p><blockquote><p>来源: Bing AI</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这个笔记记录了我日常遇见的各种奇怪 <mask>(可能并不奇怪)<mask/> 的知识. 这是一个奇怪的笔记, 随缘更新</p><h2 id="2-NFS服务"><a href="#2-NFS服务" class="headerlink" title="2. NFS服务"></a>2. NFS服务</h2><p>Network File System 网络文件系统，基于内核的文件系统。Sun公司开发，通过使用NFS，用户和程序可以像访问本地文件一样访问远端系统上的文件，基于RPC（RemoteProcedure Call Protocol远程过程调用）实现</p><blockquote><p>来源: <a href="https://blog.51cto.com/u_13157090/1972971">NFS服务的简单介绍与运用_51CTO博客_简述NFS服务的好处</a><br>2023-0718</p></blockquote><h2 id="3-宏基因组"><a href="#3-宏基因组" class="headerlink" title="3. 宏基因组"></a>3. 宏基因组</h2><p><strong>宏基因组学</strong>（英语：Metagenomics），又译<strong>元基因组学</strong>、<strong>总体基因体学</strong>，是一门直接<strong>取得<a href="https://zh.wikipedia.org/wiki/%E7%92%B0%E5%A2%83" title="环境">环境</a>中所有遗传物质</strong>的研究。研究领域广泛，也可称为环境基因体学、生态基因体学或<a href="https://zh.wikipedia.org/wiki/%E7%BE%A4%E8%90%BD" title="群落">群落</a>基因体学。</p><blockquote><p>来源: <a href="https://zh.wikipedia.org/zh-hans/%E5%AE%8F%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%AD%A6">宏基因组学 - 维基百科，自由的百科全书</a><br>2023-0718</p></blockquote><h2 id="测序深度（Sequencing-Depth）"><a href="#测序深度（Sequencing-Depth）" class="headerlink" title="测序深度（Sequencing Depth）"></a>测序深度（Sequencing Depth）</h2><p>测序深度（Sequencing Depth）：测序得到的碱基总量（bp）与基因组大小（Genome）的比值，它是评价测序量的指标之一。</p><p>测序深度与基因组覆盖度之间是一个正相关的关系，测序带来的错误率或假阳性结果会随着测序深度的提升而下降。重测序的个体，如果采用的是双末端或Mate-Pair方案，当测序深度在10~15X以上时，基因组覆盖度和测序错误率控制均得以保证。</p><h2 id="共识聚类"><a href="#共识聚类" class="headerlink" title="共识聚类"></a>共识聚类</h2><p>共识聚类是一种聚合（可能相互冲突的）来自多个聚类算法的结果的方法。也称为聚类集成或聚类（或分区）集成，它描述了对于给定数据集已获得许多不同（输入）聚类并且希望找到单个（共识）聚类的情况。观点。在某些方面，它比现有的聚类更适合。因此，共识聚类是协调来自不同来源或同一算法不同运行的同一数据集的聚类信息的问题。作为一个优化问题，共识聚类被称为中值分裂，并且已被证明是 NP 完全的，即使输入聚类的数量为三个。无监督学习中的共识聚类类似于监督学习中的集成学习。</p><blockquote><p>来源: <a href="https://academic-accelerator.com/encyclopedia/zh-cn/consensus-clustering">共识聚类 Consensus Clustering 最新的百科全书、新闻、评论和研究</a><br><a href="https://en.wikipedia.org/wiki/Consensus_clustering">共识聚类 - 维基百科</a></p></blockquote><h2 id="R中的extdata"><a href="#R中的extdata" class="headerlink" title="R中的extdata"></a>R中的extdata</h2><p>Extdata is a convention used by some R packages to store external data files, such as data files used for examples in the package documentation or vignettes. It is not a formally defined term, but a subdirectory of the inst directory that gets copied to the installation directory of the package. To access the files in the extdata directory, you can use the system.file function with the package name and the file name as arguments¹³⁴. For example:</p><p>fpath &lt;- system.file(“extdata”, “my_raw_data.csv”, package&#x3D;”my_package”)</p><p>This will give you the absolute path to the file on your hard drive. You can then use read.csv or other functions to read the file.</p><blockquote><p>来源: Bing AI<br>2023-0727</p></blockquote><h2 id="表观转录组学"><a href="#表观转录组学" class="headerlink" title="表观转录组学"></a>表观转录组学</h2><p>表观转录组学（Epitranscriptomics）是近来兴起的热门领域之一，主要研究RNA所携带的化学修饰对基因表达的影响。生物体内的很多大分子都存在化学修饰，且都具有极其重要的作用。比如DNA或组蛋白上的化学修饰参与介导表观遗传调控，许多蛋白（尤其是酶类蛋白）的活性受到多种化学修饰的调节等等。迄今为止，在RNA上已发现了一百多种化学修饰。这些修饰大量分布在非编码RNA（ncRNA），特别是rRNA, tRNA和snRNA上，为ncRNA在翻译与剪接中发挥正常功能所必需。令人兴奋的是，研究人员发现m6A（N6-methyladenosine），m1A（N1-methyladenosine），m5C（5-methylcytidine），hm5C（5-hydroxylmethylcytidine），I（inosine）以及ψ（pseudouridine）等化学修饰也分布在真核生物mRNA上，影响mRNA的代谢与功能。特别是伴随着许多mRNA修饰酶（Writer）、去修饰酶（Eraser）和修饰识别蛋白（Reader）的新发现，mRNA化学修饰的可逆变化与动态调控重新激起了研究人员的兴趣，受到越来越多的关注</p><blockquote><p>来源: <a href="https://www.aksomics.com/resource/1612.html">表观转录组学-康成生物丨数谱生物</a><br>2023-0727</p></blockquote><h2 id="基因功能元件"><a href="#基因功能元件" class="headerlink" title="基因功能元件"></a>基因功能元件</h2><p>基因功能元件是指控制基因表达的调控元件，大致上可以分成三类：启动子、增强子、边界元件。[1] 启动子是指在哺乳动物中，核心启动子的定义是一段最短的、能够准确启动基因表达的连续DNA序列，通常在转录起始位点（TSS）上下游30~40bp范围，这个区域可以作为转录前起始复合体结合的位置，并且整合刺激和抑制转录的信号（如RNA聚合酶Ⅱ的招募和转录起始等）。[2] 增强子一般认为是一段能够激活&#x2F;增强基因转录活性的DNA序列，并且其功能与其位置、距靶基因的距离和方向都没有关系，增强子上通常也会有TF的结合位点。[1] 边界元件最早是在黑腹果蝇中鉴定的，又被称为绝缘子，能够间隔常染色质和异染色质，防止他们之间的互相扩散，同时也能阻隔enhancer对promoter发挥作用。[1]</p><p>References:</p><ol><li><a href="https://zhuanlan.zhihu.com/p/326678547">Nature Review Genetics：基因组结构和功能的关系（综述阅读整理） - 知乎</a></li><li><a href="https://www.jianshu.com/p/9a42481777d8">生信笔记4-基因结构与基因组元件名词解释 - 简书</a></li></ol><p>Source: Conversation with Bing, 2023&#x2F;7&#x2F;27</p><p><a href="https://zhuanlan.zhihu.com/p/326678547">(1) Nature Review Genetics：基因组结构和功能的关系（综述阅读整理） - 知乎.</a>.<br><a href="https://www.jianshu.com/p/9a42481777d8">(2) 生信笔记4-基因结构与基因组元件名词解释 - 简书.</a>.<br><a href="https://www.baike.baidu.com/item/%E9%A1%BA%E5%BC%8F%E4%BD%9C%E7%94%A8%E5%85%83%E4%BB%B6/5435660">(3) 百度百科-验证.</a>.  </p>]]></content>
       
       
       <categories>
