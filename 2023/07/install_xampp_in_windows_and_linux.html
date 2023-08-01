@@ -2,9 +2,9 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>执行过的一些正则表达式 | 蒋运的博客</title>
-  <meta name="keywords" content=" CheatSheet , 更新中 , regex ">
-  <meta name="description" content="执行过的一些正则表达式 | 蒋运的博客">
+  <title>在Linux和Windows环境下,安装和启动xampp以及公网IP访问PHPMyAdmin的流程 | 蒋运的博客</title>
+  <meta name="keywords" content=" 建网站 ">
+  <meta name="description" content="在Linux和Windows环境下,安装和启动xampp以及公网IP访问PHPMyAdmin的流程 | 蒋运的博客">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta property="og:type" content="website">
 <meta property="og:title" content="月末总结">
@@ -553,9 +553,9 @@
 </aside>
 <div id="post">
     <div class="pjax">
-        <article id="post-执行过的一些正则表达式" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-在Linux和Windows环境下-安装和启动xampp以及公网IP访问PHPMyAdmin的流程" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">执行过的一些正则表达式</h1>
+        <h1 class="article-title">在Linux和Windows环境下,安装和启动xampp以及公网IP访问PHPMyAdmin的流程</h1>
     
     <div class="article-meta">
         
@@ -573,23 +573,19 @@
         <span class="tag">
             <i class="iconfont icon-tag"></i>
             
-            <a class="color1">CheatSheet</a>
-            
-            <a class="color4">更新中</a>
-            
-            <a class="color1">regex</a>
+            <a class="color4">建网站</a>
             
         </span>
         
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2023-07-21 06:09:27'>2023-07-18 16:12</time>
+            发布时间 : <time class="date" title='最后更新: 2023-08-01 08:08:16'>2023-07-14 18:00</time>
         
     </div>
     <div class="article-meta">
         
-        <span>字数:137</span>
+        <span>字数:659</span>
         
         
         <span id="busuanzi_container_page_pv">
@@ -619,7 +615,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%89%8D%E8%A8%80"><span class="toc-text">1. 前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%B0%8F%E6%95%B0%E7%9B%B8%E5%8A%A0"><span class="toc-text">2. 小数相加</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%89%8D%E8%A8%80"><span class="toc-text">1. 前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E4%B8%8B%E8%BD%BDxampp"><span class="toc-text">1. 下载xampp</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%AE%89%E8%A3%85%E5%92%8C%E5%90%AF%E5%8A%A8xampp"><span class="toc-text">2. 安装和启动xampp</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E9%80%9A%E8%BF%87%E5%85%AC%E7%BD%91IP%E8%AE%BF%E9%97%AExampp%E7%AE%A1%E7%90%86%E7%95%8C%E9%9D%A2"><span class="toc-text">3. 通过公网IP访问xampp管理界面</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -635,12 +631,71 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这个笔记记录了我日常执行过的一些正则表达式, 有一定收藏意义. 这个笔记会长期更新</p>
-<h2 id="2-小数相加"><a href="#2-小数相加" class="headerlink" title="2. 小数相加"></a>2. 小数相加</h2><p>String: <code>27.4323.946.615.434.343.321.961.861.701.521.511.361.261.091.070.760.610.530.43</code><br>Search: <code>\.(\d)(\d)</code><br>Replace: <code>.\1\2+</code></p>
-<p>这个正则表达式的意思是：</p>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>上本科课程 &lt;基于Linux的web开发&gt;时, 用到了软件 <code>xampp</code>, 记录一下安装和启动xampp以及公网IP访问PHPMyAdmin的流程</p>
+<h2 id="1-下载xampp"><a href="#1-下载xampp" class="headerlink" title="1. 下载xampp"></a>1. 下载xampp</h2><p>下载地址:  </p>
+<p>Linux: <a target="_blank" rel="noopener" href="https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/8.2.4/xampp-linux-x64-8.2.4-0-installer.run/download">https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/8.2.4/xampp-linux-x64-8.2.4-0-installer.run/download</a></p>
+<pre><code class="bash"># 命令行下载
+wget https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/8.2.4/xampp-linux-x64-8.2.4-0-installer.run/download
+</code></pre>
+<p>Windows: <a target="_blank" rel="noopener" href="https://sourceforge.net/projects/xampp/files/latest/download">https://sourceforge.net/projects/xampp/files/latest/download</a></p>
+<p>如果下载链接失效也可以访问官网进行下载:  </p>
+<p>点击访问<a target="_blank" rel="noopener" href="https://sourceforge.net/projects/xampp/">xampp官网的下载页面</a>, Windows和Linux的下载地址如下图:  </p>
+<p><img src="https://jiangy-asset.oss-cn-beijing.aliyuncs.com/tmp/202304181048570.png"></p>
+<h2 id="2-安装和启动xampp"><a href="#2-安装和启动xampp" class="headerlink" title="2. 安装和启动xampp"></a>2. 安装和启动xampp</h2><p>Windows下十分简单, 可以看一下这篇<a target="_blank" rel="noopener" href="https://fanzheng.org/archives/18">Windows版本的xampp的教程</a></p>
+<p>我简要介绍一下在Linux下安装和启动xampp, 参考了<a target="_blank" rel="noopener" href="https://www.zentao.net/book/zentaopms/239.html">这篇文章</a></p>
+<pre><code class="bash"># 添加可执行权限
+chmod 755 xampp-linux-x64-8.2.4-0-installer.run 
+# 安装
+./xampp-linux-x64-8.2.4-0-installer.run
+# 启动：
+sudo /opt/lampp/lampp start
+# 停止：
+sudo /opt/lampp/lampp stop
+# 重启：
+sudo /opt/lampp/lampp restart
+</code></pre>
 <ul>
-<li><code>\.(\d)(\d)</code> 匹配一个点和两个数字，并将它们分别捕获为第一和第二个分组。</li>
-<li><code>.\1\2+</code> 用一个点、第一分组、第二分组和一个加号替换匹配的内容。</li>
+<li>通过图形化界面管理MySQL数据库</li>
+</ul>
+<p>启动xampp后, 打开浏览器, 输入<code>http://localhost/phpmyadmin/</code></p>
+<h2 id="3-通过公网IP访问xampp管理界面"><a href="#3-通过公网IP访问xampp管理界面" class="headerlink" title="3. 通过公网IP访问xampp管理界面"></a>3. 通过公网IP访问xampp管理界面</h2><p>警告: <strong>这只是我个人的方法, 不一定安全</strong></p>
+<ol>
+<li>打开文件:</li>
+</ol>
+<pre><code class="bash">vi /opt/lampp/etc/httpd.conf
+</code></pre>
+<p>找到下面这一行, 将其下面的内容修改为 <code>Require all granted</code></p>
+<pre><code class="bash">      # Controls who can get stuff from this server.
+      #
+      Require all granted # 修改后的样子
+</code></pre>
+<ol start="2">
+<li>打开文件: (这一步参考了<a target="_blank" rel="noopener" href="https://www.apachefriends.org/zh_cn/faq_linux.html">XAMPP FAQs for Linux</a>)</li>
+</ol>
+<pre><code class="bash">vi /opt/lampp/etc/extra/httpd-xampp.conf
+</code></pre>
+<p>找到下面的内容:  </p>
+<pre><code class="bash">Alias /phpmyadmin &quot;/opt/lampp/phpmyadmin/&quot;
+&lt;Directory &quot;/opt/lampp/phpmyadmin&quot;&gt;
+AllowOverride AuthConfig
+Require local
+</code></pre>
+<p>替换为:  </p>
+<pre><code class="bash">Alias /phpmyadmin &quot;/opt/lampp/phpmyadmin/&quot;
+&lt;Directory &quot;/opt/lampp/phpMyAdmin&quot;&gt;
+AllowOverride AuthConfig
+Require all granted
+</code></pre>
+<ol start="3">
+<li><strong>下面这一步不一定需要</strong></li>
+</ol>
+<p>根据网上的教程, 在进行前两步后应该可以通过公网IP访问了, 但是我在进行前两步后仍然不能通过公网IP访问, 我在浏览器输入 <code>你的公网IP/dashboard</code>后无反应. 之后我又进行了如下的尝试:  </p>
+<ul>
+<li>设备信息: 我使用的是阿里云服务器 ECS, 系统为 <code>ubuntu_22_04_x64_20G_alibase_20230208.vhd</code>  </li>
+<li>我首先按照这个教程: <a target="_blank" rel="noopener" href="https://support.huaweicloud.com/ecs_faq/ecs_faq_0710.html#ecs_faq_0710__section171371109342">Ubuntu系列弹性云服务器如何安装图形化界面？</a>安装了ubuntu的图形化界面  </li>
+<li>然后<a target="_blank" rel="noopener" href="https://developer.aliyun.com/article/58040">安装Chrome</a>  </li>
+<li>再在云服务器的图形化界面上打开Chrome, 访问 <code>localhost</code> (这一步是为了检查xampp是否能在本地访问), 成功访问</li>
+<li>神奇的是, 这个时候再在本地浏览器上输入  <code>你的公网IP/dashboard</code> 后, 也可以成功访问了. 我不清楚其中的原理, 总之能访问就行了</li>
 </ul>
 
       
