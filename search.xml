@@ -29,6 +29,31 @@
     
     
     <entry>
+      <title>安装LazyVim</title>
+      <link href="/2023/07/install_lazyvim.html"/>
+      <url>/2023/07/install_lazyvim.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>主要记录我在安装 <code>LazyVim</code> 时踩的一些坑</p><h2 id="2-最好不要使用mingw-w64"><a href="#2-最好不要使用mingw-w64" class="headerlink" title="2. 最好不要使用mingw-w64"></a>2. 最好不要使用mingw-w64</h2><p><code>LazyVim</code> 中的一个插件 <code>nvim-treesitter</code> 需要 C compiler, 如果在网上搜索怎么配置 C compiler 的环境, 我相信出现的最多的结果就是安装 <code>mingw-w64</code>. 但就我自己的经验为依据, 网上大部分的教程是过时的, <code>mingw-w64</code> 的官网的下载页面应该是改变过布局, 如果是小白, 可能很难找到正确的安装包, 比如我最后就下载了一个 <code>MinGW</code>, 其中有一个 <code>mingw-get.exe</code>, 我在这个exe中下载了 <code>x86-32</code> 版本的 <code>gcc</code> 及其相关依赖, 然后 <code>nvim-treesitter</code> 就一直显示 <code>compile failed</code>, Google了几个小时才解决问题.  </p><blockquote><p>参考:<br>This was the culprit Mingw doesn’t work! get scoop!<br><a href="https://github.com/nvim-treesitter/nvim-treesitter/issues/438">Failed to load parser, parser.so is not a valid Win32 app · Issue 438 · nvim-treesitternvim-treesitter</a><br><a href="https://github.com/nvim-treesitter/nvim-treesitter/issues/1985">Error executing lua Failed to load parser uv_dlopen cpp.so is not a valid Win32 application. · Issue 1985 · nvim-treesitternvim-treesitter</a>  </p></blockquote><p>推荐使用 <code>scoop</code> 安装 <code>gcc</code> 和 <code>g++</code>, <code>scoop</code> 中安装软件非常简单</p><h2 id="如果一直遇到报错-可以尝试删除nvim-data文件夹"><a href="#如果一直遇到报错-可以尝试删除nvim-data文件夹" class="headerlink" title="如果一直遇到报错, 可以尝试删除nvim-data文件夹"></a>如果一直遇到报错, 可以尝试删除nvim-data文件夹</h2><p>如果在使用 <code>LazyVim</code> 时一直报错, 可能是因为在下载插件时因为网络问题或者依赖不完整导致 <code>nvim-data</code> 中的数据不完整, 而 <code>LazyVim</code> 不能自动修复, 因此需要我们在确保依赖完整的情况下, 删除  <code>nvim-data</code> 文件夹, 重新下载插件</p><p>windows中 <code>nvim-data</code> 一般位于 <code>C:\Users\jiang\AppData\Local\nvim-data</code></p><blockquote><p><a href="https://www.lazyvim.org/">官网</a>推荐的依赖:  </p><ul><li>Neovim &gt;&#x3D; <strong>0.8.0</strong> (needs to be built with <strong>LuaJIT</strong>)</li><li>Git &gt;&#x3D; <strong>2.19.0</strong> (for partial clones support)</li><li>a <a href="https://www.nerdfonts.com/">Nerd Font</a>(v3.0 or greater) <strong><em>(optional, but needed to display some icons)</em></strong></li><li><a href="https://github.com/jesseduffield/lazygit">lazygit</a> <strong><em>(optional)</em></strong></li><li>a <strong>C</strong> compiler for <code>nvim-treesitter</code>. See <a href="https://github.com/nvim-treesitter/nvim-treesitter#requirements">here</a></li><li>for <a href="https://github.com/nvim-telescope/telescope.nvim">telescope.nvim</a> <strong><em>(optional)</em></strong><ul><li><strong>live grep</strong>: <a href="https://github.com/BurntSushi/ripgrep">ripgrep</a></li><li><strong>find files</strong>: <a href="https://github.com/sharkdp/fd">fd</a></li></ul></li><li>a terminal that support true color and <em>undercurl</em>:<ul><li><a href="https://github.com/kovidgoyal/kitty">kitty</a> <strong><em>(Linux &amp; Macos)</em></strong></li><li><a href="https://github.com/wez/wezterm">wezterm</a> <strong><em>(Linux, Macos &amp; Windows)</em></strong></li><li><a href="https://github.com/alacritty/alacritty">alacritty</a> <strong><em>(Linux, Macos &amp; Windows)</em></strong></li><li><a href="https://iterm2.com/">iterm2</a> <strong><em>(Macos)</em></strong></li></ul></li></ul></blockquote><h3 id="报错示例"><a href="#报错示例" class="headerlink" title="报错示例"></a>报错示例</h3><pre><code class="bash">gcc.exe: fatal error: cannot execute &#39;cc1&#39;: CreateProcess: No such file or directory</code></pre><p>删除 <code>nvim-data</code> 文件夹, 确保C语言环境正确后, 然后重新打开</p><p><a href="https://github.com/neovim/neovim/issues/20920">Error detected while processing function ~ ..BufReadPost Autocommands for  · Issue 20920 · neovimneovim</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> lazyvim </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>积累一些英语表达</title>
       <link href="/2023/07/record_some_English_expression.html"/>
       <url>/2023/07/record_some_English_expression.html</url>
@@ -72,9 +97,9 @@
       
         <tags>
             
-            <tag> vim </tag>
-            
             <tag> nvim </tag>
+            
+            <tag> vim </tag>
             
         </tags>
       
@@ -151,9 +176,36 @@
       
         <tags>
             
+            <tag> Q-Dir </tag>
+            
             <tag> bug </tag>
             
-            <tag> Q-Dir </tag>
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>租房(搬家)需要携带的部分物品</title>
+      <link href="/2023/07/item_for_renting_a_house.html"/>
+      <url>/2023/07/item_for_renting_a_house.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>每次去到新的寝室or家时, 总会忘记准备各种东西, 特此写一篇笔记总结一下. 正在更新中, 随缘更新. <mask>可能每搬一次住所就更新一次吧(bgm38)</mask></p><h2 id="2-物品"><a href="#2-物品" class="headerlink" title="2. 物品"></a>2. 物品</h2><ul><li><p><input disabled="" type="checkbox"> 床垫，床单, 被子, 枕头，枕巾，竹席（夏天）</p></li><li><p><input disabled="" type="checkbox"> 毛巾和浴巾</p></li><li><p><input disabled="" type="checkbox"> 插线板</p></li><li><p><input disabled="" type="checkbox"> 沐浴露，洗发露，硫磺皂</p></li><li><p><input disabled="" type="checkbox"> 拖鞋、</p></li><li><p><input disabled="" type="checkbox"> 牙膏，牙刷、刷牙杯子、替换牙刷头</p></li><li><p><input disabled="" type="checkbox"> 卷纸、</p></li><li><p><input disabled="" type="checkbox"> 洗脸盆</p></li><li><p><input disabled="" type="checkbox"> 旧毛巾（刷竹席，当抹布）</p></li><li><p><input disabled="" type="checkbox"> 简易的电脑桌，椅子（如果没有）</p></li><li><p><input disabled="" type="checkbox"> 粘钩</p></li><li><p><input disabled="" type="checkbox"> 垃圾桶，垃圾袋</p></li><li><p><input disabled="" type="checkbox"> 置物架两个（厕所内外）放置洗发露，牙刷杯子，毛巾等</p></li><li><p><input disabled="" type="checkbox"> 洗澡防水放衣袋（可选）</p></li><li><p><input disabled="" type="checkbox"> 衣架，带夹子衣架（袜子）</p></li><li><p><input disabled="" type="checkbox"> 换洗衣服2~3套</p></li><li><p><input disabled="" type="checkbox"> 咖啡因，维生素片，二甲双胍片</p></li><li><p><input disabled="" type="checkbox"> 充电宝，各种充电线（Type-C，手环线，电动牙刷线，传统usb充电线），充电头</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日常 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CheatSheet </tag>
+            
+            <tag> 租房 </tag>
             
         </tags>
       
@@ -187,33 +239,6 @@
     
     
     <entry>
-      <title>租房(搬家)需要携带的部分物品</title>
-      <link href="/2023/07/item_for_renting_a_house.html"/>
-      <url>/2023/07/item_for_renting_a_house.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>每次去到新的寝室or家时, 总会忘记准备各种东西, 特此写一篇笔记总结一下. 正在更新中, 随缘更新.</p><h2 id="2-物品"><a href="#2-物品" class="headerlink" title="2. 物品"></a>2. 物品</h2><ul><li><p><input disabled="" type="checkbox"> 床垫，床单, 被子, 枕头，枕巾，竹席（夏天）</p></li><li><p><input disabled="" type="checkbox"> 毛巾和浴巾</p></li><li><p><input disabled="" type="checkbox"> 插线板</p></li><li><p><input disabled="" type="checkbox"> 沐浴露，洗发露，硫磺皂</p></li><li><p><input disabled="" type="checkbox"> 拖鞋、</p></li><li><p><input disabled="" type="checkbox"> 牙膏，牙刷、刷牙杯子、替换牙刷头</p></li><li><p><input disabled="" type="checkbox"> 卷纸、</p></li><li><p><input disabled="" type="checkbox"> 洗脸盆</p></li><li><p><input disabled="" type="checkbox"> 旧毛巾（刷竹席，当抹布）</p></li><li><p><input disabled="" type="checkbox"> 简易的电脑桌，椅子（如果没有）</p></li><li><p><input disabled="" type="checkbox"> 粘钩</p></li><li><p><input disabled="" type="checkbox"> 垃圾桶，垃圾袋</p></li><li><p><input disabled="" type="checkbox"> 置物架两个（厕所内外）放置洗发露，牙刷杯子，毛巾等</p></li><li><p><input disabled="" type="checkbox"> 洗澡防水放衣袋（可选）</p></li><li><p><input disabled="" type="checkbox"> 衣架，带夹子衣架（袜子）</p></li><li><p><input disabled="" type="checkbox"> 换洗衣服2~3套</p></li><li><p><input disabled="" type="checkbox"> 咖啡因，维生素片，二甲双胍片</p></li><li><p><input disabled="" type="checkbox"> 充电宝，各种充电线（Type-C，手环线，电动牙刷线，传统usb充电线），充电头</p></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日常 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> CheatSheet </tag>
-            
-            <tag> 租房 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>转载_Q-Dir中的快捷键</title>
       <link href="/2023/07/q_dir_shortcut.html"/>
       <url>/2023/07/q_dir_shortcut.html</url>
@@ -232,9 +257,9 @@
             
             <tag> CheatSheet </tag>
             
-            <tag> Q-Dir </tag>
-            
             <tag> 转载 </tag>
+            
+            <tag> Q-Dir </tag>
             
         </tags>
       
@@ -247,7 +272,7 @@
       <link href="/2023/07/some_possible_practical_application.html"/>
       <url>/2023/07/some_possible_practical_application.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这个笔记主要记录了我日常遇到的一些有趣的软件. 会保持长期随缘更新.</p><h2 id="2-百度网盘批量转存-BaiduPanFilesTransfers"><a href="#2-百度网盘批量转存-BaiduPanFilesTransfers" class="headerlink" title="2. 百度网盘批量转存_BaiduPanFilesTransfers"></a>2. 百度网盘批量转存_BaiduPanFilesTransfers</h2><p>官网: <a href="https://github.com/hxz393/BaiduPanFilesTransfers">hxz393BaiduPanFilesTransfers 百度网盘批量转存工具</a></p><p>百度网盘批量转存软件，基于 <code>Python 3.10</code> + <code>Tkinter</code> 构建。可用于批量转存网络上分享的百度网盘链接到自己的百度网盘上。</p><p>介绍页面请访问：<a href="https://meta.appinn.net/t/topic/16995/39">小众软件</a></p><h2 id="3-哔哩哔哩视频下载-哔哩下载姬"><a href="#3-哔哩哔哩视频下载-哔哩下载姬" class="headerlink" title="3. 哔哩哔哩视频下载_哔哩下载姬"></a>3. 哔哩哔哩视频下载_哔哩下载姬</h2><p>官网: <a href="https://github.com/leiurayer/downkyi">leiurayerdownkyi 哔哩下载姬downkyi，哔哩哔哩网站视频下载工具，支持批量下载，支持8K、HDR、杜比视界，提供工具箱（音视频提取、去水印等）。httpst.me+7zeNbdkP0TEzODll</a></p><p>哔哩下载姬（DownKyi）是一个简单易用的哔哩哔哩视频下载工具，具有简洁的界面，流畅的操作逻辑。哔哩下载姬可以下载几乎所有的B站视频，并输出mp4格式的文件；采用Aria下载器多线程下载，采用FFmpeg对视频进行混流、提取音视频等操作。</p><p><a href="https://github.com/leiurayer/downkyi/blob/main/src/README.md">更多详情</a></p><h2 id="4-快速打开Android软件-App-Dialer-Pro"><a href="#4-快速打开Android软件-App-Dialer-Pro" class="headerlink" title="4. 快速打开Android软件_App Dialer Pro"></a>4. 快速打开Android软件_App Dialer Pro</h2><p><a href="https://play.google.com/store/apps/details?id=name.pilgr.appdialer.pro&hl=zh_TW&gl=US">Google Play</a><br><a href="https://appdialer.cn.uptodown.com/android/download">华为手机等无Google Play的下载方式</a>  </p><p><strong>关于这个应用程序</strong>  </p><p>您是否曾疲于应对众多的联系人和应用程序？ 这款极棒的应用程序启动器专为您这样的超级用户而设计！ 省去翻找数百款应用程序或联系人的麻烦和痛苦，只需点击数下，就可以找到您要寻找的东西！</p><p><strong>产品特点</strong>  </p><ul><li>智能：通过使用具有自动校正功能的预测键盘（Predictive Keyboard）或使用智能单手键盘进行搜索。</li><li>功能强大：按名称搜索应用程序。 按名称搜索联系人或通过电话号码使用拨号器进行搜索。</li></ul><p><strong>评价</strong><br>很好用, 估计是终生用户了</p><h2 id="设置快捷键-OneQuick"><a href="#设置快捷键-OneQuick" class="headerlink" title="设置快捷键_OneQuick"></a>设置快捷键_OneQuick</h2><p>官网: <a href="https://onequick.org/">OneQuick 热键工具  Hotkey Tool</a></p><p><strong>功能</strong></p><ol><li>热键的触发及模拟</li><li>运行命令</li><li>自定义热键</li></ol><h2 id="Windows右键管理-ContextMenuManager"><a href="#Windows右键管理-ContextMenuManager" class="headerlink" title="Windows右键管理_ContextMenuManager"></a>Windows右键管理_ContextMenuManager</h2><p>官网: <a href="https://github.com/BluePointLilac/ContextMenuManager/tree/3.3.3.1">BluePointLilacContextMenuManager at 3.3.3.1</a></p><p><strong>主要功能</strong></p><ul><li>启用或禁用文件、文件夹、新建、发送到、打开方式、自定义文件格式、IE浏览器、WinX等右键菜单项目</li><li>对上述场景右键菜单项目进行修改名称、修改图标、导航注册表位置、导航文件位置、永久删除等操作</li><li>对上述场景右键菜单自定义添加项目，自定义菜单命令</li></ul><p><strong>评价</strong></p><p>稍微体验了一下, 感觉很强大很方便的样子<br>可以自定义右键新建列表, 比如新建markdown, 又或者把 “文本文档” 改成 “txt”, 对于不熟悉注册表的同学非常友好  </p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这个笔记主要记录了我日常遇到的一些有趣的软件. 会保持长期随缘更新.</p><h2 id="2-百度网盘批量转存-BaiduPanFilesTransfers"><a href="#2-百度网盘批量转存-BaiduPanFilesTransfers" class="headerlink" title="2. 百度网盘批量转存_BaiduPanFilesTransfers"></a>2. 百度网盘批量转存_BaiduPanFilesTransfers</h2><p>官网: <a href="https://github.com/hxz393/BaiduPanFilesTransfers">hxz393BaiduPanFilesTransfers 百度网盘批量转存工具</a></p><p>百度网盘批量转存软件，基于 <code>Python 3.10</code> + <code>Tkinter</code> 构建。可用于批量转存网络上分享的百度网盘链接到自己的百度网盘上。</p><p>介绍页面请访问：<a href="https://meta.appinn.net/t/topic/16995/39">小众软件</a></p><h2 id="3-哔哩哔哩视频下载-哔哩下载姬"><a href="#3-哔哩哔哩视频下载-哔哩下载姬" class="headerlink" title="3. 哔哩哔哩视频下载_哔哩下载姬"></a>3. 哔哩哔哩视频下载_哔哩下载姬</h2><p>官网: <a href="https://github.com/leiurayer/downkyi">leiurayerdownkyi 哔哩下载姬downkyi，哔哩哔哩网站视频下载工具，支持批量下载，支持8K、HDR、杜比视界，提供工具箱（音视频提取、去水印等）。httpst.me+7zeNbdkP0TEzODll</a></p><p>哔哩下载姬（DownKyi）是一个简单易用的哔哩哔哩视频下载工具，具有简洁的界面，流畅的操作逻辑。哔哩下载姬可以下载几乎所有的B站视频，并输出mp4格式的文件；采用Aria下载器多线程下载，采用FFmpeg对视频进行混流、提取音视频等操作。</p><p><a href="https://github.com/leiurayer/downkyi/blob/main/src/README.md">更多详情</a></p><h2 id="4-快速打开Android软件-App-Dialer-Pro"><a href="#4-快速打开Android软件-App-Dialer-Pro" class="headerlink" title="4. 快速打开Android软件_App Dialer Pro"></a>4. 快速打开Android软件_App Dialer Pro</h2><p><a href="https://play.google.com/store/apps/details?id=name.pilgr.appdialer.pro&hl=zh_TW&gl=US">Google Play</a><br><a href="https://appdialer.cn.uptodown.com/android/download">华为手机等无Google Play的下载方式</a>  </p><p><strong>关于这个应用程序</strong>  </p><p>您是否曾疲于应对众多的联系人和应用程序？ 这款极棒的应用程序启动器专为您这样的超级用户而设计！ 省去翻找数百款应用程序或联系人的麻烦和痛苦，只需点击数下，就可以找到您要寻找的东西！</p><p><strong>产品特点</strong>  </p><ul><li>智能：通过使用具有自动校正功能的预测键盘（Predictive Keyboard）或使用智能单手键盘进行搜索。</li><li>功能强大：按名称搜索应用程序。 按名称搜索联系人或通过电话号码使用拨号器进行搜索。</li></ul><p><strong>评价</strong><br>很好用, 估计是终生用户了</p><h2 id="设置快捷键-OneQuick"><a href="#设置快捷键-OneQuick" class="headerlink" title="设置快捷键_OneQuick"></a>设置快捷键_OneQuick</h2><p>官网: <a href="https://onequick.org/">OneQuick 热键工具  Hotkey Tool</a></p><p><strong>功能</strong></p><ol><li>热键的触发及模拟</li><li>运行命令</li><li>自定义热键</li></ol><h2 id="Windows右键管理-ContextMenuManager"><a href="#Windows右键管理-ContextMenuManager" class="headerlink" title="Windows右键管理_ContextMenuManager"></a>Windows右键管理_ContextMenuManager</h2><p>官网: <a href="https://github.com/BluePointLilac/ContextMenuManager/tree/3.3.3.1">BluePointLilacContextMenuManager at 3.3.3.1</a></p><p><strong>主要功能</strong></p><ul><li>启用或禁用文件、文件夹、新建、发送到、打开方式、自定义文件格式、IE浏览器、WinX等右键菜单项目</li><li>对上述场景右键菜单项目进行修改名称、修改图标、导航注册表位置、导航文件位置、永久删除等操作</li><li>对上述场景右键菜单自定义添加项目，自定义菜单命令</li></ul><p><strong>评价</strong></p><p>稍微体验了一下, 感觉很强大很方便的样子<br>可以自定义右键新建列表, 比如新建markdown, 又或者把 “文本文档” 改成 “txt”, 对于不熟悉注册表的同学非常友好  </p><h2 id="超强软件卸载工具"><a href="#超强软件卸载工具" class="headerlink" title="超强软件卸载工具"></a>超强软件卸载工具</h2><p>官网: <a href="https://geekuninstaller.com/">Geek Uninstaller - the best FREE uninstaller</a></p><p><strong>Clean Removal</strong><br>Performs deep and fast scanning and removes all leftovers. Keep your PC clean!</p><p><strong>Force Removal</strong><br>Use Force Removal for stubborn and broken programs.</p><p><strong>Simple User Interface</strong><br>Great-looking and surprisingly functional. 40+ languages on board!</p><p><strong>Uninstall Microsoft Store Apps</strong><br>Uninstall Microsoft Store apps on Windows 8&#x2F;8.1&#x2F;10.</p><p><strong>Fast and smart</strong><br>Instant startup. Type to search to locate an app immediately. Quick leftovers scan.</p><p><strong>Portable</strong><br>Single and small EXE runs on any 32 and 64-bit Windows</p>]]></content>
       
       
       <categories>
@@ -311,9 +336,9 @@
             
             <tag> CheatSheet </tag>
             
-            <tag> 更新中 </tag>
-            
             <tag> regex </tag>
+            
+            <tag> 更新中 </tag>
             
         </tags>
       
