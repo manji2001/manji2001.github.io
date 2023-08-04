@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>2023年07月的总结以及08月的目标</title>
+      <link href="/2023/08/2023_07_conclusion.html"/>
+      <url>/2023/08/2023_07_conclusion.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这个月开始实习了, くるしい  (っ °Д °;)っ</p><h2 id="2-对07月的总结"><a href="#2-对07月的总结" class="headerlink" title="2. 对07月的总结"></a>2. 对07月的总结</h2><ol><li>这个月共跑步 <code>12</code>次, 累积 <code>375</code> 分钟, 里程 <code>54.27</code> 公里, 没有摆烂, 可喜可贺</li><li>这个月复习了以前学过的新标日的前5课的单词, おもしろい</li><li>这个月看过的番剧有 <code>[C]</code>, <code>银之匙 Silver Spoon</code>, <code>银之匙 Silver Spoon 第二季</code>, <code>死囚乐园</code>, <code>BEATLESS -没有心跳的少女-</code>, <code>此花绮谭</code>, <code>记录的地平线</code>, <code>记录的地平线 第二季</code>, <code>薇薇 -萤石眼之歌-</code>. 其中大部分番我都很喜欢~</li><li>这个月找到了一份生信实习生的工作, 公司是武汉爱基百客. 部门的氛围很好, 同事也很棒, 工作压力也不大, 严格执行了965的工作制, 我很喜欢.</li><li>这个月初步学习了 <code>nvim</code> 的配置文件技巧, 使其具有自动补全等功能; 还成功安装了 <code>LazyVim</code>(配置安装环境真难啊)</li></ol><p><img src="https://asset.jiangyun.fun/img/202308010753875.png"></p><h2 id="对08的期望"><a href="#对08的期望" class="headerlink" title="对08的期望"></a>对08的期望</h2><ol><li>希望能继续保持这样的状态, 不断学习, 不断变强</li><li>希望能在公司学到很多新东西</li><li>希望能每天开心, 感受到累之后及时调整</li></ol><h2 id="08的目标"><a href="#08的目标" class="headerlink" title="08的目标"></a>08的目标</h2><h3 id="4-1-基础目标"><a href="#4-1-基础目标" class="headerlink" title="4.1. 基础目标"></a>4.1. 基础目标</h3><ul><li><input disabled="" type="checkbox"> 跑步不少于10次, 累积不少于200分钟</li><li><input disabled="" type="checkbox"> 根据书籍新版《中日交流标准日本语-初级-上册》, 学习2个课的日语</li><li><input disabled="" type="checkbox"> 顺利顺利活过每一天</li></ul><h3 id="4-2-进阶目标"><a href="#4-2-进阶目标" class="headerlink" title="4.2. 进阶目标"></a>4.2. 进阶目标</h3><ul><li><input disabled="" type="checkbox"> 跑步不少于15次, 累积不少于420分钟</li><li><input disabled="" type="checkbox"> 学习<code>neovim</code>的高级技巧, 进行一个合理的配置</li><li><input disabled="" type="checkbox"> <strong>深入</strong> 学习如何解读生信分析的结果, 能从一个个图表中读出生物学意义</li><li><input disabled="" type="checkbox"> 阅读公司的流程源码, 初步学习如何用脚本将生信流程串连起来</li></ul><h2 id="07月的一些想法"><a href="#07月的一些想法" class="headerlink" title="07月的一些想法"></a>07月的一些想法</h2><ol><li>寻找可以优化markdown_clip的方法或插件<ol><li>其有序列表的格式和我使用的格式不一致</li><li>复制的代码块缺失<code>\n</code>换行</li></ol></li><li>了解win11 终端窗口快捷键</li><li>仔细地了解vimium-c的各种命令, 充分利用键盘完成各种操作, 形成肌肉记忆</li><li>搭建wsl2在vscode上的工作环境</li><li>寻找一个能快速搜索并打开手机软件的app</li><li>配置vim, 使其能成为一个轻量级的IDE</li><li>配置MobaXterm</li><li>学习Excel表格的高级技巧</li><li>想自制一个具有GTP4.0接口的telegram机器人</li><li>整合搜索方式, 使之能同时搜索Google和微信公众号文章</li><li>自制一个符合我的审美的好用的markdown to docx工具</li><li>学习翻墙的高级方式, 自制vps, 解决nvim下载插件失败</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 月末总结 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 月末总结 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>积累一些英语表达</title>
       <link href="/2023/07/record_some_English_expression.html"/>
       <url>/2023/07/record_some_English_expression.html</url>
@@ -47,9 +72,9 @@
       
         <tags>
             
-            <tag> nvim </tag>
-            
             <tag> vim </tag>
+            
+            <tag> nvim </tag>
             
         </tags>
       
@@ -126,9 +151,34 @@
       
         <tags>
             
+            <tag> bug </tag>
+            
             <tag> Q-Dir </tag>
             
-            <tag> bug </tag>
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2023年06月的总结以及07月的目标</title>
+      <link href="/2023/07/2023_06_conclusion.html"/>
+      <url>/2023/07/2023_06_conclusion.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>不要问我为什么6月的总结在7月快结束的时候才写😂</p><h2 id="2-对06月的总结"><a href="#2-对06月的总结" class="headerlink" title="2. 对06月的总结"></a>2. 对06月的总结</h2><p>又又又摸了一个月的鱼, 月底的时候草草应付了一下习概考试, 希望不会被挂科.  </p><h2 id="3-对07月的期望"><a href="#3-对07月的期望" class="headerlink" title="3. 对07月的期望"></a>3. 对07月的期望</h2><ol><li>希望能积极地对待7月的实习</li><li>希望能学到很多新东西</li></ol><h2 id="4-07月的目标"><a href="#4-07月的目标" class="headerlink" title="4. 07月的目标"></a>4. 07月的目标</h2><h3 id="4-1-基础目标"><a href="#4-1-基础目标" class="headerlink" title="4.1. 基础目标"></a>4.1. 基础目标</h3><ul><li><input disabled="" type="checkbox"> 跑步不少于10次, 累积不少于200分钟</li><li><input disabled="" type="checkbox"> 根据书籍新版《中日交流标准日本语-初级-上册》, 学习2个课的日语</li><li><input disabled="" type="checkbox"> 顺利顺利活过每一天</li></ul><h3 id="4-2-进阶目标"><a href="#4-2-进阶目标" class="headerlink" title="4.2. 进阶目标"></a>4.2. 进阶目标</h3><ul><li><input disabled="" type="checkbox"> 跑步不少于15次, 累积不少于400分钟</li><li><input disabled="" type="checkbox"> 学习<code>neovim</code>的高级技巧, 进行一个合理的配置</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 月末总结 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 月末总结 </tag>
             
         </tags>
       
@@ -182,9 +232,9 @@
             
             <tag> CheatSheet </tag>
             
-            <tag> 转载 </tag>
-            
             <tag> Q-Dir </tag>
+            
+            <tag> 转载 </tag>
             
         </tags>
       
@@ -276,7 +326,7 @@
       <link href="/2023/07/various_knowledge.html"/>
       <url>/2023/07/various_knowledge.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这个笔记记录了我日常遇见的各种奇怪 <mask>(可能并不奇怪)<mask/> 的知识. 这是一个奇怪的笔记, 随缘更新</p><h2 id="2-NFS服务"><a href="#2-NFS服务" class="headerlink" title="2. NFS服务"></a>2. NFS服务</h2><p>Network File System 网络文件系统，基于内核的文件系统。Sun公司开发，通过使用NFS，用户和程序可以像访问本地文件一样访问远端系统上的文件，基于RPC（RemoteProcedure Call Protocol远程过程调用）实现</p><blockquote><p>来源: <a href="https://blog.51cto.com/u_13157090/1972971">NFS服务的简单介绍与运用_51CTO博客_简述NFS服务的好处</a><br>2023-0718</p></blockquote><h2 id="3-宏基因组"><a href="#3-宏基因组" class="headerlink" title="3. 宏基因组"></a>3. 宏基因组</h2><p><strong>宏基因组学</strong>（英语：Metagenomics），又译<strong>元基因组学</strong>、<strong>总体基因体学</strong>，是一门直接<strong>取得<a href="https://zh.wikipedia.org/wiki/%E7%92%B0%E5%A2%83" title="环境">环境</a>中所有遗传物质</strong>的研究。研究领域广泛，也可称为环境基因体学、生态基因体学或<a href="https://zh.wikipedia.org/wiki/%E7%BE%A4%E8%90%BD" title="群落">群落</a>基因体学。</p><blockquote><p>来源: <a href="https://zh.wikipedia.org/zh-hans/%E5%AE%8F%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%AD%A6">宏基因组学 - 维基百科，自由的百科全书</a><br>2023-0718</p></blockquote><h2 id="测序深度（Sequencing-Depth）"><a href="#测序深度（Sequencing-Depth）" class="headerlink" title="测序深度（Sequencing Depth）"></a>测序深度（Sequencing Depth）</h2><p>测序深度（Sequencing Depth）：测序得到的碱基总量（bp）与基因组大小（Genome）的比值，它是评价测序量的指标之一。</p><p>测序深度与基因组覆盖度之间是一个正相关的关系，测序带来的错误率或假阳性结果会随着测序深度的提升而下降。重测序的个体，如果采用的是双末端或Mate-Pair方案，当测序深度在10~15X以上时，基因组覆盖度和测序错误率控制均得以保证。</p><h2 id="共识聚类"><a href="#共识聚类" class="headerlink" title="共识聚类"></a>共识聚类</h2><p>共识聚类是一种聚合（可能相互冲突的）来自多个聚类算法的结果的方法。也称为聚类集成或聚类（或分区）集成，它描述了对于给定数据集已获得许多不同（输入）聚类并且希望找到单个（共识）聚类的情况。观点。在某些方面，它比现有的聚类更适合。因此，共识聚类是协调来自不同来源或同一算法不同运行的同一数据集的聚类信息的问题。作为一个优化问题，共识聚类被称为中值分裂，并且已被证明是 NP 完全的，即使输入聚类的数量为三个。无监督学习中的共识聚类类似于监督学习中的集成学习。</p><blockquote><p>来源: <a href="https://academic-accelerator.com/encyclopedia/zh-cn/consensus-clustering">共识聚类 Consensus Clustering 最新的百科全书、新闻、评论和研究</a><br><a href="https://en.wikipedia.org/wiki/Consensus_clustering">共识聚类 - 维基百科</a></p></blockquote><h2 id="R中的extdata"><a href="#R中的extdata" class="headerlink" title="R中的extdata"></a>R中的extdata</h2><p>Extdata is a convention used by some R packages to store external data files, such as data files used for examples in the package documentation or vignettes. It is not a formally defined term, but a subdirectory of the inst directory that gets copied to the installation directory of the package. To access the files in the extdata directory, you can use the system.file function with the package name and the file name as arguments¹³⁴. For example:</p><p>fpath &lt;- system.file(“extdata”, “my_raw_data.csv”, package&#x3D;”my_package”)</p><p>This will give you the absolute path to the file on your hard drive. You can then use read.csv or other functions to read the file.</p><blockquote><p>来源: Bing AI<br>2023-0727</p></blockquote><h2 id="表观转录组学"><a href="#表观转录组学" class="headerlink" title="表观转录组学"></a>表观转录组学</h2><p>表观转录组学（Epitranscriptomics）是近来兴起的热门领域之一，主要研究RNA所携带的化学修饰对基因表达的影响。生物体内的很多大分子都存在化学修饰，且都具有极其重要的作用。比如DNA或组蛋白上的化学修饰参与介导表观遗传调控，许多蛋白（尤其是酶类蛋白）的活性受到多种化学修饰的调节等等。迄今为止，在RNA上已发现了一百多种化学修饰。这些修饰大量分布在非编码RNA（ncRNA），特别是rRNA, tRNA和snRNA上，为ncRNA在翻译与剪接中发挥正常功能所必需。令人兴奋的是，研究人员发现m6A（N6-methyladenosine），m1A（N1-methyladenosine），m5C（5-methylcytidine），hm5C（5-hydroxylmethylcytidine），I（inosine）以及ψ（pseudouridine）等化学修饰也分布在真核生物mRNA上，影响mRNA的代谢与功能。特别是伴随着许多mRNA修饰酶（Writer）、去修饰酶（Eraser）和修饰识别蛋白（Reader）的新发现，mRNA化学修饰的可逆变化与动态调控重新激起了研究人员的兴趣，受到越来越多的关注</p><blockquote><p>来源: <a href="https://www.aksomics.com/resource/1612.html">表观转录组学-康成生物丨数谱生物</a><br>2023-0727</p></blockquote><h2 id="基因功能元件"><a href="#基因功能元件" class="headerlink" title="基因功能元件"></a>基因功能元件</h2><p>基因功能元件是指控制基因表达的调控元件，大致上可以分成三类：启动子、增强子、边界元件。[1] 启动子是指在哺乳动物中，核心启动子的定义是一段最短的、能够准确启动基因表达的连续DNA序列，通常在转录起始位点（TSS）上下游30~40bp范围，这个区域可以作为转录前起始复合体结合的位置，并且整合刺激和抑制转录的信号（如RNA聚合酶Ⅱ的招募和转录起始等）。[2] 增强子一般认为是一段能够激活&#x2F;增强基因转录活性的DNA序列，并且其功能与其位置、距靶基因的距离和方向都没有关系，增强子上通常也会有TF的结合位点。[1] 边界元件最早是在黑腹果蝇中鉴定的，又被称为绝缘子，能够间隔常染色质和异染色质，防止他们之间的互相扩散，同时也能阻隔enhancer对promoter发挥作用。[1]</p><p>References:</p><ol><li><a href="https://zhuanlan.zhihu.com/p/326678547">Nature Review Genetics：基因组结构和功能的关系（综述阅读整理） - 知乎</a></li><li><a href="https://www.jianshu.com/p/9a42481777d8">生信笔记4-基因结构与基因组元件名词解释 - 简书</a></li></ol><p>Source: Conversation with Bing, 2023&#x2F;7&#x2F;27</p><p><a href="https://zhuanlan.zhihu.com/p/326678547">(1) Nature Review Genetics：基因组结构和功能的关系（综述阅读整理） - 知乎.</a>.<br><a href="https://www.jianshu.com/p/9a42481777d8">(2) 生信笔记4-基因结构与基因组元件名词解释 - 简书.</a>.<br><a href="https://www.baike.baidu.com/item/%E9%A1%BA%E5%BC%8F%E4%BD%9C%E7%94%A8%E5%85%83%E4%BB%B6/5435660">(3) 百度百科-验证.</a>.  </p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这个笔记记录了我日常遇见的各种奇怪 <mask>(可能并不奇怪)</mask> 的知识. 因为这些知识往往比较琐碎, 不足以单独写一篇文章, 索性就都记录在这个笔记中好了, 随缘更新</p><h2 id="2-NFS服务"><a href="#2-NFS服务" class="headerlink" title="2. NFS服务"></a>2. NFS服务</h2><p>Network File System 网络文件系统，基于内核的文件系统。Sun公司开发，通过使用NFS，用户和程序可以像访问本地文件一样访问远端系统上的文件，基于RPC（RemoteProcedure Call Protocol远程过程调用）实现</p><blockquote><p>来源: <a href="https://blog.51cto.com/u_13157090/1972971">NFS服务的简单介绍与运用_51CTO博客_简述NFS服务的好处</a><br>2023-0718</p></blockquote><h2 id="3-宏基因组"><a href="#3-宏基因组" class="headerlink" title="3. 宏基因组"></a>3. 宏基因组</h2><p><strong>宏基因组学</strong>（英语：Metagenomics），又译<strong>元基因组学</strong>、<strong>总体基因体学</strong>，是一门直接<strong>取得<a href="https://zh.wikipedia.org/wiki/%E7%92%B0%E5%A2%83" title="环境">环境</a>中所有遗传物质</strong>的研究。研究领域广泛，也可称为环境基因体学、生态基因体学或<a href="https://zh.wikipedia.org/wiki/%E7%BE%A4%E8%90%BD" title="群落">群落</a>基因体学。</p><blockquote><p>来源: <a href="https://zh.wikipedia.org/zh-hans/%E5%AE%8F%E5%9F%BA%E5%9B%A0%E7%BB%84%E5%AD%A6">宏基因组学 - 维基百科，自由的百科全书</a><br>2023-0718</p></blockquote><h2 id="测序深度（Sequencing-Depth）"><a href="#测序深度（Sequencing-Depth）" class="headerlink" title="测序深度（Sequencing Depth）"></a>测序深度（Sequencing Depth）</h2><p>测序深度（Sequencing Depth）：测序得到的碱基总量（bp）与基因组大小（Genome）的比值，它是评价测序量的指标之一。</p><p>测序深度与基因组覆盖度之间是一个正相关的关系，测序带来的错误率或假阳性结果会随着测序深度的提升而下降。重测序的个体，如果采用的是双末端或Mate-Pair方案，当测序深度在10~15X以上时，基因组覆盖度和测序错误率控制均得以保证。</p><h2 id="共识聚类"><a href="#共识聚类" class="headerlink" title="共识聚类"></a>共识聚类</h2><p>共识聚类是一种聚合（可能相互冲突的）来自多个聚类算法的结果的方法。也称为聚类集成或聚类（或分区）集成，它描述了对于给定数据集已获得许多不同（输入）聚类并且希望找到单个（共识）聚类的情况。观点。在某些方面，它比现有的聚类更适合。因此，共识聚类是协调来自不同来源或同一算法不同运行的同一数据集的聚类信息的问题。作为一个优化问题，共识聚类被称为中值分裂，并且已被证明是 NP 完全的，即使输入聚类的数量为三个。无监督学习中的共识聚类类似于监督学习中的集成学习。</p><blockquote><p>来源: <a href="https://academic-accelerator.com/encyclopedia/zh-cn/consensus-clustering">共识聚类 Consensus Clustering 最新的百科全书、新闻、评论和研究</a><br><a href="https://en.wikipedia.org/wiki/Consensus_clustering">共识聚类 - 维基百科</a></p></blockquote><h2 id="R中的extdata"><a href="#R中的extdata" class="headerlink" title="R中的extdata"></a>R中的extdata</h2><p>Extdata is a convention used by some R packages to store external data files, such as data files used for examples in the package documentation or vignettes. It is not a formally defined term, but a subdirectory of the inst directory that gets copied to the installation directory of the package. To access the files in the extdata directory, you can use the system.file function with the package name and the file name as arguments¹³⁴. For example:</p><p>fpath &lt;- system.file(“extdata”, “my_raw_data.csv”, package&#x3D;”my_package”)</p><p>This will give you the absolute path to the file on your hard drive. You can then use read.csv or other functions to read the file.</p><blockquote><p>来源: Bing AI<br>2023-0727</p></blockquote><h2 id="表观转录组学"><a href="#表观转录组学" class="headerlink" title="表观转录组学"></a>表观转录组学</h2><p>表观转录组学（Epitranscriptomics）是近来兴起的热门领域之一，主要研究RNA所携带的化学修饰对基因表达的影响。生物体内的很多大分子都存在化学修饰，且都具有极其重要的作用。比如DNA或组蛋白上的化学修饰参与介导表观遗传调控，许多蛋白（尤其是酶类蛋白）的活性受到多种化学修饰的调节等等。迄今为止，在RNA上已发现了一百多种化学修饰。这些修饰大量分布在非编码RNA（ncRNA），特别是rRNA, tRNA和snRNA上，为ncRNA在翻译与剪接中发挥正常功能所必需。令人兴奋的是，研究人员发现m6A（N6-methyladenosine），m1A（N1-methyladenosine），m5C（5-methylcytidine），hm5C（5-hydroxylmethylcytidine），I（inosine）以及ψ（pseudouridine）等化学修饰也分布在真核生物mRNA上，影响mRNA的代谢与功能。特别是伴随着许多mRNA修饰酶（Writer）、去修饰酶（Eraser）和修饰识别蛋白（Reader）的新发现，mRNA化学修饰的可逆变化与动态调控重新激起了研究人员的兴趣，受到越来越多的关注</p><blockquote><p>来源: <a href="https://www.aksomics.com/resource/1612.html">表观转录组学-康成生物丨数谱生物</a><br>2023-0727</p></blockquote><h2 id="基因功能元件"><a href="#基因功能元件" class="headerlink" title="基因功能元件"></a>基因功能元件</h2><p>基因功能元件是指控制基因表达的调控元件，大致上可以分成三类：启动子、增强子、边界元件。[1] 启动子是指在哺乳动物中，核心启动子的定义是一段最短的、能够准确启动基因表达的连续DNA序列，通常在转录起始位点（TSS）上下游30~40bp范围，这个区域可以作为转录前起始复合体结合的位置，并且整合刺激和抑制转录的信号（如RNA聚合酶Ⅱ的招募和转录起始等）。[2] 增强子一般认为是一段能够激活&#x2F;增强基因转录活性的DNA序列，并且其功能与其位置、距靶基因的距离和方向都没有关系，增强子上通常也会有TF的结合位点。[1] 边界元件最早是在黑腹果蝇中鉴定的，又被称为绝缘子，能够间隔常染色质和异染色质，防止他们之间的互相扩散，同时也能阻隔enhancer对promoter发挥作用。[1]</p><p>References:</p><ol><li><a href="https://zhuanlan.zhihu.com/p/326678547">Nature Review Genetics：基因组结构和功能的关系（综述阅读整理） - 知乎</a></li><li><a href="https://www.jianshu.com/p/9a42481777d8">生信笔记4-基因结构与基因组元件名词解释 - 简书</a></li></ol><p>Source: Conversation with Bing, 2023&#x2F;7&#x2F;27</p><p><a href="https://zhuanlan.zhihu.com/p/326678547">(1) Nature Review Genetics：基因组结构和功能的关系（综述阅读整理） - 知乎.</a>.<br><a href="https://www.jianshu.com/p/9a42481777d8">(2) 生信笔记4-基因结构与基因组元件名词解释 - 简书.</a>.<br><a href="https://www.baike.baidu.com/item/%E9%A1%BA%E5%BC%8F%E4%BD%9C%E7%94%A8%E5%85%83%E4%BB%B6/5435660">(3) 百度百科-验证.</a>.  </p>]]></content>
       
       
       <categories>
@@ -449,6 +499,31 @@
             <tag> CheatSheet </tag>
             
             <tag> 软件介绍 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2023年03月的总结以及04月的目标</title>
+      <link href="/2023/07/2023_03_conclusion.html"/>
+      <url>/2023/07/2023_03_conclusion.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>大约在一年以前, 我便有了创建一个属于自己的博客网站的想法. 大概是在3月10日, 受到正在上的本科课程&lt;&lt;基于Linux的web开发&gt;&gt;的启发, 我决定真正开始创建这个博客网站. 网站的主题选择的是<a href="https://doc.ixk.me/origami#/">Origami By Otstar Lin</a>, 这个主题主要以蓝紫色为主基调, 是一款简约风格的主题, 十分符合我的审美.</p><h2 id="2-对03月的总结"><a href="#2-对03月的总结" class="headerlink" title="2. 对03月的总结"></a>2. 对03月的总结</h2><p>我在3月完成了对博客网站的主要板块的建设, 跑通了一个RNA-Seq流程, 并留下了几篇笔记, 其余时间都在摸鱼啦(～￣▽￣)～<br><mask>蒋运啊蒋运！你怎么能如此堕落！先前订下的学习计划你都忘了吗?子曰：“吾日三省吾身。”不能再这样下去了!  〒▽〒</mask></p><h2 id="3-对04月的期望"><a href="#3-对04月的期望" class="headerlink" title="3. 对04月的期望"></a>3. 对04月的期望</h2><p>希望能尽量保持每一天都拥有学习的动力(～￣▽￣)～<br>希望能尽量每一天都是开心的一天^o^&#x2F;</p><h2 id="4-04月的目标"><a href="#4-04月的目标" class="headerlink" title="4. 04月的目标"></a>4. 04月的目标</h2><h3 id="4-1-基础目标"><a href="#4-1-基础目标" class="headerlink" title="4.1. 基础目标"></a>4.1. 基础目标</h3><ul><li><input disabled="" type="checkbox"> 跑步不少于10次, 累积不少于50公里</li><li><input disabled="" type="checkbox"> 和朋友打羽毛球不少于2次</li><li><input disabled="" type="checkbox"> 在软件《不背单词》上学习英语单词, 每天学习至少10个英语单词, 并完成软件给出的复习任务</li><li><input disabled="" type="checkbox"> 根据书籍新版《中日交流标准日本语-初级-上册》, 学习2个课的日语</li><li><input disabled="" type="checkbox"> 看动漫, 达到至少24话的量</li></ul><h3 id="4-2-进阶目标"><a href="#4-2-进阶目标" class="headerlink" title="4.2. 进阶目标"></a>4.2. 进阶目标</h3><ul><li><input disabled="" type="checkbox"> 跑步不少于15次, 累积不少于100公里</li><li><input disabled="" type="checkbox"> 跑通一个CHIP-Seq流程, 并写一篇文章</li><li><input disabled="" type="checkbox"> 从零开始学习WordPress自制主题, 对Origami主题(即本站正在使用的主题)进行自定义, 使其更符合我喜欢的风格</li><li><input disabled="" type="checkbox"> 在本站总结学习自制WordPress主题的学习笔记</li><li><input disabled="" type="checkbox"> 找到一份暑期实习</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 月末总结 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 月末总结 </tag>
             
         </tags>
       
