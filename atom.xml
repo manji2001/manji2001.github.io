@@ -141,6 +141,30 @@
   </entry>
   
   <entry>
+    <title>各种软件(插件)的各种快捷键</title>
+    <link href="http://example.com/2023/07/various_short_for_various_app.html"/>
+    <id>http://example.com/2023/07/various_short_for_various_app.html</id>
+    <published>2023-07-23T15:16:31.000Z</published>
+    <updated>2023-07-25T23:44:52.495Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>在使用各种软件的过程中, 会遇到各种快捷键, 而其数量一般不多, 不足以单独写一篇文章. 故单独开此笔记, 记录在生活中遇到的各种快捷键</p><h2 id="2-MarkDownload-Markdown-Web-Clipper"><a href="#2-MarkDownload-Markdown-Web-Clipper" class="headerlink" title="2. MarkDownload - Markdown Web Clipper"></a>2. MarkDownload - Markdown Web Clipper</h2><p><a href="https://github.com/deathau/markdownload">MarkDownload - Markdown Web Clipper</a></p><ul><li>Alt+Shift+M opens the popup (as it has in previous versions)</li><li>Alt+Shift+D downloads the current tab as markdown, bypassing the popup</li><li>Alt+Shift+C copies the current tab as markdown to the clipboard, bypassing the popup</li><li>Alt+Shift+L copies the current tabs URL as a markdown link to the clipboard</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;head</summary>
+      
+    
+    
+    
+    <category term="技巧" scheme="http://example.com/categories/%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
+    
+  </entry>
+  
+  <entry>
     <title>解决git报错Recv failure: Connection was reset</title>
     <link href="http://example.com/2023/07/solve_git_recv_failure.html"/>
     <id>http://example.com/2023/07/solve_git_recv_failure.html</id>
@@ -186,9 +210,9 @@
     <category term="软件" scheme="http://example.com/categories/%E8%BD%AF%E4%BB%B6/"/>
     
     
-    <category term="Q-Dir" scheme="http://example.com/tags/Q-Dir/"/>
-    
     <category term="bug" scheme="http://example.com/tags/bug/"/>
+    
+    <category term="Q-Dir" scheme="http://example.com/tags/Q-Dir/"/>
     
   </entry>
   
@@ -499,32 +523,6 @@ mask {
     
     
     <category term="RNA-Seq" scheme="http://example.com/tags/RNA-Seq/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>安装和使用miniconda的通用流程</title>
-    <link href="http://example.com/2023/07/introduce_miniconda.html"/>
-    <id>http://example.com/2023/07/introduce_miniconda.html</id>
-    <published>2023-07-13T08:04:45.000Z</published>
-    <updated>2023-07-13T08:16:10.062Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>这篇文章主要用于笔者自己快速创建miniconda的初始环境.</p><h2 id="2-安装和配置miniconda"><a href="#2-安装和配置miniconda" class="headerlink" title="2. 安装和配置miniconda"></a>2. 安装和配置miniconda</h2><pre><code class="bash"># 进入miniconda官网, 寻找最新的安装包https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/?C=M&amp;O=D# 下载安装包wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda3-py39_4.9.2-Linux-x86_64.sh# 安装bash Miniconda3-py39_4.9.2-Linux-x86_64.sh## 注意设置安装的位置# 添加到环境变量export PATH=&quot;$PATH:~/1_opt/miniconda3/bin/&quot;# 添加清华镜像conda config --add channels http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/conda config --add channels http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/conda config --add channels http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/conda config --add channels http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/# 恢复默认源conda config --remove-key channels## 如果defaults已被删除，不会被恢复# 设置可见安装包的URLconda config --set show_channel_urls yes## 使用conda install, 会显示每个软件包的URL。这对于调试和排除问题非常有用# conda 设置不自动进入base(最基础)环境conda config --set auto_activate_base false</code></pre><h2 id="3-管理虚拟环境"><a href="#3-管理虚拟环境" class="headerlink" title="3. 管理虚拟环境"></a>3. 管理虚拟环境</h2><pre><code class="bash"># 下列代码来自: &lt;https://juejin.cn/post/7078965942968909854&gt;# 查看虚拟环境列表conda env listconda info -e# 创建虚拟环境conda create -n &lt;env_name&gt; [python_version] [package_name]conda create -n pyenv python=3.6 requestsconda create -n pyenv# 复制虚拟环境conda create --name &lt;new_env_name&gt; --clone &lt;old_env_name&gt;# 删除虚拟环境conda remove -n &lt;env_name&gt; --all# 激活虚拟环境conda activate &lt;env_name&gt; # 退出虚拟环境(进入环境状态下才可使用)conda deactivate </code></pre><h2 id="4-管理包"><a href="#4-管理包" class="headerlink" title="4. 管理包"></a>4. 管理包</h2><pre><code class="bash"># 下列代码来自: &lt;https://juejin.cn/post/7078965942968909854&gt;# 查看所有包conda list -n &lt;env_name&gt;  # 若不指定-n，默认在当前的环境# 搜索某个包信息conda search &lt;package_name&gt;  # 查询包的版本# 安装conda install -n &lt;env_name&gt; -c 镜像地址 &lt;package_name&gt;  # 若不指定-n，默认在当前的虚拟环境conda install &lt;package_name&gt;conda install &lt;package_name&gt;=1.5.0  # 指定版本conda install &lt;package_name&gt; -y # 自动确认安装package# 更新# 更新当前环境所有包conda update --all# 更新指定包conda update -n &lt;env_name&gt; &lt;package_name&gt;  # 若不指定-n，默认在当前的虚拟环境conda update &lt;package_name&gt;# 删除conda remove -n &lt;env_name&gt; &lt;package_name&gt;  # 若不指定-n，默认在当前的虚拟环境conda remove &lt;package_name&gt;</code></pre><h2 id="5-其他信息"><a href="#5-其他信息" class="headerlink" title="5. 其他信息"></a>5. 其他信息</h2><p>可以在<a href="https://bioconda.github.io/conda-package_index.html">https://bioconda.github.io/conda-package_index.html</a>检查包是否存在, 用于解决有时<code>conda search &lt;package_name&gt;</code>运行缓慢的问题.</p><h2 id="6-质量不错的文章"><a href="#6-质量不错的文章" class="headerlink" title="6. 质量不错的文章"></a>6. 质量不错的文章</h2><ol><li><a href="https://www.jianshu.com/p/854b11a18bef">Linux Miniconda安装及其使用 - 简书</a></li><li><a href="https://juejin.cn/post/7078965942968909854">Miniconda 安装及使用 - 掘金</a></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;head</summary>
-      
-    
-    
-    
-    <category term="软件" scheme="http://example.com/categories/%E8%BD%AF%E4%BB%B6/"/>
-    
-    
-    <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
-    
-    <category term="软件介绍" scheme="http://example.com/tags/%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D/"/>
     
   </entry>
   
