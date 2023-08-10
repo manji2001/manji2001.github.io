@@ -6,13 +6,15 @@
   <meta name="keywords" content=" 建网站 ">
   <meta name="description" content="在Linux和Windows环境下,安装和启动xampp以及公网IP访问PHPMyAdmin的流程 | 蒋运的博客">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="关于我 我是蒋运, 华中农业大学生物信息学本科在读. 喜欢看番.   精力条大概是比一般人低 三分钟热度. 并非不想持续地喜欢, 而是身体不允许. 目前在武汉爱基百客生物科技有限公司实习.  联系方式 GitHub: @manji2001 Mail:  &amp;#x6a;&amp;#x69;&amp;#97;&amp;#x6e;&amp;#x67;&amp;#x79;&amp;#x75;&amp;#110;&amp;#97;&amp;#x63;&amp;#119;&amp;#x40;&amp;#x">
 <meta property="og:type" content="website">
-<meta property="og:title" content="月末总结">
-<meta property="og:url" content="http://example.com/conclusion/index.html">
+<meta property="og:title" content="about">
+<meta property="og:url" content="http://example.com/about/index.html">
 <meta property="og:site_name" content="蒋运的博客">
+<meta property="og:description" content="关于我 我是蒋运, 华中农业大学生物信息学本科在读. 喜欢看番.   精力条大概是比一般人低 三分钟热度. 并非不想持续地喜欢, 而是身体不允许. 目前在武汉爱基百客生物科技有限公司实习.  联系方式 GitHub: @manji2001 Mail:  &amp;#x6a;&amp;#x69;&amp;#97;&amp;#x6e;&amp;#x67;&amp;#x79;&amp;#x75;&amp;#110;&amp;#97;&amp;#x63;&amp;#119;&amp;#x40;&amp;#x">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-07-13T13:24:26.491Z">
-<meta property="article:modified_time" content="2023-07-13T13:24:26.491Z">
+<meta property="article:published_time" content="2023-07-13T06:28:10.000Z">
+<meta property="article:modified_time" content="2023-08-04T18:00:09.253Z">
 <meta property="article:author" content="蒋运">
 <meta name="twitter:card" content="summary">
 
@@ -238,13 +240,18 @@
     </div>
     <div>
         
-        <a 
+            <a class="about  hasFriend  site_url"
+               
+               href="/about">关于</a>
+        
+        <a style="width: 50%"
+                
                                            class="friends">友链</a>
         
     </div>
 </div>
 <input type="hidden" id="yelog_site_posts_number" value="22">
-<input type="hidden" id="yelog_site_word_count" value="11k">
+<input type="hidden" id="yelog_site_word_count" value="11.4k">
 <div style="display: none">
     <span id="busuanzi_value_site_uv"></span>
     <span id="busuanzi_value_site_pv"></span>
@@ -631,7 +638,7 @@
     </div>
     <div class="article-meta">
         
-            发布时间 : <time class="date" title='最后更新: 2023-08-01 08:08:16'>2023-07-14 18:00</time>
+            发布时间 : <time class="date" title='最后更新: 2023-08-08 20:07:15'>2023-07-14 18:00</time>
         
     </div>
     <div class="article-meta">
@@ -666,7 +673,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%89%8D%E8%A8%80"><span class="toc-text">1. 前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E4%B8%8B%E8%BD%BDxampp"><span class="toc-text">1. 下载xampp</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%AE%89%E8%A3%85%E5%92%8C%E5%90%AF%E5%8A%A8xampp"><span class="toc-text">2. 安装和启动xampp</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E9%80%9A%E8%BF%87%E5%85%AC%E7%BD%91IP%E8%AE%BF%E9%97%AExampp%E7%AE%A1%E7%90%86%E7%95%8C%E9%9D%A2"><span class="toc-text">3. 通过公网IP访问xampp管理界面</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%89%8D%E8%A8%80"><span class="toc-text">1. 前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E4%B8%8B%E8%BD%BDxampp"><span class="toc-text">2. 下载xampp</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%AE%89%E8%A3%85%E5%92%8C%E5%90%AF%E5%8A%A8xampp"><span class="toc-text">3. 安装和启动xampp</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E9%80%9A%E8%BF%87%E5%85%AC%E7%BD%91IP%E8%AE%BF%E9%97%AExampp%E7%AE%A1%E7%90%86%E7%95%8C%E9%9D%A2"><span class="toc-text">4. 通过公网IP访问xampp管理界面</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -683,7 +690,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>上本科课程 &lt;基于Linux的web开发&gt;时, 用到了软件 <code>xampp</code>, 记录一下安装和启动xampp以及公网IP访问PHPMyAdmin的流程</p>
-<h2 id="1-下载xampp"><a href="#1-下载xampp" class="headerlink" title="1. 下载xampp"></a>1. 下载xampp</h2><p>下载地址:  </p>
+<h2 id="2-下载xampp"><a href="#2-下载xampp" class="headerlink" title="2. 下载xampp"></a>2. 下载xampp</h2><p>下载地址:  </p>
 <p>Linux: <a target="_blank" rel="noopener" href="https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/8.2.4/xampp-linux-x64-8.2.4-0-installer.run/download">https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/8.2.4/xampp-linux-x64-8.2.4-0-installer.run/download</a></p>
 <pre><code class="bash"># 命令行下载
 wget https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/8.2.4/xampp-linux-x64-8.2.4-0-installer.run/download
@@ -692,7 +699,7 @@ wget https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/8.2.4/xampp-linu
 <p>如果下载链接失效也可以访问官网进行下载:  </p>
 <p>点击访问<a target="_blank" rel="noopener" href="https://sourceforge.net/projects/xampp/">xampp官网的下载页面</a>, Windows和Linux的下载地址如下图:  </p>
 <p><img src="https://jiangy-asset.oss-cn-beijing.aliyuncs.com/tmp/202304181048570.png"></p>
-<h2 id="2-安装和启动xampp"><a href="#2-安装和启动xampp" class="headerlink" title="2. 安装和启动xampp"></a>2. 安装和启动xampp</h2><p>Windows下十分简单, 可以看一下这篇<a target="_blank" rel="noopener" href="https://fanzheng.org/archives/18">Windows版本的xampp的教程</a></p>
+<h2 id="3-安装和启动xampp"><a href="#3-安装和启动xampp" class="headerlink" title="3. 安装和启动xampp"></a>3. 安装和启动xampp</h2><p>Windows下十分简单, 可以看一下这篇<a target="_blank" rel="noopener" href="https://fanzheng.org/archives/18">Windows版本的xampp的教程</a></p>
 <p>我简要介绍一下在Linux下安装和启动xampp, 参考了<a target="_blank" rel="noopener" href="https://www.zentao.net/book/zentaopms/239.html">这篇文章</a></p>
 <pre><code class="bash"># 添加可执行权限
 chmod 755 xampp-linux-x64-8.2.4-0-installer.run 
@@ -709,7 +716,7 @@ sudo /opt/lampp/lampp restart
 <li>通过图形化界面管理MySQL数据库</li>
 </ul>
 <p>启动xampp后, 打开浏览器, 输入<code>http://localhost/phpmyadmin/</code></p>
-<h2 id="3-通过公网IP访问xampp管理界面"><a href="#3-通过公网IP访问xampp管理界面" class="headerlink" title="3. 通过公网IP访问xampp管理界面"></a>3. 通过公网IP访问xampp管理界面</h2><p>警告: <strong>这只是我个人的方法, 不一定安全</strong></p>
+<h2 id="4-通过公网IP访问xampp管理界面"><a href="#4-通过公网IP访问xampp管理界面" class="headerlink" title="4. 通过公网IP访问xampp管理界面"></a>4. 通过公网IP访问xampp管理界面</h2><p>警告: <strong>这只是我个人的方法, 不一定安全</strong></p>
 <ol>
 <li>打开文件:</li>
 </ol>
