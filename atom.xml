@@ -210,9 +210,9 @@
     <category term="软件" scheme="http://example.com/categories/%E8%BD%AF%E4%BB%B6/"/>
     
     
-    <category term="Q-Dir" scheme="http://example.com/tags/Q-Dir/"/>
-    
     <category term="bug" scheme="http://example.com/tags/bug/"/>
+    
+    <category term="Q-Dir" scheme="http://example.com/tags/Q-Dir/"/>
     
   </entry>
   
@@ -288,9 +288,9 @@
     
     <category term="CheatSheet" scheme="http://example.com/tags/CheatSheet/"/>
     
-    <category term="转载" scheme="http://example.com/tags/%E8%BD%AC%E8%BD%BD/"/>
-    
     <category term="Q-Dir" scheme="http://example.com/tags/Q-Dir/"/>
+    
+    <category term="转载" scheme="http://example.com/tags/%E8%BD%AC%E8%BD%BD/"/>
     
   </entry>
   
