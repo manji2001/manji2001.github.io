@@ -138,9 +138,9 @@
     <category term="技巧" scheme="http://example.com/categories/%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="vim" scheme="http://example.com/tags/vim/"/>
-    
     <category term="nvim" scheme="http://example.com/tags/nvim/"/>
+    
+    <category term="vim" scheme="http://example.com/tags/vim/"/>
     
   </entry>
   
