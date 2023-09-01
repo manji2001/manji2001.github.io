@@ -36,9 +36,9 @@
     <category term="技巧" scheme="http://example.com/categories/%E6%8A%80%E5%B7%A7/"/>
     
     
-    <category term="R" scheme="http://example.com/tags/R/"/>
-    
     <category term="更新中" scheme="http://example.com/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/"/>
+    
+    <category term="R" scheme="http://example.com/tags/R/"/>
     
   </entry>
   
@@ -238,9 +238,9 @@
     <category term="软件" scheme="http://example.com/categories/%E8%BD%AF%E4%BB%B6/"/>
     
     
-    <category term="bug" scheme="http://example.com/tags/bug/"/>
-    
     <category term="Q-Dir" scheme="http://example.com/tags/Q-Dir/"/>
+    
+    <category term="bug" scheme="http://example.com/tags/bug/"/>
     
   </entry>
   

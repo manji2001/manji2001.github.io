@@ -241,13 +241,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/R/</loc>
-    <lastmod>2023-09-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/%E6%9B%B4%E6%96%B0%E4%B8%AD/</loc>
     <lastmod>2023-09-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -255,7 +248,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/English/</loc>
+    <loc>http://example.com/tags/R/</loc>
     <lastmod>2023-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -269,7 +262,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/blog/</loc>
+    <loc>http://example.com/tags/English/</loc>
     <lastmod>2023-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -277,6 +270,13 @@
   
   <url>
     <loc>http://example.com/tags/regex/</loc>
+    <lastmod>2023-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/blog/</loc>
     <lastmod>2023-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -332,13 +332,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/bug/</loc>
-    <lastmod>2023-09-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/%E7%A7%9F%E6%88%BF/</loc>
     <lastmod>2023-09-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -360,7 +353,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/lazyvim/</loc>
+    <loc>http://example.com/tags/bug/</loc>
+    <lastmod>2023-09-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/markdown/</loc>
     <lastmod>2023-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -374,7 +374,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/markdown/</loc>
+    <loc>http://example.com/tags/lazyvim/</loc>
     <lastmod>2023-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -383,14 +383,14 @@
 
   
   <url>
-    <loc>http://example.com/categories/%E6%8A%80%E5%B7%A7/</loc>
+    <loc>http://example.com/categories/%E5%85%B6%E4%BB%96/</loc>
     <lastmod>2023-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/%E5%85%B6%E4%BB%96/</loc>
+    <loc>http://example.com/categories/%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2023-09-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
