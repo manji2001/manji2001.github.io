@@ -99,9 +99,9 @@
       
         <tags>
             
-            <tag> 更新中 </tag>
-            
             <tag> English </tag>
+            
+            <tag> 更新中 </tag>
             
         </tags>
       
@@ -166,7 +166,7 @@
       <link href="/2023/07/various_short_for_various_app.html"/>
       <url>/2023/07/various_short_for_various_app.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>在使用各种软件的过程中, 会遇到各种快捷键, 而其数量一般不多, 不足以单独写一篇文章. 故单独开此笔记, 记录在生活中遇到的各种快捷键</p><h2 id="2-MarkDownload-Markdown-Web-Clipper"><a href="#2-MarkDownload-Markdown-Web-Clipper" class="headerlink" title="2. MarkDownload - Markdown Web Clipper"></a>2. MarkDownload - Markdown Web Clipper</h2><p><a href="https://github.com/deathau/markdownload">MarkDownload - Markdown Web Clipper</a></p><ul><li>Alt+Shift+M opens the popup (as it has in previous versions)</li><li>Alt+Shift+D downloads the current tab as markdown, bypassing the popup</li><li>Alt+Shift+C copies the current tab as markdown to the clipboard, bypassing the popup</li><li>Alt+Shift+L copies the current tabs URL as a markdown link to the clipboard</li></ul>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>在使用各种软件的过程中, 会遇到各种快捷键, 而其数量一般不多, 不足以单独写一篇文章. 故单独开此笔记, 记录在生活中遇到的各种快捷键</p><h2 id="2-MarkDownload-Markdown-Web-Clipper"><a href="#2-MarkDownload-Markdown-Web-Clipper" class="headerlink" title="2. MarkDownload - Markdown Web Clipper"></a>2. MarkDownload - Markdown Web Clipper</h2><p><a href="https://github.com/deathau/markdownload">MarkDownload - Markdown Web Clipper</a></p><ul><li>Alt+Shift+M opens the popup (as it has in previous versions)</li><li>Alt+Shift+D downloads the current tab as markdown, bypassing the popup</li><li>Alt+Shift+C copies the current tab as markdown to the clipboard, bypassing the popup</li><li>Alt+Shift+L copies the current tabs URL as a markdown link to the clipboard</li></ul><h2 id="3-Clash-for-Windows"><a href="#3-Clash-for-Windows" class="headerlink" title="3. Clash for Windows"></a>3. Clash for Windows</h2><p>Show&#x2F;hide Dashboard : <code>Ctrl Shift Alt U</code></p>]]></content>
       
       
       <categories>
@@ -363,9 +363,9 @@
       
         <tags>
             
-            <tag> 更新中 </tag>
-            
             <tag> CheatSheet </tag>
+            
+            <tag> 更新中 </tag>
             
             <tag> regex </tag>
             
@@ -392,9 +392,9 @@
       
         <tags>
             
-            <tag> 更新中 </tag>
-            
             <tag> CheatSheet </tag>
+            
+            <tag> 更新中 </tag>
             
         </tags>
       
